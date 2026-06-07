@@ -1,0 +1,171 @@
+[
+  {
+    "entry_id": 101,
+    "source_file": "Catalogo_III_Riccardiana_421-520.json",
+    "raw": "421 Virgilius Aeneis. Cod. membr. in fol. Saec. XIII.",
+    "traduction_fr": "Virgile, Énéide",
+    "traduction_zh": "维吉尔《埃涅阿斯纪》",
+    "json_material": "membr.",
+    "json_date": "Sec. XIII",
+    "ms_century_range": [
+      1200,
+      1299
+    ],
+    "json_authors": [
+      "Virgilius"
+    ],
+    "json_titles": [
+      "Aeneis"
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "Virgilius",
+        "normalized": "Publius Vergilius Maro",
+        "el_uri": "https://viaf.org/viaf/8194433"
+      },
+      {
+        "label": "ouvrage",
+        "text": "Aeneis",
+        "normalized": "Aeneis",
+        "el_uri": ""
+      },
+      {
+        "label": "material",
+        "text": "Cod. membr. in fol.",
+        "normalized": "Cod. membr. in fol.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XIII",
+        "normalized": "Saec. XIII",
+        "el_uri": ""
+      }
+    ],
+    "el_results": [
+      {
+        "span_text": "Virgilius",
+        "label": "auteur",
+        "normalized": "Publius Vergilius Maro",
+        "norm_method": "genitif_exact",
+        "el_results": [
+          {
+            "source": "viaf",
+            "label": "Virgil",
+            "uri": "https://viaf.org/viaf/8194433",
+            "birth": -70,
+            "death": -19,
+            "sources": [
+              "LC",
+              "BNF"
+            ],
+            "str_sim": 0.88,
+            "time_score": 1.0,
+            "score": 0.95
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entry_id": 102,
+    "source_file": "Catalogo_III_Riccardiana_421-520.json",
+    "raw": "422 Idem. Cod. chart. in 8°. Saec. XIV.",
+    "traduction_fr": "Idem",
+    "traduction_zh": "同上",
+    "json_material": "chart.",
+    "json_date": "Sec. XIV",
+    "ms_century_range": [
+      1300,
+      1399
+    ],
+    "json_authors": [],
+    "json_titles": [],
+    "spans": [
+      {
+        "label": "material",
+        "text": "Cod. chart. in 8°",
+        "normalized": "Cod. chart. in 8°.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XIV",
+        "normalized": "Saec. XIV",
+        "el_uri": ""
+      }
+    ],
+    "el_results": []
+  },
+  {
+    "entry_id": 103,
+    "source_file": "Catalogo_IV_Riccardiana_1002-1700.json",
+    "raw": "1002 Homerus Ilias (lat.). Cod. membr. in fol. Saec. XIV.",
+    "traduction_fr": "Homère, Iliade (traduction latine)",
+    "traduction_zh": "荷马《伊利亚特》（拉丁译本）",
+    "json_material": "membr.",
+    "json_date": "Sec. XIV",
+    "ms_century_range": [
+      1300,
+      1399
+    ],
+    "json_authors": [
+      "Homerus"
+    ],
+    "json_titles": [
+      "Ilias"
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "Homerus",
+        "normalized": "Homerus",
+        "el_uri": "https://viaf.org/viaf/12139199"
+      },
+      {
+        "label": "ouvrage",
+        "text": "Ilias",
+        "normalized": "Ilias",
+        "el_uri": ""
+      },
+      {
+        "label": "material",
+        "text": "Cod. membr. in fol.",
+        "normalized": "Cod. membr. in fol.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XIV",
+        "normalized": "Saec. XIV",
+        "el_uri": ""
+      }
+    ],
+    "el_results": [
+      {
+        "span_text": "Homerus",
+        "label": "auteur",
+        "normalized": "Homerus",
+        "norm_method": "fallback",
+        "el_results": [
+          {
+            "source": "viaf",
+            "label": "Homer",
+            "uri": "https://viaf.org/viaf/12139199",
+            "birth": null,
+            "death": null,
+            "sources": [
+              "LC",
+              "BNF",
+              "DNB"
+            ],
+            "str_sim": 0.75,
+            "time_score": 0.0,
+            "score": 0.52
+          }
+        ]
+      }
+    ]
+  }
+]

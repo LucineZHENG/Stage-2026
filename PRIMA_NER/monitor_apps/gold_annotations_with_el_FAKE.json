@@ -1,0 +1,253 @@
+[
+  {
+    "entry_id": 1,
+    "source_file": "Catalogo_I_Riccardiana_221-320.json",
+    "raw": "1 Augustinus de civitate Dei. Cod. membr. in fol. Saec. XII.",
+    "traduction_fr": "Augustin, La Cité de Dieu",
+    "traduction_zh": "奥古斯丁《上帝之城》",
+    "json_authors": [
+      "Augustinus"
+    ],
+    "json_titles": [
+      "De civitate Dei"
+    ],
+    "json_material": "membr.",
+    "json_date": "Sec. XII",
+    "json_date_norm": "XIIe s. [1100–1199]",
+    "ms_century_range": [
+      1100,
+      1199
+    ],
+    "date_comparison": {
+      "date_from_text": "Saec. XII.",
+      "date_from_text_norm": "XIIe s. [1100–1199]",
+      "date_from_json": "Sec. XII",
+      "date_from_json_norm": "XIIe s. [1100–1199]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "Augustinus",
+        "label": "auteur",
+        "normalized": "Augustinus Hipponensis",
+        "norm_method": "genitif_exact",
+        "el_results": [
+          {
+            "source": "viaf",
+            "label": "Augustine, of Hippo, Saint, 354-430",
+            "uri": "https://viaf.org/viaf/66806421",
+            "birth": 354,
+            "death": 430,
+            "sources": [
+              "LC",
+              "BNF"
+            ],
+            "str_sim": 0.85,
+            "time_score": 1.0,
+            "score": 0.94
+          },
+          {
+            "source": "wikidata",
+            "label": "Augustine of Hippo",
+            "uri": "https://www.wikidata.org/wiki/Q8018",
+            "qid": "Q8018",
+            "birth": 354,
+            "death": 430,
+            "viaf_uri": "https://viaf.org/viaf/66806421",
+            "viaf_ids": [
+              "66806421"
+            ],
+            "str_sim": 0.72,
+            "time_score": 1.0,
+            "score": 0.89
+          }
+        ]
+      },
+      {
+        "span_text": "de civitate Dei",
+        "label": "ouvrage",
+        "normalized": "De civitate Dei",
+        "norm_method": "fallback",
+        "el_results": [
+          {
+            "source": "wikidata",
+            "label": "The City of God",
+            "uri": "https://www.wikidata.org/wiki/Q219239",
+            "qid": "Q219239",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "viaf_ids": [],
+            "str_sim": 0.78,
+            "time_score": 0.0,
+            "score": 0.55
+          }
+        ]
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "Augustinus",
+        "normalized": "Augustinus Hipponensis",
+        "el_uri": "https://viaf.org/viaf/66806421"
+      },
+      {
+        "label": "ouvrage",
+        "text": "de civitate Dei",
+        "normalized": "De civitate Dei",
+        "el_uri": ""
+      },
+      {
+        "label": "material",
+        "text": "Cod. membr. in fol.",
+        "normalized": "Cod. membr. in fol.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XII",
+        "normalized": "Saec. XII",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 2,
+    "source_file": "Catalogo_I_Riccardiana_221-320.json",
+    "raw": "2 Cicero de officiis. Cod. chart. in 4°. Saec. XV.",
+    "traduction_fr": "Cicéron, Des devoirs",
+    "traduction_zh": "西塞罗《论义务》",
+    "json_authors": [
+      "Cicero"
+    ],
+    "json_titles": [
+      "De officiis"
+    ],
+    "json_material": "chart.",
+    "json_date": "Sec. XV",
+    "json_date_norm": "XVe s. [1400–1499]",
+    "ms_century_range": [
+      1400,
+      1499
+    ],
+    "date_comparison": {
+      "date_from_text": "Saec. XV.",
+      "date_from_text_norm": "XVe s. [1400–1499]",
+      "date_from_json": "Sec. XV",
+      "date_from_json_norm": "XVe s. [1400–1499]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "Cicero",
+        "label": "auteur",
+        "normalized": "Marcus Tullius Cicero",
+        "norm_method": "genitif_exact",
+        "el_results": [
+          {
+            "source": "viaf",
+            "label": "Cicero, Marcus Tullius",
+            "uri": "https://viaf.org/viaf/78769600",
+            "birth": -106,
+            "death": -43,
+            "sources": [
+              "LC",
+              "BNF",
+              "DNB"
+            ],
+            "str_sim": 0.9,
+            "time_score": 1.0,
+            "score": 0.96
+          }
+        ]
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "Cicero",
+        "normalized": "Marcus Tullius Cicero",
+        "el_uri": "https://viaf.org/viaf/78769600"
+      },
+      {
+        "label": "ouvrage",
+        "text": "de officiis",
+        "normalized": "De officiis",
+        "el_uri": ""
+      },
+      {
+        "label": "material",
+        "text": "Cod. chart. in 4°",
+        "normalized": "Cod. chart. in 4°.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XV",
+        "normalized": "Saec. XV",
+        "el_uri": ""
+      },
+      {
+        "label": "etat",
+        "text": "mutilo",
+        "normalized": "mutilo",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 3,
+    "source_file": "Catalogo_II_Riccardiana_321-420.json",
+    "raw": "3 Lectionarium secundum anni circulum. Cod. membr. in fol max Saec. XI.",
+    "traduction_fr": "Lectionnaire selon le cycle de l'année",
+    "traduction_zh": "《读经集》按照年度周期",
+    "json_authors": [],
+    "json_titles": [
+      "Lezionario"
+    ],
+    "json_material": "membr.",
+    "json_date": "Sec. XI",
+    "json_date_norm": "XIe s. [1000–1099]",
+    "ms_century_range": [
+      1000,
+      1099
+    ],
+    "date_comparison": {
+      "date_from_text": "Saec. XI.",
+      "date_from_text_norm": "XIe s. [1000–1099]",
+      "date_from_json": "Sec. XI",
+      "date_from_json_norm": "XIe s. [1000–1099]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "Lectionarium secundum anni circulum",
+        "label": "ouvrage",
+        "normalized": "Lectionarium secundum anni circulum",
+        "norm_method": "fallback",
+        "el_results": []
+      }
+    ],
+    "spans": [
+      {
+        "label": "ouvrage",
+        "text": "Lectionarium secundum anni circulum",
+        "normalized": "Lectionarium secundum anni circulum",
+        "el_uri": ""
+      },
+      {
+        "label": "material",
+        "text": "Cod. membr. in fol max",
+        "normalized": "Cod. membr. in fol. max.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XI",
+        "normalized": "Saec. XI",
+        "el_uri": ""
+      }
+    ]
+  }
+]
