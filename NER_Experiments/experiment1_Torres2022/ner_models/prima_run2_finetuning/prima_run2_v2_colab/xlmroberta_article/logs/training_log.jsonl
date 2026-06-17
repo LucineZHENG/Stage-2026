@@ -1,0 +1,5 @@
+{"epoch": 1, "timestamp": "2026-06-07 22:12:50", "duration_s": 3.46, "train_loss": 2.223796, "val_f1": 0.0, "val_precision": 0.0, "val_recall": 0.0}
+{"epoch": 2, "timestamp": "2026-06-07 22:12:54", "duration_s": 3.53, "train_loss": 2.015481, "val_f1": 0.0, "val_precision": 0.0, "val_recall": 0.0}
+{"epoch": 3, "timestamp": "2026-06-07 22:12:58", "duration_s": 3.69, "train_loss": 1.806976, "val_f1": 0.018349, "val_precision": 0.015267, "val_recall": 0.022989}
+{"epoch": 4, "timestamp": "2026-06-07 22:13:09", "duration_s": 3.62, "train_loss": 1.655322, "val_f1": 0.028169, "val_precision": 0.02381, "val_recall": 0.034483}
+{"epoch": 5, "timestamp": "2026-06-07 22:13:24", "duration_s": 3.39, "train_loss": 1.55188, "val_f1": 0.047393, "val_precision": 0.040323, "val_recall": 0.057471}

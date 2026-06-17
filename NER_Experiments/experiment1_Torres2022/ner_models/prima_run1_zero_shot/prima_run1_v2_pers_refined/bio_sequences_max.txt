@@ -1,0 +1,80 @@
+
+=== #1298 ===
+raw              : 1298 da Cascia Fra Simone, volgarizzamento ed Esposizione dei Vangeli. Cod. cart. fol. Sec. XV sul princ.
+gold_auteur      : ['O', 'B-PERS', 'I-PERS', 'I-PERS', 'I-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_pers_all    : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_auteur_excl : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+gold_ouvr_pers   : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_ouvr_pers   : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+
+=== #276 ===
+raw              : 276 Hieronymi translatio de Tractatu Origenis in Epithalamicis. Cod. membr. Saec. XII in fol. in fine mutilus, sed eleganter scriptus, ac bene servatus.
+gold_auteur      : ['O', 'B-PERS', 'O', 'O', 'O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_pers_all    : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_auteur_excl : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+gold_ouvr_pers   : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_ouvr_pers   : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+
+=== #297 ===
+raw              : 297 Martyrologium. Cod. membran. in quarto Saec. XIII.
+gold_auteur      : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_pers_all    : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_auteur_excl : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+gold_ouvr_pers   : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_ouvr_pers   : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+
+=== #333 ===
+raw              : 333 Vitae S. Ioannis Gualberti Abbatis, S. Bernardi et aliorum. Cod. membr. in. 8. Saec. XV.
+gold_auteur      : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_pers_all    : ['O', 'O', 'O', 'B-PERS', 'B-PERS', 'O', 'O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_auteur_excl : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+gold_ouvr_pers   : ['O', 'O', 'O', 'B-PERS', 'I-PERS', 'O', 'O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_ouvr_pers   : ['O', 'O', 'O', 'B-PERS', 'B-PERS', 'O', 'O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+
+=== #338 ===
+raw              : 338 Leonis Urbevetani chronicon et alia. Cod. membr. Saec XIV.
+gold_auteur      : ['O', 'B-PERS', 'I-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_pers_all    : ['O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_auteur_excl : ['O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+gold_ouvr_pers   : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_ouvr_pers   : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+
+=== #351 ===
+raw              : 351 Basilii, Sancti, oratio ad juvenes de huma nioribus studii, et Marsilii Ficini de quatuor Sectis philosophorum. Cod. chart. in quarto Saec. XV.
+gold_auteur      : ['O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-PERS', 'I-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_pers_all    : ['O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-PERS', 'I-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_auteur_excl : ['O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-PERS', 'I-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+gold_ouvr_pers   : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_ouvr_pers   : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+
+=== #1512 ===
+raw              : 1512 Meditazioni sacre. Cod. membran. in 16. Sec. XV.
+gold_auteur      : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_pers_all    : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_auteur_excl : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+gold_ouvr_pers   : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_ouvr_pers   : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+
+=== #235 ===
+raw              : 235 Origenes, super vetus Testamentum. Cod. membr. in fol. Saec. XV in fine mutilus.
+gold_auteur      : ['O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_pers_all    : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_auteur_excl : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+gold_ouvr_pers   : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_ouvr_pers   : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+
+=== #286 ===
+raw              : 286 S. Ephraem, et Chrysostomi opera quaedam. Cod. chart. in quarto Saec. XV Aggiunte: mutilus in principio
+gold_auteur      : ['O', 'B-PERS', 'I-PERS', 'O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_pers_all    : ['O', 'O', 'O', 'O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_auteur_excl : ['O', 'O', 'O', 'O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+gold_ouvr_pers   : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_ouvr_pers   : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+
+=== #1232 ===
+raw              : 1232 Boccaccii Eclogae ad Donatum Apenninigenam. Cod. mem. in 8. Saec. XIV. Aggiunte: 1232 bis Antoninus, Lettera autografa a Tommaso Spinelli. In cornice.
+gold_auteur      : ['O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_pers_all    : ['O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-PERS', 'O', 'O', 'O']
+pred_auteur_excl : ['O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+gold_ouvr_pers   : ['O', 'O', 'O', 'O', 'B-PERS', 'I-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred_ouvr_pers   : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']

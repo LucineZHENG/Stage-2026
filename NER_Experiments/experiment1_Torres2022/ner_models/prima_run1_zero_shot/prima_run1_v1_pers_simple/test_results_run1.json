@@ -1,0 +1,114 @@
+{
+  "model": "magistermilitum/roberta-multilingual-medieval-ner",
+  "run": "Run 1 — modèle fine-tuné sur chartes médiévales",
+  "timestamp": "2026-05-26 06:06:03",
+  "test_entries": 10,
+  "evaluation_note": "Seul auteur (gold) → PERS (pred) est évalué. ouvrage/material/date/etat exclus : pas de correspondance dans le modèle.",
+  "metrics": {
+    "f1": 0.4762,
+    "precision": 0.4545,
+    "recall": 0.5
+  },
+  "details_par_entree": [
+    {
+      "entry_id": 1298,
+      "raw": "1298 da Cascia Fra Simone, volgarizzamento ed Esposizione dei Vangeli. Cod. cart. fol. Sec. XV sul princ.",
+      "gold_auteur": [
+        "da Cascia Fra Simone"
+      ],
+      "pred_pers": []
+    },
+    {
+      "entry_id": 276,
+      "raw": "276 Hieronymi translatio de Tractatu Origenis in Epithalamicis. Cod. membr. Saec. XII in fol. in fine mutilus, sed eleganter scriptus, ac bene servatus.",
+      "gold_auteur": [
+        "Hieronymi",
+        "Origenis"
+      ],
+      "pred_pers": []
+    },
+    {
+      "entry_id": 297,
+      "raw": "297 Martyrologium. Cod. membran. in quarto Saec. XIII.",
+      "gold_auteur": [],
+      "pred_pers": []
+    },
+    {
+      "entry_id": 333,
+      "raw": "333 Vitae S. Ioannis Gualberti Abbatis, S. Bernardi et aliorum. Cod. membr. in. 8. Saec. XV.",
+      "gold_auteur": [],
+      "pred_pers": [
+        "Ioannis",
+        "Gu",
+        "al",
+        "ber",
+        "Bernard"
+      ]
+    },
+    {
+      "entry_id": 338,
+      "raw": "338 Leonis Urbevetani chronicon et alia. Cod. membr. Saec XIV.",
+      "gold_auteur": [
+        "Leonis Urbevetani"
+      ],
+      "pred_pers": [
+        "Leonis Urbe"
+      ]
+    },
+    {
+      "entry_id": 351,
+      "raw": "351 Basilii, Sancti, oratio ad juvenes de huma nioribus studii, et Marsilii Ficini de quatuor Sectis philosophorum. Cod. chart. in quarto Saec. XV.",
+      "gold_auteur": [
+        "Basilii",
+        "Marsilii Ficini"
+      ],
+      "pred_pers": [
+        "Basil",
+        "Mar",
+        "silii Fi"
+      ]
+    },
+    {
+      "entry_id": 1512,
+      "raw": "1512 Meditazioni sacre. Cod. membran. in 16. Sec. XV.",
+      "gold_auteur": [],
+      "pred_pers": []
+    },
+    {
+      "entry_id": 235,
+      "raw": "235 Origenes, super vetus Testamentum. Cod. membr. in fol. Saec. XV in fine mutilus.",
+      "gold_auteur": [
+        "Origenes"
+      ],
+      "pred_pers": []
+    },
+    {
+      "entry_id": 286,
+      "raw": "286 S. Ephraem, et Chrysostomi opera quaedam. Cod. chart. in quarto Saec. XV Aggiunte: mutilus in principio",
+      "gold_auteur": [
+        "S. Ephraem",
+        "Chrysostomi"
+      ],
+      "pred_pers": [
+        "E",
+        "phra",
+        "Ch",
+        "rys",
+        "os"
+      ]
+    },
+    {
+      "entry_id": 1232,
+      "raw": "1232 Boccaccii Eclogae ad Donatum Apenninigenam. Cod. mem. in 8. Saec. XIV. Aggiunte: 1232 bis Antoninus, Lettera autografa a Tommaso Spinelli. In cornice.",
+      "gold_auteur": [
+        "Boccaccii"
+      ],
+      "pred_pers": [
+        "Boc",
+        "cacci",
+        "Antoni",
+        "Tommaso Spinelli"
+      ]
+    }
+  ]
+}

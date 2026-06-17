@@ -1,0 +1,78 @@
+
+=== #1298 ===
+raw : 1298 da Cascia Fra Simone, volgarizzamento ed Esposizione dei Vangeli. Cod. cart. fol. Sec. XV sul princ.
+gold: ['O', 'B-PERS', 'I-PERS', 'I-PERS', 'I-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+
+=== #276 ===
+raw : 276 Hieronymi translatio de Tractatu Origenis in Epithalamicis. Cod. membr. Saec. XII in fol. in fine mutilus, sed eleganter scriptus, ac bene servatus.
+gold: ['O', 'B-PERS', 'O', 'O', 'O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+  {'entity': 'B-LOC', 'score': np.float32(0.43231872), 'index': 12, 'word': '▁Orig', 'start': 37, 'end': 41}
+
+=== #297 ===
+raw : 297 Martyrologium. Cod. membran. in quarto Saec. XIII.
+gold: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+
+=== #333 ===
+raw : 333 Vitae S. Ioannis Gualberti Abbatis, S. Bernardi et aliorum. Cod. membr. in. 8. Saec. XV.
+gold: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred: ['O', 'O', 'O', 'B-PERS', 'B-PERS', 'O', 'O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+  {'entity': 'B-PERS', 'score': np.float32(0.95830226), 'index': 7, 'word': '▁Ioannis', 'start': 13, 'end': 20}
+  {'entity': 'B-PERS', 'score': np.float32(0.99955505), 'index': 8, 'word': '▁Gu', 'start': 21, 'end': 23}
+  {'entity': 'B-PERS', 'score': np.float32(0.99425006), 'index': 9, 'word': 'al', 'start': 23, 'end': 25}
+  {'entity': 'B-PERS', 'score': np.float32(0.642391), 'index': 10, 'word': 'ber', 'start': 25, 'end': 28}
+  {'entity': 'B-PERS', 'score': np.float32(0.9998522), 'index': 17, 'word': '▁Bernard', 'start': 43, 'end': 50}
+
+=== #338 ===
+raw : 338 Leonis Urbevetani chronicon et alia. Cod. membr. Saec XIV.
+gold: ['O', 'B-PERS', 'I-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred: ['O', 'B-PERS', 'I-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+  {'entity': 'B-PERS', 'score': np.float32(0.9996935), 'index': 3, 'word': '▁Leon', 'start': 4, 'end': 8}
+  {'entity': 'I-PERS', 'score': np.float32(0.98901945), 'index': 4, 'word': 'is', 'start': 8, 'end': 10}
+  {'entity': 'I-PERS', 'score': np.float32(0.9904241), 'index': 5, 'word': '▁Ur', 'start': 11, 'end': 13}
+  {'entity': 'I-PERS', 'score': np.float32(0.87174696), 'index': 6, 'word': 'be', 'start': 13, 'end': 15}
+
+=== #351 ===
+raw : 351 Basilii, Sancti, oratio ad juvenes de huma nioribus studii, et Marsilii Ficini de quatuor Sectis philosophorum. Cod. chart. in quarto Saec. XV.
+gold: ['O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-PERS', 'I-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred: ['O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-PERS', 'I-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+  {'entity': 'B-PERS', 'score': np.float32(0.9951807), 'index': 3, 'word': '▁Basil', 'start': 4, 'end': 9}
+  {'entity': 'B-PERS', 'score': np.float32(0.99975437), 'index': 22, 'word': '▁Mar', 'start': 67, 'end': 70}
+  {'entity': 'B-PERS', 'score': np.float32(0.9891656), 'index': 23, 'word': 'sili', 'start': 70, 'end': 74}
+  {'entity': 'I-PERS', 'score': np.float32(0.80831945), 'index': 24, 'word': 'i', 'start': 74, 'end': 75}
+  {'entity': 'I-PERS', 'score': np.float32(0.9989843), 'index': 25, 'word': '▁Fi', 'start': 76, 'end': 78}
+
+=== #1512 ===
+raw : 1512 Meditazioni sacre. Cod. membran. in 16. Sec. XV.
+gold: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+
+=== #235 ===
+raw : 235 Origenes, super vetus Testamentum. Cod. membr. in fol. Saec. XV in fine mutilus.
+gold: ['O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+
+=== #286 ===
+raw : 286 S. Ephraem, et Chrysostomi opera quaedam. Cod. chart. in quarto Saec. XV Aggiunte: mutilus in principio
+gold: ['O', 'B-PERS', 'I-PERS', 'O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred: ['O', 'O', 'B-PERS', 'O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+  {'entity': 'B-PERS', 'score': np.float32(0.99305564), 'index': 5, 'word': '▁E', 'start': 7, 'end': 8}
+  {'entity': 'B-PERS', 'score': np.float32(0.98194605), 'index': 6, 'word': 'phra', 'start': 8, 'end': 12}
+  {'entity': 'B-PERS', 'score': np.float32(0.9774228), 'index': 10, 'word': '▁Ch', 'start': 19, 'end': 21}
+  {'entity': 'B-PERS', 'score': np.float32(0.95688915), 'index': 11, 'word': 'rys', 'start': 21, 'end': 24}
+  {'entity': 'B-PERS', 'score': np.float32(0.93643653), 'index': 12, 'word': 'os', 'start': 24, 'end': 26}
+
+=== #1232 ===
+raw : 1232 Boccaccii Eclogae ad Donatum Apenninigenam. Cod. mem. in 8. Saec. XIV. Aggiunte: 1232 bis Antoninus, Lettera autografa a Tommaso Spinelli. In cornice.
+gold: ['O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+pred: ['O', 'B-PERS', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-PERS', 'O', 'O', 'O', 'B-PERS', 'I-PERS', 'O', 'O']
+  {'entity': 'B-PERS', 'score': np.float32(0.956271), 'index': 3, 'word': '▁Boc', 'start': 5, 'end': 8}
+  {'entity': 'B-PERS', 'score': np.float32(0.8614784), 'index': 4, 'word': 'ca', 'start': 8, 'end': 10}
+  {'entity': 'I-PERS', 'score': np.float32(0.6500693), 'index': 5, 'word': 'cci', 'start': 10, 'end': 13}
+  {'entity': 'B-PERS', 'score': np.float32(0.9325412), 'index': 37, 'word': '▁Antoni', 'start': 95, 'end': 101}
+  {'entity': 'B-PERS', 'score': np.float32(0.99989617), 'index': 46, 'word': '▁Tom', 'start': 126, 'end': 129}
+  {'entity': 'I-PERS', 'score': np.float32(0.9569482), 'index': 47, 'word': 'maso', 'start': 129, 'end': 133}
+  {'entity': 'I-PERS', 'score': np.float32(0.99840504), 'index': 48, 'word': '▁Spin', 'start': 134, 'end': 138}
+  {'entity': 'I-PERS', 'score': np.float32(0.9739231), 'index': 49, 'word': 'elli', 'start': 138, 'end': 142}

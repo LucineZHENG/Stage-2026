@@ -1,0 +1,10 @@
+{"epoch": 1, "timestamp": "2026-06-16 05:40:35", "duration_s": 5.15, "train_loss": 2.521981, "val_f1": 0.0}
+{"epoch": 2, "timestamp": "2026-06-16 05:40:40", "duration_s": 4.18, "train_loss": 1.940058, "val_f1": 0.0}
+{"epoch": 3, "timestamp": "2026-06-16 05:40:46", "duration_s": 4.49, "train_loss": 1.65797, "val_f1": 0.001341}
+{"epoch": 4, "timestamp": "2026-06-16 05:41:06", "duration_s": 4.36, "train_loss": 1.521641, "val_f1": 0.018193}
+{"epoch": 5, "timestamp": "2026-06-16 05:41:22", "duration_s": 4.33, "train_loss": 1.446604, "val_f1": 0.026222}
+{"epoch": 6, "timestamp": "2026-06-16 05:41:49", "duration_s": 4.34, "train_loss": 1.402549, "val_f1": 0.057109}
+{"epoch": 7, "timestamp": "2026-06-16 05:42:04", "duration_s": 4.81, "train_loss": 1.371722, "val_f1": 0.078592}
+{"epoch": 8, "timestamp": "2026-06-16 05:42:18", "duration_s": 4.64, "train_loss": 1.33162, "val_f1": 0.102831}
+{"epoch": 9, "timestamp": "2026-06-16 05:42:30", "duration_s": 4.73, "train_loss": 1.321, "val_f1": 0.102771}
+{"epoch": 10, "timestamp": "2026-06-16 05:42:36", "duration_s": 4.47, "train_loss": 1.313797, "val_f1": 0.102181}

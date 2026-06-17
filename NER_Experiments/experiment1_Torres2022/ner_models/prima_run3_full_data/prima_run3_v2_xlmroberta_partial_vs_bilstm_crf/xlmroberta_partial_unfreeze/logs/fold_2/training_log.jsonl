@@ -1,0 +1,15 @@
+{"fold": 2, "epoch": 1, "timestamp": "2026-06-17 07:57:01", "duration_s": 6.23, "train_loss": 2.37989, "val_f1": 0.0}
+{"fold": 2, "epoch": 2, "timestamp": "2026-06-17 07:57:09", "duration_s": 6.26, "train_loss": 1.759832, "val_f1": 0.108808}
+{"fold": 2, "epoch": 3, "timestamp": "2026-06-17 07:58:12", "duration_s": 6.08, "train_loss": 1.173407, "val_f1": 0.265781}
+{"fold": 2, "epoch": 4, "timestamp": "2026-06-17 07:59:07", "duration_s": 6.04, "train_loss": 0.922889, "val_f1": 0.429734}
+{"fold": 2, "epoch": 5, "timestamp": "2026-06-17 08:00:15", "duration_s": 6.03, "train_loss": 0.79995, "val_f1": 0.438136}
+{"fold": 2, "epoch": 6, "timestamp": "2026-06-17 08:01:15", "duration_s": 5.95, "train_loss": 0.720302, "val_f1": 0.452136}
+{"fold": 2, "epoch": 7, "timestamp": "2026-06-17 08:02:33", "duration_s": 5.94, "train_loss": 0.668897, "val_f1": 0.475455}
+{"fold": 2, "epoch": 8, "timestamp": "2026-06-17 08:03:47", "duration_s": 5.92, "train_loss": 0.639834, "val_f1": 0.489728}
+{"fold": 2, "epoch": 9, "timestamp": "2026-06-17 08:04:00", "duration_s": 6.03, "train_loss": 0.608049, "val_f1": 0.490066}
+{"fold": 2, "epoch": 10, "timestamp": "2026-06-17 08:05:12", "duration_s": 5.95, "train_loss": 0.593321, "val_f1": 0.512733}
+{"fold": 2, "epoch": 11, "timestamp": "2026-06-17 08:05:32", "duration_s": 6.04, "train_loss": 0.588843, "val_f1": 0.506357}
+{"fold": 2, "epoch": 12, "timestamp": "2026-06-17 08:05:39", "duration_s": 5.98, "train_loss": 0.571549, "val_f1": 0.508889}
+{"fold": 2, "epoch": 13, "timestamp": "2026-06-17 08:05:46", "duration_s": 6.07, "train_loss": 0.564521, "val_f1": 0.521198}
+{"fold": 2, "epoch": 14, "timestamp": "2026-06-17 08:06:01", "duration_s": 6.16, "train_loss": 0.559124, "val_f1": 0.520656}
+{"fold": 2, "epoch": 15, "timestamp": "2026-06-17 08:06:08", "duration_s": 6.2, "train_loss": 0.555357, "val_f1": 0.52381}

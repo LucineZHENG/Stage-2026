@@ -1,0 +1,468 @@
+{
+  "split": "test",
+  "metrics": {
+    "f1": 0.05,
+    "precision": 0.04054054054054054,
+    "recall": 0.06521739130434782,
+    "report": {
+      "auteur": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 10
+      },
+      "date": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 10
+      },
+      "etat": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 4
+      },
+      "material": {
+        "precision": 0.125,
+        "recall": 0.2727272727272727,
+        "f1-score": 0.17142857142857143,
+        "support": 11
+      },
+      "ouvrage": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 11
+      },
+      "micro avg": {
+        "precision": 0.04054054054054054,
+        "recall": 0.06521739130434782,
+        "f1-score": 0.05,
+        "support": 46
+      },
+      "macro avg": {
+        "precision": 0.025,
+        "recall": 0.05454545454545454,
+        "f1-score": 0.03428571428571429,
+        "support": 46
+      },
+      "weighted avg": {
+        "precision": 0.029891304347826088,
+        "recall": 0.06521739130434782,
+        "f1-score": 0.040993788819875775,
+        "support": 46
+      }
+    },
+    "details": [
+      {
+        "entry_id": 1298,
+        "raw": "1298 da Cascia Fra Simone, volgarizzamento ed Esposizione dei Vangeli. Cod. cart. fol. Sec. XV sul princ.",
+        "gold_spans": [
+          {
+            "text": "Cascia Fra Simone, volgarizzamento ed Esposizione",
+            "label": "auteur"
+          },
+          {
+            "text": "Sec. XV sul princ.",
+            "label": "ouvrage"
+          }
+        ],
+        "pred_spans": []
+      },
+      {
+        "entry_id": 276,
+        "raw": "276 Hieronymi translatio de Tractatu Origenis in Epithalamicis. Cod. membr. Saec. XII in fol. in fine mutilus, sed eleganter scriptus, ac bene servatus.",
+        "gold_spans": [
+          {
+            "text": "translatio de Tractatu",
+            "label": "auteur"
+          },
+          {
+            "text": "Origenis in Epithalamicis. Cod. membr. Saec.",
+            "label": "ouvrage"
+          },
+          {
+            "text": "XII in fol.",
+            "label": "auteur"
+          },
+          {
+            "text": "in fine mutilus, sed eleganter scriptus,",
+            "label": "ouvrage"
+          },
+          {
+            "text": "ac bene servatus.",
+            "label": "material"
+          }
+        ],
+        "pred_spans": []
+      },
+      {
+        "entry_id": 297,
+        "raw": "297 Martyrologium. Cod. membran. in quarto Saec. XIII.",
+        "gold_spans": [
+          {
+            "text": "Cod. membran. in quarto Saec.",
+            "label": "ouvrage"
+          },
+          {
+            "text": "XIII.",
+            "label": "material"
+          }
+        ],
+        "pred_spans": []
+      },
+      {
+        "entry_id": 333,
+        "raw": "333 Vitae S. Ioannis Gualberti Abbatis, S. Bernardi et aliorum. Cod. membr. in. 8. Saec. XV.",
+        "gold_spans": [
+          {
+            "text": "S. Ioannis Gualberti Abbatis, S. Bernardi et aliorum. Cod. membr. in. 8. Saec. XV.",
+            "label": "ouvrage"
+          }
+        ],
+        "pred_spans": []
+      },
+      {
+        "entry_id": 338,
+        "raw": "338 Leonis Urbevetani chronicon et alia. Cod. membr. Saec XIV.",
+        "gold_spans": [
+          {
+            "text": "Urbevetani chronicon et alia. Cod. membr.",
+            "label": "auteur"
+          },
+          {
+            "text": "Saec XIV.",
+            "label": "ouvrage"
+          }
+        ],
+        "pred_spans": []
+      },
+      {
+        "entry_id": 351,
+        "raw": "351 Basilii, Sancti, oratio ad juvenes de huma nioribus studii, et Marsilii Ficini de quatuor Sectis philosophorum. Cod. chart. in quarto Saec. XV.",
+        "gold_spans": [
+          {
+            "text": "Sancti, oratio ad",
+            "label": "auteur"
+          },
+          {
+            "text": "huma nioribus studii, et Marsilii Ficini",
+            "label": "ouvrage"
+          },
+          {
+            "text": "Saec. XV.",
+            "label": "auteur"
+          }
+        ],
+        "pred_spans": []
+      },
+      {
+        "entry_id": 1512,
+        "raw": "1512 Meditazioni sacre. Cod. membran. in 16. Sec. XV.",
+        "gold_spans": [
+          {
+            "text": "sacre. Cod. membran. in 16. Sec.",
+            "label": "ouvrage"
+          },
+          {
+            "text": "XV.",
+            "label": "material"
+          }
+        ],
+        "pred_spans": []
+      },
+      {
+        "entry_id": 235,
+        "raw": "235 Origenes, super vetus Testamentum. Cod. membr. in fol. Saec. XV in fine mutilus.",
+        "gold_spans": [
+          {
+            "text": "Origenes, super vetus",
+            "label": "auteur"
+          },
+          {
+            "text": "Testamentum. Cod. membr. in fol. Saec.",
+            "label": "ouvrage"
+          },
+          {
+            "text": "XV in fine mutilus.",
+            "label": "material"
+          }
+        ],
+        "pred_spans": []
+      },
+      {
+        "entry_id": 286,
+        "raw": "286 S. Ephraem, et Chrysostomi opera quaedam. Cod. chart. in quarto Saec. XV Aggiunte: mutilus in principio",
+        "gold_spans": [
+          {
+            "text": "Ephraem, et Chrysostomi opera quaedam. Cod.",
+            "label": "auteur"
+          },
+          {
+            "text": "in quarto Saec. XV",
+            "label": "auteur"
+          },
+          {
+            "text": "Aggiunte: mutilus in",
+            "label": "ouvrage"
+          },
+          {
+            "text": "principio",
+            "label": "material"
+          }
+        ],
+        "pred_spans": []
+      },
+      {
+        "entry_id": 1232,
+        "raw": "1232 Boccaccii Eclogae ad Donatum Apenninigenam. Cod. mem. in 8. Saec. XIV. Aggiunte: 1232 bis Antoninus, Lettera autografa a Tommaso Spinelli. In cornice.",
+        "gold_spans": [
+          {
+            "text": "Eclogae ad Donatum Apenninigenam.",
+            "label": "auteur"
+          },
+          {
+            "text": "Cod. mem. in 8. Saec. XIV. Aggiunte: 1232 bis Antoninus, Lettera autografa",
+            "label": "ouvrage"
+          },
+          {
+            "text": "a Tommaso Spinelli. In cornice.",
+            "label": "material"
+          }
+        ],
+        "pred_spans": []
+      }
+    ]
+  },
+  "report_by_label": {
+    "auteur": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 10
+    },
+    "date": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 10
+    },
+    "etat": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4
+    },
+    "material": {
+      "precision": 0.125,
+      "recall": 0.2727272727272727,
+      "f1-score": 0.17142857142857143,
+      "support": 11
+    },
+    "ouvrage": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 11
+    },
+    "micro avg": {
+      "precision": 0.04054054054054054,
+      "recall": 0.06521739130434782,
+      "f1-score": 0.05,
+      "support": 46
+    },
+    "macro avg": {
+      "precision": 0.025,
+      "recall": 0.05454545454545454,
+      "f1-score": 0.03428571428571429,
+      "support": 46
+    },
+    "weighted avg": {
+      "precision": 0.029891304347826088,
+      "recall": 0.06521739130434782,
+      "f1-score": 0.040993788819875775,
+      "support": 46
+    }
+  },
+  "details": [
+    {
+      "entry_id": 1298,
+      "raw": "1298 da Cascia Fra Simone, volgarizzamento ed Esposizione dei Vangeli. Cod. cart. fol. Sec. XV sul princ.",
+      "gold_spans": [
+        {
+          "text": "Cascia Fra Simone, volgarizzamento ed Esposizione",
+          "label": "auteur"
+        },
+        {
+          "text": "Sec. XV sul princ.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": []
+    },
+    {
+      "entry_id": 276,
+      "raw": "276 Hieronymi translatio de Tractatu Origenis in Epithalamicis. Cod. membr. Saec. XII in fol. in fine mutilus, sed eleganter scriptus, ac bene servatus.",
+      "gold_spans": [
+        {
+          "text": "translatio de Tractatu",
+          "label": "auteur"
+        },
+        {
+          "text": "Origenis in Epithalamicis. Cod. membr. Saec.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XII in fol.",
+          "label": "auteur"
+        },
+        {
+          "text": "in fine mutilus, sed eleganter scriptus,",
+          "label": "ouvrage"
+        },
+        {
+          "text": "ac bene servatus.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": []
+    },
+    {
+      "entry_id": 297,
+      "raw": "297 Martyrologium. Cod. membran. in quarto Saec. XIII.",
+      "gold_spans": [
+        {
+          "text": "Cod. membran. in quarto Saec.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XIII.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": []
+    },
+    {
+      "entry_id": 333,
+      "raw": "333 Vitae S. Ioannis Gualberti Abbatis, S. Bernardi et aliorum. Cod. membr. in. 8. Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "S. Ioannis Gualberti Abbatis, S. Bernardi et aliorum. Cod. membr. in. 8. Saec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": []
+    },
+    {
+      "entry_id": 338,
+      "raw": "338 Leonis Urbevetani chronicon et alia. Cod. membr. Saec XIV.",
+      "gold_spans": [
+        {
+          "text": "Urbevetani chronicon et alia. Cod. membr.",
+          "label": "auteur"
+        },
+        {
+          "text": "Saec XIV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": []
+    },
+    {
+      "entry_id": 351,
+      "raw": "351 Basilii, Sancti, oratio ad juvenes de huma nioribus studii, et Marsilii Ficini de quatuor Sectis philosophorum. Cod. chart. in quarto Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "Sancti, oratio ad",
+          "label": "auteur"
+        },
+        {
+          "text": "huma nioribus studii, et Marsilii Ficini",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Saec. XV.",
+          "label": "auteur"
+        }
+      ],
+      "pred_spans": []
+    },
+    {
+      "entry_id": 1512,
+      "raw": "1512 Meditazioni sacre. Cod. membran. in 16. Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "sacre. Cod. membran. in 16. Sec.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XV.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": []
+    },
+    {
+      "entry_id": 235,
+      "raw": "235 Origenes, super vetus Testamentum. Cod. membr. in fol. Saec. XV in fine mutilus.",
+      "gold_spans": [
+        {
+          "text": "Origenes, super vetus",
+          "label": "auteur"
+        },
+        {
+          "text": "Testamentum. Cod. membr. in fol. Saec.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XV in fine mutilus.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": []
+    },
+    {
+      "entry_id": 286,
+      "raw": "286 S. Ephraem, et Chrysostomi opera quaedam. Cod. chart. in quarto Saec. XV Aggiunte: mutilus in principio",
+      "gold_spans": [
+        {
+          "text": "Ephraem, et Chrysostomi opera quaedam. Cod.",
+          "label": "auteur"
+        },
+        {
+          "text": "in quarto Saec. XV",
+          "label": "auteur"
+        },
+        {
+          "text": "Aggiunte: mutilus in",
+          "label": "ouvrage"
+        },
+        {
+          "text": "principio",
+          "label": "material"
+        }
+      ],
+      "pred_spans": []
+    },
+    {
+      "entry_id": 1232,
+      "raw": "1232 Boccaccii Eclogae ad Donatum Apenninigenam. Cod. mem. in 8. Saec. XIV. Aggiunte: 1232 bis Antoninus, Lettera autografa a Tommaso Spinelli. In cornice.",
+      "gold_spans": [
+        {
+          "text": "Eclogae ad Donatum Apenninigenam.",
+          "label": "auteur"
+        },
+        {
+          "text": "Cod. mem. in 8. Saec. XIV. Aggiunte: 1232 bis Antoninus, Lettera autografa",
+          "label": "ouvrage"
+        },
+        {
+          "text": "a Tommaso Spinelli. In cornice.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": []
+    }
+  ]
+}

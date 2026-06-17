@@ -1,0 +1,57 @@
+[Config] Device : GPU
+[Config] Modèle : magistermilitum/roberta-multilingual-medieval-ner
+[Config] Données: ../data/test.json
+[Config] Évaluation : auteur (gold) → PERS (pred) uniquement
+
+[1/4] Chargement des données test...
+  10 entrées chargées
+
+  Auteurs présents dans le test set :
+    #1298 : da Cascia Fra Simone
+    #276 : Hieronymi, Origenis
+    #338 : Leonis Urbevetani
+    #351 : Basilii, Marsilii Ficini
+    #235 : Origenes
+    #286 : S. Ephraem, Chrysostomi
+    #1232 : Boccaccii
+
+[2/4] Chargement du modèle fine-tuné...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Invalid model-index. Not loading eval results into CardData.
+Loading weights:   0%|                               | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████████████| 391/391 [00:00<00:00, 26806.58it/s]
+[transformers] [1mXLMRobertaForTokenClassification LOAD REPORT[0m from: magistermilitum/roberta-multilingual-medieval-ner
+Key                         | Status     |  | 
+----------------------------+------------+--+-
+roberta.pooler.dense.bias   | UNEXPECTED |  | 
+roberta.pooler.dense.weight | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Invalid model-index. Not loading eval results into CardData.
+  Modèle chargé ✓
+
+[3/4] Inférence et évaluation (auteur → PERS)...
+  #1298 | gold: ['da Cascia Fra Simone'] | pred: []
+  # 276 | gold: ['Hieronymi', 'Origenis'] | pred: []
+  # 297 | gold: [] | pred: []
+  # 333 | gold: [] | pred: ['Ioannis', 'Gu', 'al', 'ber', 'Bernard']
+  # 338 | gold: ['Leonis Urbevetani'] | pred: ['Leonis Urbe']
+  # 351 | gold: ['Basilii', 'Marsilii Ficini'] | pred: ['Basil', 'Mar', 'silii Fi']
+  #1512 | gold: [] | pred: []
+  # 235 | gold: ['Origenes'] | pred: []
+  # 286 | gold: ['S. Ephraem', 'Chrysostomi'] | pred: ['E', 'phra', 'Ch', 'rys', 'os']
+  #1232 | gold: ['Boccaccii'] | pred: ['Boc', 'cacci', 'Antoni', 'Tommaso Spinelli']
+
+[4/4] Résultats :
+=======================================================
+              precision    recall  f1-score   support
+
+        PERS       0.45      0.50      0.48        10
+
+   micro avg       0.45      0.50      0.48        10
+   macro avg       0.45      0.50      0.48        10
+weighted avg       0.45      0.50      0.48        10
+
+  F1=0.4762  P=0.4545  R=0.5000
+
+[Done] Résultats → ./run1_medieval_model/test_results_run1.json

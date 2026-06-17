@@ -1,0 +1,698 @@
+[Config] Device : GPU
+[Config] Modèle : magistermilitum/roberta-multilingual-medieval-ner
+[Config] Données: /content/test_run1.json
+  10 entrées chargées
+  #1298  auteurs=['da Cascia Fra Simone']  ouvrage_avec_pers=[]
+  #276  auteurs=['Hieronymi', 'Origenis']  ouvrage_avec_pers=[]
+  #333  auteurs=[]  ouvrage_avec_pers=[('Vitae S. Ioannis Gualberti Abbatis, S. Bernardi et aliorum', ['Ioannis Gualberti', 'Bernardi'])]
+  #338  auteurs=['Leonis Urbevetani']  ouvrage_avec_pers=[]
+  #351  auteurs=['Basilii', 'Marsilii Ficini']  ouvrage_avec_pers=[]
+  #235  auteurs=['Origenes']  ouvrage_avec_pers=[]
+  #286  auteurs=['S. Ephraem', 'Chrysostomi']  ouvrage_avec_pers=[]
+  #1232  auteurs=['Boccaccii']  ouvrage_avec_pers=[('Eclogae ad Donatum Apenninigenam', ['Donatum Apenninigenam'])]
+  [simple] #1298 | gold_auteur=['da Cascia Fra Simone'] | pred→auteur=[] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [simple] # 276 | gold_auteur=['Hieronymi', 'Origenis'] | pred→auteur=[] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [simple] # 297 | gold_auteur=[] | pred→auteur=[] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [simple] # 333 | gold_auteur=[] | pred→auteur=[] | gold_ouvr_pers=['Ioannis Gualberti', 'Bernardi'] | pred→ouvr_pers=['Ioannis', 'Gu', 'al', 'ber', 'Bernard']
+  [simple] # 338 | gold_auteur=['Leonis Urbevetani'] | pred→auteur=['Leonis Urbe'] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [simple] # 351 | gold_auteur=['Basilii', 'Marsilii Ficini'] | pred→auteur=['Basil', 'Mar', 'silii Fi'] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [simple] #1512 | gold_auteur=[] | pred→auteur=[] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [simple] # 235 | gold_auteur=['Origenes'] | pred→auteur=[] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [simple] # 286 | gold_auteur=['S. Ephraem', 'Chrysostomi'] | pred→auteur=['E', 'phra', 'Ch', 'rys', 'os'] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [simple] #1232 | gold_auteur=['Boccaccii'] | pred→auteur=['Boc', 'cacci'] | gold_ouvr_pers=['Donatum Apenninigenam'] | pred→ouvr_pers=[]
+  [first] #1298 | gold_auteur=['da Cascia Fra Simone'] | pred→auteur=[] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [first] # 276 | gold_auteur=['Hieronymi', 'Origenis'] | pred→auteur=[] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [first] # 297 | gold_auteur=[] | pred→auteur=[] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [first] # 333 | gold_auteur=[] | pred→auteur=[] | gold_ouvr_pers=['Ioannis Gualberti', 'Bernardi'] | pred→ouvr_pers=['Ioannis', 'Gualberti', 'Bernardi']
+  [first] # 338 | gold_auteur=['Leonis Urbevetani'] | pred→auteur=['Leonis Urbevetani'] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [first] # 351 | gold_auteur=['Basilii', 'Marsilii Ficini'] | pred→auteur=['Basilii,', 'Marsilii Ficini'] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [first] #1512 | gold_auteur=[] | pred→auteur=[] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [first] # 235 | gold_auteur=['Origenes'] | pred→auteur=[] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [first] # 286 | gold_auteur=['S. Ephraem', 'Chrysostomi'] | pred→auteur=['Ephraem,', 'Chrysostomi'] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [first] #1232 | gold_auteur=['Boccaccii'] | pred→auteur=['Boccaccii'] | gold_ouvr_pers=['Donatum Apenninigenam'] | pred→ouvr_pers=[]
+  [max] #1298 | gold_auteur=['da Cascia Fra Simone'] | pred→auteur=[] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [max] # 276 | gold_auteur=['Hieronymi', 'Origenis'] | pred→auteur=[] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [max] # 297 | gold_auteur=[] | pred→auteur=[] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [max] # 333 | gold_auteur=[] | pred→auteur=[] | gold_ouvr_pers=['Ioannis Gualberti', 'Bernardi'] | pred→ouvr_pers=['Ioannis', 'Gualberti', 'Bernardi']
+  [max] # 338 | gold_auteur=['Leonis Urbevetani'] | pred→auteur=['Leonis'] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [max] # 351 | gold_auteur=['Basilii', 'Marsilii Ficini'] | pred→auteur=['Basilii,', 'MarsiliiFicini'] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [max] #1512 | gold_auteur=[] | pred→auteur=[] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [max] # 235 | gold_auteur=['Origenes'] | pred→auteur=[] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [max] # 286 | gold_auteur=['S. Ephraem', 'Chrysostomi'] | pred→auteur=['Chrysostomi'] | gold_ouvr_pers=[] | pred→ouvr_pers=[]
+  [max] #1232 | gold_auteur=['Boccaccii'] | pred→auteur=['Boccaccii'] | gold_ouvr_pers=['Donatum Apenninigenam'] | pred→ouvr_pers=[]
+======================================================================
+Stratégie     F1_auteur   P_auteur   R_auteur    F1_ouvr_pers   P_ouvr   R_ouvr
+----------------------------------------------------------------------
+simple           0.4762     0.4545     0.5000          0.3333   0.3333   0.3333
+
+  [simple] rapport auteur :
+              precision    recall  f1-score   support
+
+        PERS       0.45      0.50      0.48        10
+
+   micro avg       0.45      0.50      0.48        10
+   macro avg       0.45      0.50      0.48        10
+weighted avg       0.45      0.50      0.48        10
+
+  [simple] rapport ouvrage_pers :
+              precision    recall  f1-score   support
+
+        PERS       0.33      0.33      0.33         3
+
+   micro avg       0.33      0.33      0.33         3
+   macro avg       0.33      0.33      0.33         3
+weighted avg       0.33      0.33      0.33         3
+
+
+  ────────────────────────────────────────────────────────────
+  [simple] Détail par entrée
+  ────────────────────────────────────────────────────────────
+
+  #1298  1298 da Cascia Fra Simone, volgarizzamento ed Esposizione dei Vangeli....
+    pred PERS (all)     : []
+    → pred auteur       : []
+    → pred ouvr. pers   : []
+    gold auteur         : ['da Cascia Fra Simone']
+    gold ouvr. pers     : []
+
+  #276  276 Hieronymi translatio de Tractatu Origenis in Epithalamicis. Cod. m...
+    pred PERS (all)     : []
+    → pred auteur       : []
+    → pred ouvr. pers   : []
+    gold auteur         : ['Hieronymi', 'Origenis']
+    gold ouvr. pers     : []
+
+  #297  297 Martyrologium. Cod. membran. in quarto Saec. XIII....
+    pred PERS (all)     : []
+    → pred auteur       : []
+    → pred ouvr. pers   : []
+    gold auteur         : []
+    gold ouvr. pers     : []
+
+  #333  333 Vitae S. Ioannis Gualberti Abbatis, S. Bernardi et aliorum. Cod. m...
+    pred PERS (all)     : ['Ioannis', 'Gu', 'al', 'ber', 'Bernard']
+    → pred auteur       : []
+    → pred ouvr. pers   : ['Ioannis', 'Gu', 'al', 'ber', 'Bernard']
+    gold auteur         : []
+    gold ouvr. pers     : ['Ioannis Gualberti', 'Bernardi']
+
+  #338  338 Leonis Urbevetani chronicon et alia. Cod. membr. Saec XIV....
+    pred PERS (all)     : ['Leonis Urbe']
+    → pred auteur       : ['Leonis Urbe']
+    → pred ouvr. pers   : []
+    gold auteur         : ['Leonis Urbevetani']
+    gold ouvr. pers     : []
+
+  #351  351 Basilii, Sancti, oratio ad juvenes de huma nioribus studii, et Mar...
+    pred PERS (all)     : ['Basil', 'Mar', 'silii Fi']
+    → pred auteur       : ['Basil', 'Mar', 'silii Fi']
+    → pred ouvr. pers   : []
+    gold auteur         : ['Basilii', 'Marsilii Ficini']
+    gold ouvr. pers     : []
+
+  #1512  1512 Meditazioni sacre. Cod. membran. in 16. Sec. XV....
+    pred PERS (all)     : []
+    → pred auteur       : []
+    → pred ouvr. pers   : []
+    gold auteur         : []
+    gold ouvr. pers     : []
+
+  #235  235 Origenes, super vetus Testamentum. Cod. membr. in fol. Saec. XV in...
+    pred PERS (all)     : []
+    → pred auteur       : []
+    → pred ouvr. pers   : []
+    gold auteur         : ['Origenes']
+    gold ouvr. pers     : []
+
+  #286  286 S. Ephraem, et Chrysostomi opera quaedam. Cod. chart. in quarto Sa...
+    pred PERS (all)     : ['E', 'phra', 'Ch', 'rys', 'os']
+    → pred auteur       : ['E', 'phra', 'Ch', 'rys', 'os']
+    → pred ouvr. pers   : []
+    gold auteur         : ['S. Ephraem', 'Chrysostomi']
+    gold ouvr. pers     : []
+
+  #1232  1232 Boccaccii Eclogae ad Donatum Apenninigenam. Cod. mem. in 8. Saec....
+    pred PERS (all)     : ['Boc', 'cacci', 'Antoni', 'Tommaso Spinelli']
+    → pred auteur       : ['Boc', 'cacci']
+    → pred ouvr. pers   : []
+    gold auteur         : ['Boccaccii']
+    gold ouvr. pers     : ['Donatum Apenninigenam']
+
+  ────────────────────────────────────────────────────────────
+
+first            0.4762     0.4545     0.5000          0.3333   0.3333   0.3333
+
+  [first] rapport auteur :
+              precision    recall  f1-score   support
+
+        PERS       0.45      0.50      0.48        10
+
+   micro avg       0.45      0.50      0.48        10
+   macro avg       0.45      0.50      0.48        10
+weighted avg       0.45      0.50      0.48        10
+
+  [first] rapport ouvrage_pers :
+              precision    recall  f1-score   support
+
+        PERS       0.33      0.33      0.33         3
+
+   micro avg       0.33      0.33      0.33         3
+   macro avg       0.33      0.33      0.33         3
+weighted avg       0.33      0.33      0.33         3
+
+
+  ────────────────────────────────────────────────────────────
+  [first] Détail par entrée
+  ────────────────────────────────────────────────────────────
+
+  #1298  1298 da Cascia Fra Simone, volgarizzamento ed Esposizione dei Vangeli....
+    pred PERS (all)     : []
+    → pred auteur       : []
+    → pred ouvr. pers   : []
+    gold auteur         : ['da Cascia Fra Simone']
+    gold ouvr. pers     : []
+
+  #276  276 Hieronymi translatio de Tractatu Origenis in Epithalamicis. Cod. m...
+    pred PERS (all)     : []
+    → pred auteur       : []
+    → pred ouvr. pers   : []
+    gold auteur         : ['Hieronymi', 'Origenis']
+    gold ouvr. pers     : []
+
+  #297  297 Martyrologium. Cod. membran. in quarto Saec. XIII....
+    pred PERS (all)     : []
+    → pred auteur       : []
+    → pred ouvr. pers   : []
+    gold auteur         : []
+    gold ouvr. pers     : []
+
+  #333  333 Vitae S. Ioannis Gualberti Abbatis, S. Bernardi et aliorum. Cod. m...
+    pred PERS (all)     : ['Ioannis', 'Gualberti', 'Bernardi']
+    → pred auteur       : []
+    → pred ouvr. pers   : ['Ioannis', 'Gualberti', 'Bernardi']
+    gold auteur         : []
+    gold ouvr. pers     : ['Ioannis Gualberti', 'Bernardi']
+
+  #338  338 Leonis Urbevetani chronicon et alia. Cod. membr. Saec XIV....
+    pred PERS (all)     : ['Leonis Urbevetani']
+    → pred auteur       : ['Leonis Urbevetani']
+    → pred ouvr. pers   : []
+    gold auteur         : ['Leonis Urbevetani']
+    gold ouvr. pers     : []
+
+  #351  351 Basilii, Sancti, oratio ad juvenes de huma nioribus studii, et Mar...
+    pred PERS (all)     : ['Basilii,', 'Marsilii Ficini']
+    → pred auteur       : ['Basilii,', 'Marsilii Ficini']
+    → pred ouvr. pers   : []
+    gold auteur         : ['Basilii', 'Marsilii Ficini']
+    gold ouvr. pers     : []
+
+  #1512  1512 Meditazioni sacre. Cod. membran. in 16. Sec. XV....
+    pred PERS (all)     : []
+    → pred auteur       : []
+    → pred ouvr. pers   : []
+    gold auteur         : []
+    gold ouvr. pers     : []
+
+  #235  235 Origenes, super vetus Testamentum. Cod. membr. in fol. Saec. XV in...
+    pred PERS (all)     : []
+    → pred auteur       : []
+    → pred ouvr. pers   : []
+    gold auteur         : ['Origenes']
+    gold ouvr. pers     : []
+
+  #286  286 S. Ephraem, et Chrysostomi opera quaedam. Cod. chart. in quarto Sa...
+    pred PERS (all)     : ['Ephraem,', 'Chrysostomi']
+    → pred auteur       : ['Ephraem,', 'Chrysostomi']
+    → pred ouvr. pers   : []
+    gold auteur         : ['S. Ephraem', 'Chrysostomi']
+    gold ouvr. pers     : []
+
+  #1232  1232 Boccaccii Eclogae ad Donatum Apenninigenam. Cod. mem. in 8. Saec....
+    pred PERS (all)     : ['Boccaccii', 'Antoninus,', 'Tommaso Spinelli.']
+    → pred auteur       : ['Boccaccii']
+    → pred ouvr. pers   : []
+    gold auteur         : ['Boccaccii']
+    gold ouvr. pers     : ['Donatum Apenninigenam']
+
+  ────────────────────────────────────────────────────────────
+
+max              0.4211     0.4444     0.4000          0.3333   0.3333   0.3333
+
+  [max] rapport auteur :
+              precision    recall  f1-score   support
+
+        PERS       0.44      0.40      0.42        10
+
+   micro avg       0.44      0.40      0.42        10
+   macro avg       0.44      0.40      0.42        10
+weighted avg       0.44      0.40      0.42        10
+
+  [max] rapport ouvrage_pers :
+              precision    recall  f1-score   support
+
+        PERS       0.33      0.33      0.33         3
+
+   micro avg       0.33      0.33      0.33         3
+   macro avg       0.33      0.33      0.33         3
+weighted avg       0.33      0.33      0.33         3
+
+
+  ────────────────────────────────────────────────────────────
+  [max] Détail par entrée
+  ────────────────────────────────────────────────────────────
+
+  #1298  1298 da Cascia Fra Simone, volgarizzamento ed Esposizione dei Vangeli....
+    pred PERS (all)     : []
+    → pred auteur       : []
+    → pred ouvr. pers   : []
+    gold auteur         : ['da Cascia Fra Simone']
+    gold ouvr. pers     : []
+
+  #276  276 Hieronymi translatio de Tractatu Origenis in Epithalamicis. Cod. m...
+    pred PERS (all)     : []
+    → pred auteur       : []
+    → pred ouvr. pers   : []
+    gold auteur         : ['Hieronymi', 'Origenis']
+    gold ouvr. pers     : []
+
+  #297  297 Martyrologium. Cod. membran. in quarto Saec. XIII....
+    pred PERS (all)     : []
+    → pred auteur       : []
+    → pred ouvr. pers   : []
+    gold auteur         : []
+    gold ouvr. pers     : []
+
+  #333  333 Vitae S. Ioannis Gualberti Abbatis, S. Bernardi et aliorum. Cod. m...
+    pred PERS (all)     : ['Ioannis', 'Gualberti', 'Bernardi']
+    → pred auteur       : []
+    → pred ouvr. pers   : ['Ioannis', 'Gualberti', 'Bernardi']
+    gold auteur         : []
+    gold ouvr. pers     : ['Ioannis Gualberti', 'Bernardi']
+
+  #338  338 Leonis Urbevetani chronicon et alia. Cod. membr. Saec XIV....
+    pred PERS (all)     : ['Leonis']
+    → pred auteur       : ['Leonis']
+    → pred ouvr. pers   : []
+    gold auteur         : ['Leonis Urbevetani']
+    gold ouvr. pers     : []
+
+  #351  351 Basilii, Sancti, oratio ad juvenes de huma nioribus studii, et Mar...
+    pred PERS (all)     : ['Basilii,', 'MarsiliiFicini']
+    → pred auteur       : ['Basilii,', 'MarsiliiFicini']
+    → pred ouvr. pers   : []
+    gold auteur         : ['Basilii', 'Marsilii Ficini']
+    gold ouvr. pers     : []
+
+  #1512  1512 Meditazioni sacre. Cod. membran. in 16. Sec. XV....
+    pred PERS (all)     : []
+    → pred auteur       : []
+    → pred ouvr. pers   : []
+    gold auteur         : []
+    gold ouvr. pers     : []
+
+  #235  235 Origenes, super vetus Testamentum. Cod. membr. in fol. Saec. XV in...
+    pred PERS (all)     : []
+    → pred auteur       : []
+    → pred ouvr. pers   : []
+    gold auteur         : ['Origenes']
+    gold ouvr. pers     : []
+
+  #286  286 S. Ephraem, et Chrysostomi opera quaedam. Cod. chart. in quarto Sa...
+    pred PERS (all)     : ['Chrysostomi']
+    → pred auteur       : ['Chrysostomi']
+    → pred ouvr. pers   : []
+    gold auteur         : ['S. Ephraem', 'Chrysostomi']
+    gold ouvr. pers     : []
+
+  #1232  1232 Boccaccii Eclogae ad Donatum Apenninigenam. Cod. mem. in 8. Saec....
+    pred PERS (all)     : ['Boccaccii', 'Tommaso']
+    → pred auteur       : ['Boccaccii']
+    → pred ouvr. pers   : []
+    gold auteur         : ['Boccaccii']
+    gold ouvr. pers     : ['Donatum Apenninigenam']
+
+  ────────────────────────────────────────────────────────────
+
+[BIO] [simple] → /content/run1_v3/bio_sequences_v3_simple.txt
+[BIO] [first] → /content/run1_v3/bio_sequences_v3_first.txt
+[BIO] [max] → /content/run1_v3/bio_sequences_v3_max.txt
+[JSON] → /content/run1_v3/test_results_run1_v3.json
+[Markdown] → /content/run1_v3/error_analysis_run1_v3.md
+  [simple] #1298 | pred_all=[] | pred→auteur=[] | pred→ouvr=[] | gold_auteur=['da Cascia Fra Simone'] | gold_ouvr_pers=[]
+  [simple] # 276 | pred_all=[] | pred→auteur=[] | pred→ouvr=[] | gold_auteur=['Hieronymi', 'Origenis'] | gold_ouvr_pers=[]
+  [simple] # 297 | pred_all=[] | pred→auteur=[] | pred→ouvr=[] | gold_auteur=[] | gold_ouvr_pers=[]
+  [simple] # 333 | pred_all=['Ioannis', 'Gu', 'al', 'ber', 'Bernard'] | pred→auteur=[] | pred→ouvr=['Ioannis', 'Gu', 'al', 'ber', 'Bernard'] | gold_auteur=[] | gold_ouvr_pers=['Ioannis Gualberti', 'Bernardi']
+  [simple] # 338 | pred_all=['Leonis Urbe'] | pred→auteur=['Leonis Urbe'] | pred→ouvr=[] | gold_auteur=['Leonis Urbevetani'] | gold_ouvr_pers=[]
+  [simple] # 351 | pred_all=['Basil', 'Mar', 'silii Fi'] | pred→auteur=['Basil', 'Mar', 'silii Fi'] | pred→ouvr=[] | gold_auteur=['Basilii', 'Marsilii Ficini'] | gold_ouvr_pers=[]
+  [simple] #1512 | pred_all=[] | pred→auteur=[] | pred→ouvr=[] | gold_auteur=[] | gold_ouvr_pers=[]
+  [simple] # 235 | pred_all=[] | pred→auteur=[] | pred→ouvr=[] | gold_auteur=['Origenes'] | gold_ouvr_pers=[]
+  [simple] # 286 | pred_all=['E', 'phra', 'Ch', 'rys', 'os'] | pred→auteur=['E', 'phra', 'Ch', 'rys', 'os'] | pred→ouvr=[] | gold_auteur=['S. Ephraem', 'Chrysostomi'] | gold_ouvr_pers=[]
+  [simple] #1232 | pred_all=['Boc', 'cacci', 'Antoni', 'Tommaso Spinelli'] | pred→auteur=['Boc', 'cacci'] | pred→ouvr=[] | gold_auteur=['Boccaccii'] | gold_ouvr_pers=['Donatum Apenninigenam']
+  [first] #1298 | pred_all=[] | pred→auteur=[] | pred→ouvr=[] | gold_auteur=['da Cascia Fra Simone'] | gold_ouvr_pers=[]
+  [first] # 276 | pred_all=[] | pred→auteur=[] | pred→ouvr=[] | gold_auteur=['Hieronymi', 'Origenis'] | gold_ouvr_pers=[]
+  [first] # 297 | pred_all=[] | pred→auteur=[] | pred→ouvr=[] | gold_auteur=[] | gold_ouvr_pers=[]
+  [first] # 333 | pred_all=['Ioannis', 'Gualberti', 'Bernardi'] | pred→auteur=[] | pred→ouvr=['Ioannis', 'Gualberti', 'Bernardi'] | gold_auteur=[] | gold_ouvr_pers=['Ioannis Gualberti', 'Bernardi']
+  [first] # 338 | pred_all=['Leonis Urbevetani'] | pred→auteur=['Leonis Urbevetani'] | pred→ouvr=[] | gold_auteur=['Leonis Urbevetani'] | gold_ouvr_pers=[]
+  [first] # 351 | pred_all=['Basilii,', 'Marsilii Ficini'] | pred→auteur=['Basilii,', 'Marsilii Ficini'] | pred→ouvr=[] | gold_auteur=['Basilii', 'Marsilii Ficini'] | gold_ouvr_pers=[]
+  [first] #1512 | pred_all=[] | pred→auteur=[] | pred→ouvr=[] | gold_auteur=[] | gold_ouvr_pers=[]
+  [first] # 235 | pred_all=[] | pred→auteur=[] | pred→ouvr=[] | gold_auteur=['Origenes'] | gold_ouvr_pers=[]
+  [first] # 286 | pred_all=['Ephraem,', 'Chrysostomi'] | pred→auteur=['Ephraem,', 'Chrysostomi'] | pred→ouvr=[] | gold_auteur=['S. Ephraem', 'Chrysostomi'] | gold_ouvr_pers=[]
+  [first] #1232 | pred_all=['Boccaccii', 'Antoninus,', 'Tommaso Spinelli.'] | pred→auteur=['Boccaccii'] | pred→ouvr=[] | gold_auteur=['Boccaccii'] | gold_ouvr_pers=['Donatum Apenninigenam']
+  [max] #1298 | pred_all=[] | pred→auteur=[] | pred→ouvr=[] | gold_auteur=['da Cascia Fra Simone'] | gold_ouvr_pers=[]
+  [max] # 276 | pred_all=[] | pred→auteur=[] | pred→ouvr=[] | gold_auteur=['Hieronymi', 'Origenis'] | gold_ouvr_pers=[]
+  [max] # 297 | pred_all=[] | pred→auteur=[] | pred→ouvr=[] | gold_auteur=[] | gold_ouvr_pers=[]
+  [max] # 333 | pred_all=['Ioannis', 'Gualberti', 'Bernardi'] | pred→auteur=[] | pred→ouvr=['Ioannis', 'Gualberti', 'Bernardi'] | gold_auteur=[] | gold_ouvr_pers=['Ioannis Gualberti', 'Bernardi']
+  [max] # 338 | pred_all=['Leonis'] | pred→auteur=['Leonis'] | pred→ouvr=[] | gold_auteur=['Leonis Urbevetani'] | gold_ouvr_pers=[]
+  [max] # 351 | pred_all=['Basilii,', 'MarsiliiFicini'] | pred→auteur=['Basilii,', 'MarsiliiFicini'] | pred→ouvr=[] | gold_auteur=['Basilii', 'Marsilii Ficini'] | gold_ouvr_pers=[]
+  [max] #1512 | pred_all=[] | pred→auteur=[] | pred→ouvr=[] | gold_auteur=[] | gold_ouvr_pers=[]
+  [max] # 235 | pred_all=[] | pred→auteur=[] | pred→ouvr=[] | gold_auteur=['Origenes'] | gold_ouvr_pers=[]
+  [max] # 286 | pred_all=['Chrysostomi'] | pred→auteur=['Chrysostomi'] | pred→ouvr=[] | gold_auteur=['S. Ephraem', 'Chrysostomi'] | gold_ouvr_pers=[]
+  [max] #1232 | pred_all=['Boccaccii', 'Tommaso'] | pred→auteur=['Boccaccii'] | pred→ouvr=[] | gold_auteur=['Boccaccii'] | gold_ouvr_pers=['Donatum Apenninigenam']
+================================================================================
+Stratégie   F1_pers_all   F1_auteur_excl   F1_ouvrage_pers
+                P     R    F1       P     R    F1       P     R    F1
+--------------------------------------------------------------------------------
+simple      0.455 0.500 0.476   0.833 0.500 0.625   0.333 0.333 0.333
+
+  [simple] rapport pers_all (pred PERS all vs gold auteur) :
+              precision    recall  f1-score   support
+
+        PERS       0.45      0.50      0.48        10
+
+   micro avg       0.45      0.50      0.48        10
+   macro avg       0.45      0.50      0.48        10
+weighted avg       0.45      0.50      0.48        10
+
+  [simple] rapport auteur_excl (pred auteur exclusif vs gold auteur) :
+              precision    recall  f1-score   support
+
+        PERS       0.83      0.50      0.62        10
+
+   micro avg       0.83      0.50      0.62        10
+   macro avg       0.83      0.50      0.62        10
+weighted avg       0.83      0.50      0.62        10
+
+  [simple] rapport ouvrage_pers :
+              precision    recall  f1-score   support
+
+        PERS       0.33      0.33      0.33         3
+
+   micro avg       0.33      0.33      0.33         3
+   macro avg       0.33      0.33      0.33         3
+weighted avg       0.33      0.33      0.33         3
+
+
+  ────────────────────────────────────────────────────────────
+  [simple] Détail par entrée
+  ────────────────────────────────────────────────────────────
+
+  #1298  1298 da Cascia Fra Simone, volgarizzamento ed Esposizione dei Vangeli....
+    pred PERS (all)       : []
+    → pred auteur (excl)  : []
+    → pred ouvr. pers     : []
+    gold auteur           : ['da Cascia Fra Simone']
+    gold ouvr. pers       : []
+
+  #276  276 Hieronymi translatio de Tractatu Origenis in Epithalamicis. Cod. m...
+    pred PERS (all)       : []
+    → pred auteur (excl)  : []
+    → pred ouvr. pers     : []
+    gold auteur           : ['Hieronymi', 'Origenis']
+    gold ouvr. pers       : []
+
+  #297  297 Martyrologium. Cod. membran. in quarto Saec. XIII....
+    pred PERS (all)       : []
+    → pred auteur (excl)  : []
+    → pred ouvr. pers     : []
+    gold auteur           : []
+    gold ouvr. pers       : []
+
+  #333  333 Vitae S. Ioannis Gualberti Abbatis, S. Bernardi et aliorum. Cod. m...
+    pred PERS (all)       : ['Ioannis', 'Gu', 'al', 'ber', 'Bernard']
+    → pred auteur (excl)  : []
+    → pred ouvr. pers     : ['Ioannis', 'Gu', 'al', 'ber', 'Bernard']
+    gold auteur           : []
+    gold ouvr. pers       : ['Ioannis Gualberti', 'Bernardi']
+
+  #338  338 Leonis Urbevetani chronicon et alia. Cod. membr. Saec XIV....
+    pred PERS (all)       : ['Leonis Urbe']
+    → pred auteur (excl)  : ['Leonis Urbe']
+    → pred ouvr. pers     : []
+    gold auteur           : ['Leonis Urbevetani']
+    gold ouvr. pers       : []
+
+  #351  351 Basilii, Sancti, oratio ad juvenes de huma nioribus studii, et Mar...
+    pred PERS (all)       : ['Basil', 'Mar', 'silii Fi']
+    → pred auteur (excl)  : ['Basil', 'Mar', 'silii Fi']
+    → pred ouvr. pers     : []
+    gold auteur           : ['Basilii', 'Marsilii Ficini']
+    gold ouvr. pers       : []
+
+  #1512  1512 Meditazioni sacre. Cod. membran. in 16. Sec. XV....
+    pred PERS (all)       : []
+    → pred auteur (excl)  : []
+    → pred ouvr. pers     : []
+    gold auteur           : []
+    gold ouvr. pers       : []
+
+  #235  235 Origenes, super vetus Testamentum. Cod. membr. in fol. Saec. XV in...
+    pred PERS (all)       : []
+    → pred auteur (excl)  : []
+    → pred ouvr. pers     : []
+    gold auteur           : ['Origenes']
+    gold ouvr. pers       : []
+
+  #286  286 S. Ephraem, et Chrysostomi opera quaedam. Cod. chart. in quarto Sa...
+    pred PERS (all)       : ['E', 'phra', 'Ch', 'rys', 'os']
+    → pred auteur (excl)  : ['E', 'phra', 'Ch', 'rys', 'os']
+    → pred ouvr. pers     : []
+    gold auteur           : ['S. Ephraem', 'Chrysostomi']
+    gold ouvr. pers       : []
+
+  #1232  1232 Boccaccii Eclogae ad Donatum Apenninigenam. Cod. mem. in 8. Saec....
+    pred PERS (all)       : ['Boc', 'cacci', 'Antoni', 'Tommaso Spinelli']
+    → pred auteur (excl)  : ['Boc', 'cacci']
+    → pred ouvr. pers     : []
+    gold auteur           : ['Boccaccii']
+    gold ouvr. pers       : ['Donatum Apenninigenam']
+
+  ────────────────────────────────────────────────────────────
+
+first       0.455 0.500 0.476   0.833 0.500 0.625   0.333 0.333 0.333
+
+  [first] rapport pers_all (pred PERS all vs gold auteur) :
+              precision    recall  f1-score   support
+
+        PERS       0.45      0.50      0.48        10
+
+   micro avg       0.45      0.50      0.48        10
+   macro avg       0.45      0.50      0.48        10
+weighted avg       0.45      0.50      0.48        10
+
+  [first] rapport auteur_excl (pred auteur exclusif vs gold auteur) :
+              precision    recall  f1-score   support
+
+        PERS       0.83      0.50      0.62        10
+
+   micro avg       0.83      0.50      0.62        10
+   macro avg       0.83      0.50      0.62        10
+weighted avg       0.83      0.50      0.62        10
+
+  [first] rapport ouvrage_pers :
+              precision    recall  f1-score   support
+
+        PERS       0.33      0.33      0.33         3
+
+   micro avg       0.33      0.33      0.33         3
+   macro avg       0.33      0.33      0.33         3
+weighted avg       0.33      0.33      0.33         3
+
+
+  ────────────────────────────────────────────────────────────
+  [first] Détail par entrée
+  ────────────────────────────────────────────────────────────
+
+  #1298  1298 da Cascia Fra Simone, volgarizzamento ed Esposizione dei Vangeli....
+    pred PERS (all)       : []
+    → pred auteur (excl)  : []
+    → pred ouvr. pers     : []
+    gold auteur           : ['da Cascia Fra Simone']
+    gold ouvr. pers       : []
+
+  #276  276 Hieronymi translatio de Tractatu Origenis in Epithalamicis. Cod. m...
+    pred PERS (all)       : []
+    → pred auteur (excl)  : []
+    → pred ouvr. pers     : []
+    gold auteur           : ['Hieronymi', 'Origenis']
+    gold ouvr. pers       : []
+
+  #297  297 Martyrologium. Cod. membran. in quarto Saec. XIII....
+    pred PERS (all)       : []
+    → pred auteur (excl)  : []
+    → pred ouvr. pers     : []
+    gold auteur           : []
+    gold ouvr. pers       : []
+
+  #333  333 Vitae S. Ioannis Gualberti Abbatis, S. Bernardi et aliorum. Cod. m...
+    pred PERS (all)       : ['Ioannis', 'Gualberti', 'Bernardi']
+    → pred auteur (excl)  : []
+    → pred ouvr. pers     : ['Ioannis', 'Gualberti', 'Bernardi']
+    gold auteur           : []
+    gold ouvr. pers       : ['Ioannis Gualberti', 'Bernardi']
+
+  #338  338 Leonis Urbevetani chronicon et alia. Cod. membr. Saec XIV....
+    pred PERS (all)       : ['Leonis Urbevetani']
+    → pred auteur (excl)  : ['Leonis Urbevetani']
+    → pred ouvr. pers     : []
+    gold auteur           : ['Leonis Urbevetani']
+    gold ouvr. pers       : []
+
+  #351  351 Basilii, Sancti, oratio ad juvenes de huma nioribus studii, et Mar...
+    pred PERS (all)       : ['Basilii,', 'Marsilii Ficini']
+    → pred auteur (excl)  : ['Basilii,', 'Marsilii Ficini']
+    → pred ouvr. pers     : []
+    gold auteur           : ['Basilii', 'Marsilii Ficini']
+    gold ouvr. pers       : []
+
+  #1512  1512 Meditazioni sacre. Cod. membran. in 16. Sec. XV....
+    pred PERS (all)       : []
+    → pred auteur (excl)  : []
+    → pred ouvr. pers     : []
+    gold auteur           : []
+    gold ouvr. pers       : []
+
+  #235  235 Origenes, super vetus Testamentum. Cod. membr. in fol. Saec. XV in...
+    pred PERS (all)       : []
+    → pred auteur (excl)  : []
+    → pred ouvr. pers     : []
+    gold auteur           : ['Origenes']
+    gold ouvr. pers       : []
+
+  #286  286 S. Ephraem, et Chrysostomi opera quaedam. Cod. chart. in quarto Sa...
+    pred PERS (all)       : ['Ephraem,', 'Chrysostomi']
+    → pred auteur (excl)  : ['Ephraem,', 'Chrysostomi']
+    → pred ouvr. pers     : []
+    gold auteur           : ['S. Ephraem', 'Chrysostomi']
+    gold ouvr. pers       : []
+
+  #1232  1232 Boccaccii Eclogae ad Donatum Apenninigenam. Cod. mem. in 8. Saec....
+    pred PERS (all)       : ['Boccaccii', 'Antoninus,', 'Tommaso Spinelli.']
+    → pred auteur (excl)  : ['Boccaccii']
+    → pred ouvr. pers     : []
+    gold auteur           : ['Boccaccii']
+    gold ouvr. pers       : ['Donatum Apenninigenam']
+
+  ────────────────────────────────────────────────────────────
+
+max         0.444 0.400 0.421   0.800 0.400 0.533   0.333 0.333 0.333
+
+  [max] rapport pers_all (pred PERS all vs gold auteur) :
+              precision    recall  f1-score   support
+
+        PERS       0.44      0.40      0.42        10
+
+   micro avg       0.44      0.40      0.42        10
+   macro avg       0.44      0.40      0.42        10
+weighted avg       0.44      0.40      0.42        10
+
+  [max] rapport auteur_excl (pred auteur exclusif vs gold auteur) :
+              precision    recall  f1-score   support
+
+        PERS       0.80      0.40      0.53        10
+
+   micro avg       0.80      0.40      0.53        10
+   macro avg       0.80      0.40      0.53        10
+weighted avg       0.80      0.40      0.53        10
+
+  [max] rapport ouvrage_pers :
+              precision    recall  f1-score   support
+
+        PERS       0.33      0.33      0.33         3
+
+   micro avg       0.33      0.33      0.33         3
+   macro avg       0.33      0.33      0.33         3
+weighted avg       0.33      0.33      0.33         3
+
+
+  ────────────────────────────────────────────────────────────
+  [max] Détail par entrée
+  ────────────────────────────────────────────────────────────
+
+  #1298  1298 da Cascia Fra Simone, volgarizzamento ed Esposizione dei Vangeli....
+    pred PERS (all)       : []
+    → pred auteur (excl)  : []
+    → pred ouvr. pers     : []
+    gold auteur           : ['da Cascia Fra Simone']
+    gold ouvr. pers       : []
+
+  #276  276 Hieronymi translatio de Tractatu Origenis in Epithalamicis. Cod. m...
+    pred PERS (all)       : []
+    → pred auteur (excl)  : []
+    → pred ouvr. pers     : []
+    gold auteur           : ['Hieronymi', 'Origenis']
+    gold ouvr. pers       : []
+
+  #297  297 Martyrologium. Cod. membran. in quarto Saec. XIII....
+    pred PERS (all)       : []
+    → pred auteur (excl)  : []
+    → pred ouvr. pers     : []
+    gold auteur           : []
+    gold ouvr. pers       : []
+
+  #333  333 Vitae S. Ioannis Gualberti Abbatis, S. Bernardi et aliorum. Cod. m...
+    pred PERS (all)       : ['Ioannis', 'Gualberti', 'Bernardi']
+    → pred auteur (excl)  : []
+    → pred ouvr. pers     : ['Ioannis', 'Gualberti', 'Bernardi']
+    gold auteur           : []
+    gold ouvr. pers       : ['Ioannis Gualberti', 'Bernardi']
+
+  #338  338 Leonis Urbevetani chronicon et alia. Cod. membr. Saec XIV....
+    pred PERS (all)       : ['Leonis']
+    → pred auteur (excl)  : ['Leonis']
+    → pred ouvr. pers     : []
+    gold auteur           : ['Leonis Urbevetani']
+    gold ouvr. pers       : []
+
+  #351  351 Basilii, Sancti, oratio ad juvenes de huma nioribus studii, et Mar...
+    pred PERS (all)       : ['Basilii,', 'MarsiliiFicini']
+    → pred auteur (excl)  : ['Basilii,', 'MarsiliiFicini']
+    → pred ouvr. pers     : []
+    gold auteur           : ['Basilii', 'Marsilii Ficini']
+    gold ouvr. pers       : []
+
+  #1512  1512 Meditazioni sacre. Cod. membran. in 16. Sec. XV....
+    pred PERS (all)       : []
+    → pred auteur (excl)  : []
+    → pred ouvr. pers     : []
+    gold auteur           : []
+    gold ouvr. pers       : []
+
+  #235  235 Origenes, super vetus Testamentum. Cod. membr. in fol. Saec. XV in...
+    pred PERS (all)       : []
+    → pred auteur (excl)  : []
+    → pred ouvr. pers     : []
+    gold auteur           : ['Origenes']
+    gold ouvr. pers       : []
+
+  #286  286 S. Ephraem, et Chrysostomi opera quaedam. Cod. chart. in quarto Sa...
+    pred PERS (all)       : ['Chrysostomi']
+    → pred auteur (excl)  : ['Chrysostomi']
+    → pred ouvr. pers     : []
+    gold auteur           : ['S. Ephraem', 'Chrysostomi']
+    gold ouvr. pers       : []
+
+  #1232  1232 Boccaccii Eclogae ad Donatum Apenninigenam. Cod. mem. in 8. Saec....
+    pred PERS (all)       : ['Boccaccii', 'Tommaso']
+    → pred auteur (excl)  : ['Boccaccii']
+    → pred ouvr. pers     : []
+    gold auteur           : ['Boccaccii']
+    gold ouvr. pers       : ['Donatum Apenninigenam']
+
+  ────────────────────────────────────────────────────────────
+
+[BIO] [simple] → /content/run1_v3/bio_sequences_v3_simple.txt
+[BIO] [first] → /content/run1_v3/bio_sequences_v3_first.txt
+[BIO] [max] → /content/run1_v3/bio_sequences_v3_max.txt
+[JSON] → /content/run1_v3/test_results_run1_v3.json
+[Markdown] → /content/run1_v3/error_analysis_run1_v3.md

@@ -1,0 +1,2743 @@
+[
+  {
+    "entry_id": 224,
+    "source_file": "Catalogo_I_Riccardiana_221-320.json",
+    "raw": "224 Lectionarium secundum anni circulum. Cod. membr. in fol max Saec. XI.",
+    "traduction_fr": "«Lectionnaire» selon le cycle de l'année",
+    "traduction_zh": "《读经集》按照年度周期",
+    "json_authors": [],
+    "json_titles": [
+      "Lezionario (mutilo)"
+    ],
+    "json_material": "membr.",
+    "json_date": "Sec. XII ultimo quarto (1176-1200) sec. XIII, sec. XIV, 1385, quattrocentesca",
+    "json_date_norm": "XIIe s.  (dernier quart)  [1176–1200]",
+    "ms_century_range": [
+      1000,
+      1099
+    ],
+    "date_comparison": {
+      "date_from_text": "Saec. XI.",
+      "date_from_text_norm": "XIe s.  [1000–1099]",
+      "date_from_json": "Sec. XII ultimo quarto (1176-1200) sec. XIII, sec. XIV, 1385, quattrocentesca",
+      "date_from_json_norm": "XIIe s.  (dernier quart)  [1176–1200]",
+      "coherent": false
+    },
+    "el_results": [
+      {
+        "span_text": "Lectionarium secundum anni circulum",
+        "label": "ouvrage",
+        "normalized": "Lectionarium secundum anni circulum",
+        "norm_method": "fallback",
+        "el_results": []
+      }
+    ],
+    "spans": [
+      {
+        "label": "material",
+        "text": "Cod. membr. in fol max",
+        "normalized": "Cod. membr. in fol. max.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XI",
+        "normalized": "Saec. XI",
+        "el_uri": ""
+      },
+      {
+        "label": "ouvrage",
+        "text": "Lectionarium secundum anni circulum",
+        "normalized": "Lectionarium secundum anni circulum",
+        "el_uri": "",
+        "norm_method": "fallback"
+      }
+    ]
+  },
+  {
+    "entry_id": 1554,
+    "source_file": "Catalogo_IV_Riccardiana_1002-1700.json",
+    "raw": "1554 T. Livio, la prima Deca volgarizzata. Cod. cart. in fol. Sec XIV.",
+    "traduction_fr": "Tite-Live, la première Décade en traduction vulgaire",
+    "traduction_zh": "提托·李维，《第一十书》意大利语译本",
+    "json_authors": [
+      "Tito Livio"
+    ],
+    "json_titles": [
+      "LA PRIMA DECA"
+    ],
+    "json_material": "Cart.",
+    "json_date": "Sec. XIV (1352)",
+    "json_date_norm": "XIVe s.  [1300–1399]",
+    "ms_century_range": [
+      1300,
+      1399
+    ],
+    "date_comparison": {
+      "date_from_text": "Sec XIV.",
+      "date_from_text_norm": "XIVe s.  [1300–1399]",
+      "date_from_json": "Sec. XIV (1352)",
+      "date_from_json_norm": "XIVe s.  [1300–1399]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "T. Livio",
+        "label": "auteur",
+        "normalized": "T. Livio",
+        "norm_method": "fallback",
+        "el_results": [
+          {
+            "source": "viaf",
+            "label": "T Livio",
+            "uri": "https://viaf.org/viaf/99942145",
+            "birth": null,
+            "death": null,
+            "sources": [
+              "SELIBR",
+              "PTBNP",
+              "NKC",
+              "UIY",
+              "BNF",
+              "BNCHL",
+              "SIMACOB",
+              "LNB",
+              "PLWABN",
+              "NLA",
+              "BNE",
+              "W2Z",
+              "BAV",
+              "LC",
+              "DBC",
+              "DNB",
+              "J9U",
+              "NLR",
+              "ICCU",
+              "ERRR",
+              "NYNYRILM",
+              "BNC",
+              "SZ",
+              "NII",
+              "PERSEUS",
+              "ISNI",
+              "BIBSYS",
+              "NTA",
+              "B2Q",
+              "CAOONL",
+              "NDL",
+              "WKP",
+              "NUKAT",
+              "LIH",
+              "NSK",
+              "SUDOC",
+              "RERO",
+              "N6I"
+            ],
+            "str_sim": 0.933,
+            "time_score": 0.0,
+            "score": 0.653
+          }
+        ]
+      },
+      {
+        "span_text": "la prima Deca volgarizzata",
+        "label": "ouvrage",
+        "normalized": "la prima Deca volgarizzata",
+        "norm_method": "fallback",
+        "el_results": []
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "T. Livio",
+        "normalized": "T. Livio",
+        "el_uri": "https://viaf.org/viaf/99942145",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "ouvrage",
+        "text": "la prima Deca volgarizzat",
+        "normalized": "",
+        "el_uri": ""
+      },
+      {
+        "label": "material",
+        "text": "Cod. cart. in fol.",
+        "normalized": "Cod. chart. in fol.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Sec XIV",
+        "normalized": "Sec XIV",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 448,
+    "source_file": "Catalogo_III_Riccardiana_421-520.json",
+    "raw": "448 ex Firmiano Lactantio Excerpta, ec. Cod. chartac. Saec. XVII in octavo.",
+    "traduction_fr": "Extraits tirés de «Firmianus Lactantius», etc.",
+    "traduction_zh": "摘自《费尔米亚努斯·拉克坦提乌斯》等",
+    "json_authors": [
+      "LACTANTIUS FIRMIANUS",
+      "IOHANNES DE FRIBURGO"
+    ],
+    "json_titles": [
+      "Divinae institutiones (excerpta; Firmiani Lattantii Divinarum Institutionum adversus gentes, c. 1r: cfr. CPL 85; PL 6, coll. 111-822)",
+      "Excerpta patristica",
+      "Carmina",
+      "Summa confessorum",
+      "Libellus quaestionum casualium occurrentium in Summa et apparatu fratris Raymundi de Pennaforte"
+    ],
+    "json_material": "cart.",
+    "json_date": "Sec. XVI secondo quarto (1526-1550)",
+    "json_date_norm": "XVIe s.  (2e quart)  [1526–1550]",
+    "ms_century_range": [
+      1600,
+      1699
+    ],
+    "date_comparison": {
+      "date_from_text": "Saec. XVII",
+      "date_from_text_norm": "XVIIe s.  [1600–1699]",
+      "date_from_json": "Sec. XVI secondo quarto (1526-1550)",
+      "date_from_json_norm": "XVIe s.  (2e quart)  [1526–1550]",
+      "coherent": false
+    },
+    "el_results": [
+      {
+        "span_text": "Firmiano Lactantio",
+        "label": "auteur",
+        "normalized": "Firmianus Lactantius",
+        "norm_method": "genitif_exact",
+        "el_results": [
+          {
+            "source": "viaf",
+            "label": "Firmianus Lactantius, L. Coelius, ca250-ca320",
+            "uri": "https://viaf.org/viaf/100198064",
+            "birth": 250,
+            "death": 320,
+            "sources": [
+              "WKP",
+              "LC",
+              "SELIBR",
+              "LIH",
+              "DNB",
+              "SZ",
+              "CAOONL",
+              "RERO",
+              "ERRR",
+              "SIMACOB",
+              "DE633",
+              "NKC",
+              "BNF",
+              "NTA",
+              "JPG",
+              "SUDOC",
+              "B2Q",
+              "NLR",
+              "LNB",
+              "N6I",
+              "PERSEUS",
+              "PTBNP",
+              "J9U",
+              "ISNI",
+              "GRATEVE",
+              "BNE",
+              "NSK",
+              "NLA",
+              "PLWABN",
+              "NUKAT",
+              "BAV",
+              "NII",
+              "BIBSYS"
+            ],
+            "str_sim": 0.615,
+            "time_score": 1.0,
+            "score": 0.846
+          }
+        ]
+      },
+      {
+        "span_text": "Excerpta",
+        "label": "ouvrage",
+        "normalized": "Excerpta",
+        "norm_method": "fallback",
+        "el_results": [
+          {
+            "source": "wikidata",
+            "label": "Excerpta Valesiana",
+            "uri": "https://www.wikidata.org/wiki/Q432263",
+            "qid": "Q432263",
+            "birth": null,
+            "death": null,
+            "viaf_uri": "https://viaf.org/viaf/174678343",
+            "str_sim": 0.615,
+            "time_score": 0.0,
+            "score": 0.43
+          },
+          {
+            "source": "wikidata",
+            "label": "Excerpta ex Theodoto",
+            "uri": "https://www.wikidata.org/wiki/Q24883545",
+            "qid": "Q24883545",
+            "birth": null,
+            "death": null,
+            "viaf_uri": "https://viaf.org/viaf/294434141",
+            "str_sim": 0.571,
+            "time_score": 0.0,
+            "score": 0.4
+          },
+          {
+            "source": "wikidata",
+            "label": "Excerpta Valesiana II",
+            "uri": "https://www.wikidata.org/wiki/Q20552782",
+            "qid": "Q20552782",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 0.552,
+            "time_score": 0.0,
+            "score": 0.386
+          }
+        ]
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "Firmiano Lactantio",
+        "normalized": "Firmianus Lactantius",
+        "el_uri": "https://viaf.org/viaf/100198064",
+        "norm_method": "genitif_exact"
+      },
+      {
+        "label": "ouvrage",
+        "text": "Excerpta",
+        "normalized": "Excerpta",
+        "el_uri": "https://www.wikidata.org/wiki/Q432263",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "material",
+        "text": "Cod. chartac.",
+        "normalized": "Cod. chart.",
+        "el_uri": ""
+      },
+      {
+        "label": "material",
+        "text": "in octavo",
+        "normalized": "in octavo",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XVII",
+        "normalized": "Saec. XVII",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 1507,
+    "source_file": "Catalogo_IV_Riccardiana_1002-1700.json",
+    "raw": "1507 1508 S. Antonino, Trattato de’ peccati mortali, de’ Sacramenti, delle virtù, e de’ 10 comandamenti di Dio. Cod. cartac. del Secolo XV.",
+    "traduction_fr": "Saint Antonin, «Traité des péchés mortels, des Sacrements, des vertus et des 10 commandements de Dieu»",
+    "traduction_zh": "圣安托尼诺，《论七宗罪、圣事、美德及上帝十诫》",
+    "json_authors": [
+      "S. Antonino"
+    ],
+    "json_titles": [
+      "IL CONFESSIONALE"
+    ],
+    "json_material": "Cart.",
+    "json_date": "Sec. XV",
+    "json_date_norm": "XVe s.  [1400–1499]",
+    "ms_century_range": [
+      1400,
+      1499
+    ],
+    "date_comparison": {
+      "date_from_text": "Secolo XV.",
+      "date_from_text_norm": "XVe s.  [1400–1499]",
+      "date_from_json": "Sec. XV",
+      "date_from_json_norm": "XVe s.  [1400–1499]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "S. Antonino",
+        "label": "auteur",
+        "normalized": "S. Antonino",
+        "norm_method": "fallback",
+        "el_results": [
+          {
+            "source": "viaf",
+            "label": "s. Antonino, 1389-1459",
+            "uri": "https://viaf.org/viaf/89209643",
+            "birth": 1389,
+            "death": 1459,
+            "sources": [
+              "JPG",
+              "NTA",
+              "CAOONL",
+              "BAV",
+              "BNCHL",
+              "DNB",
+              "WKP",
+              "NLA",
+              "SUDOC",
+              "BIBSYS",
+              "BNF",
+              "N6I",
+              "NSK",
+              "ISNI",
+              "BNE",
+              "PLWABN",
+              "ICCU",
+              "RERO",
+              "GRATEVE",
+              "NKC",
+              "PTBNP",
+              "B2Q",
+              "J9U",
+              "LC",
+              "BNC",
+              "NUKAT",
+              "ERRR",
+              "LIH",
+              "SELIBR",
+              "LNB"
+            ],
+            "str_sim": 0.667,
+            "time_score": 1.0,
+            "score": 0.867
+          },
+          {
+            "source": "wikidata",
+            "label": "S. Antonino",
+            "uri": "https://www.wikidata.org/wiki/Q52927753",
+            "qid": "Q52927753",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          },
+          {
+            "source": "wikidata",
+            "label": "Sant'Antonino",
+            "uri": "https://www.wikidata.org/wiki/Q15964228",
+            "qid": "Q15964228",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 0.75,
+            "time_score": 0.0,
+            "score": 0.525
+          }
+        ]
+      },
+      {
+        "span_text": "Trattato de’ peccati mortali",
+        "label": "ouvrage",
+        "normalized": "Trattato de’ peccati mortali",
+        "norm_method": "fallback",
+        "el_results": []
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "S. Antonino",
+        "normalized": "S. Antonino",
+        "el_uri": "https://viaf.org/viaf/89209643",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "ouvrage",
+        "text": "Trattato de’ peccati mortali",
+        "normalized": "Trattato de’ peccati mortali",
+        "el_uri": "",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "material",
+        "text": "Cod. cartac.",
+        "normalized": "Cod. chart.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Secolo XV",
+        "normalized": "Secolo XV",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 432,
+    "source_file": "Catalogo_III_Riccardiana_421-520.json",
+    "raw": "432 Officium B. M. Virginis. Cod. membr. in octavo Saec. XVI cum picturis.",
+    "traduction_fr": "«Office de la Bienheureuse Vierge Marie»",
+    "traduction_zh": "《圣母玛利亚日课》",
+    "json_authors": [],
+    "json_titles": [
+      "Libro d'Ore",
+      "Calendario (in francese, con santi di culto parigino)",
+      "Obsecro te",
+      "Pericopi dei Vangeli",
+      "Ufficio della BMV (secondo il rito di Orléans)",
+      "Sette salmi penitenziali",
+      "Litanie e orazioni",
+      "Ufficio della Croce",
+      "Ufficio dello Spirito Santo",
+      "Ufficio dei Defunti"
+    ],
+    "json_material": "membr.",
+    "json_date": "Sec. XV ultimo quarto (1476-1500)",
+    "json_date_norm": "XVe s.  (dernier quart)  [1476–1500]",
+    "ms_century_range": [
+      1500,
+      1599
+    ],
+    "date_comparison": {
+      "date_from_text": "Saec. XVI",
+      "date_from_text_norm": "XVIe s.  [1500–1599]",
+      "date_from_json": "Sec. XV ultimo quarto (1476-1500)",
+      "date_from_json_norm": "XVe s.  (dernier quart)  [1476–1500]",
+      "coherent": false
+    },
+    "el_results": [
+      {
+        "span_text": "Officium B. M. Virginis",
+        "label": "ouvrage",
+        "normalized": "Officium B. M. Virginis",
+        "norm_method": "fallback",
+        "el_results": []
+      }
+    ],
+    "spans": [
+      {
+        "label": "ouvrage",
+        "text": "Officium B. M. Virginis",
+        "normalized": "Officium B. M. Virginis",
+        "el_uri": "",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "material",
+        "text": "Cod. membr. in octavo",
+        "normalized": "Cod. membr. in octavo",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XVI",
+        "normalized": "Saec. XVI",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 1360,
+    "source_file": "Catalogo_IV_Riccardiana_1002-1700.json",
+    "raw": "1360 Gregorio S. Morali parte 3. Cod. cart. in fol. Sec. XV.",
+    "traduction_fr": "De saint Grégoire, troisième partie des «Moralia»",
+    "traduction_zh": "圣额我略《道德论》第三部分",
+    "json_authors": [
+      "S. Gregorio"
+    ],
+    "json_titles": [
+      "I MORALI: LIBRI XI-XIX"
+    ],
+    "json_material": "Cart.",
+    "json_date": "Sec. XV",
+    "json_date_norm": "XVe s.  [1400–1499]",
+    "ms_century_range": [
+      1400,
+      1499
+    ],
+    "date_comparison": {
+      "date_from_text": "Sec. XV.",
+      "date_from_text_norm": "XVe s.  [1400–1499]",
+      "date_from_json": "Sec. XV",
+      "date_from_json_norm": "XVe s.  [1400–1499]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "Gregorio S",
+        "label": "auteur",
+        "normalized": "Gregorio S",
+        "norm_method": "fallback",
+        "el_results": [
+          {
+            "source": "viaf",
+            "label": "Gregorio santo Palamas ",
+            "uri": "https://viaf.org/viaf/122255386",
+            "birth": 1296,
+            "death": 1359,
+            "sources": [
+              "ISNI",
+              "NLR",
+              "NDL",
+              "SUDOC",
+              "ERRR",
+              "DNB",
+              "GRATEVE",
+              "SZ",
+              "NLA",
+              "BNC",
+              "BIBSYS",
+              "WKP",
+              "PLWABN",
+              "J9U",
+              "ICCU",
+              "SELIBR",
+              "NUKAT",
+              "BNF",
+              "LNB",
+              "LIH",
+              "BAV",
+              "NYNYRILM",
+              "NKC",
+              "LC",
+              "RERO",
+              "NII",
+              "NTA",
+              "KRNLK",
+              "CAOONL",
+              "EGAXA",
+              "BNE"
+            ],
+            "str_sim": 0.606,
+            "time_score": 1.0,
+            "score": 0.842
+          },
+          {
+            "source": "viaf",
+            "label": "Gregorio Salzmann, 1501-1531",
+            "uri": "https://viaf.org/viaf/100185149",
+            "birth": 1501,
+            "death": 1531,
+            "sources": [
+              "BNF",
+              "DNB",
+              "ISNI",
+              "LC",
+              "NKC",
+              "NSK",
+              "NTA",
+              "NUKAT",
+              "PTBNP",
+              "SELIBR",
+              "SUDOC",
+              "WKP",
+              "BIBSYS",
+              "LIH",
+              "PLWABN",
+              "NII",
+              "RERO",
+              "CAOONL",
+              "BAV",
+              "ICCU",
+              "ERRR",
+              "GRATEVE"
+            ],
+            "str_sim": 0.526,
+            "time_score": 0.7,
+            "score": 0.63
+          },
+          {
+            "source": "wikidata",
+            "label": "Giorgio Schiavone",
+            "uri": "https://www.wikidata.org/wiki/Q3509120",
+            "qid": "Q3509120",
+            "birth": 1436,
+            "death": 1504,
+            "viaf_uri": "https://viaf.org/viaf/40253399",
+            "str_sim": 0.519,
+            "time_score": 0.7,
+            "score": 0.628
+          }
+        ]
+      },
+      {
+        "span_text": ". Morali parte 3",
+        "label": "ouvrage",
+        "normalized": ". Morali parte 3",
+        "norm_method": "fallback",
+        "el_results": []
+      },
+      {
+        "span_text": "Morali parte 3",
+        "label": "ouvrage",
+        "normalized": "Morali parte 3",
+        "norm_method": "fallback",
+        "el_results": []
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "Gregorio S.",
+        "normalized": "",
+        "el_uri": ""
+      },
+      {
+        "label": "ouvrage",
+        "text": "Morali parte 3",
+        "normalized": "Morali parte 3",
+        "el_uri": "",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "material",
+        "text": "Cod. cart. in fol.",
+        "normalized": "Cod. chart. in fol.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Sec. XV",
+        "normalized": "Sec. XV",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 321,
+    "source_file": "Catalogo_II_Riccardiana_321-420.json",
+    "raw": "321 S. Augustini chronici epitome. Cod. Membranac in quarto Saec XIV in fine mutilus",
+    "traduction_fr": "Épitomé du chronique de saint Augustin",
+    "traduction_zh": "圣奥古斯丁《编年史摘要》",
+    "json_authors": [
+      "PROSPER AQUITANUS",
+      "ANASTASIUS BIBLIOTHECARIUS",
+      "BENVENUTUS DE IMOLA"
+    ],
+    "json_titles": [
+      "Epitoma chronicorum",
+      "Historia de vitis Romanorum pontificum",
+      "Augustalis libellus"
+    ],
+    "json_material": "membr.",
+    "json_date": "Sec. XV med. (1441-1460)",
+    "json_date_norm": "XVe s.  (milieu)  [1441–1460]",
+    "ms_century_range": [
+      1300,
+      1399
+    ],
+    "date_comparison": {
+      "date_from_text": "Saec XIV",
+      "date_from_text_norm": "XIVe s.  [1300–1399]",
+      "date_from_json": "Sec. XV med. (1441-1460)",
+      "date_from_json_norm": "XVe s.  (milieu)  [1441–1460]",
+      "coherent": false
+    },
+    "el_results": [
+      {
+        "span_text": "S. Augustini",
+        "label": "auteur",
+        "normalized": "Sanctus Augustinus",
+        "norm_method": "genitif_exact",
+        "el_results": [
+          {
+            "source": "viaf",
+            "label": "sanctus Augustinus, hiponski biskup",
+            "uri": "https://viaf.org/viaf/66806872",
+            "birth": 354,
+            "death": 430,
+            "sources": [
+              "N6I",
+              "UIY",
+              "PLWABN",
+              "NUKAT",
+              "CAOONL",
+              "BAV",
+              "SKMASNL",
+              "SELIBR",
+              "EGAXA",
+              "RERO",
+              "PTBNP",
+              "SUDOC",
+              "LNL",
+              "SZ",
+              "WKP",
+              "ICCU",
+              "W2Z",
+              "DE633",
+              "DNB",
+              "ARBABN",
+              "LC",
+              "NDL",
+              "LIH",
+              "SIMACOB",
+              "NTA",
+              "KRNLK",
+              "PERSEUS",
+              "BNF",
+              "NII",
+              "NYNYRILM",
+              "NKC",
+              "BIBSYS",
+              "BNE",
+              "BNCHL",
+              "ERRR",
+              "VLACC",
+              "LNB",
+              "J9U",
+              "GRATEVE",
+              "ISNI",
+              "NLR",
+              "JPG",
+              "B2Q",
+              "NSK",
+              "NLA"
+            ],
+            "str_sim": 0.679,
+            "time_score": 1.0,
+            "score": 0.872
+          },
+          {
+            "source": "viaf",
+            "label": "Sanctus Augustinus Macedo, Franciscus, 1596-1681",
+            "uri": "https://viaf.org/viaf/102940492",
+            "birth": 1596,
+            "death": 1681,
+            "sources": [
+              "PLWABN",
+              "DNB",
+              "RERO",
+              "BNCHL",
+              "CAOONL",
+              "NTA",
+              "ISNI",
+              "BNF",
+              "SUDOC",
+              "LC",
+              "LIH",
+              "PTBNP",
+              "WKP",
+              "NKC",
+              "SELIBR",
+              "NUKAT",
+              "BNE"
+            ],
+            "str_sim": 0.545,
+            "time_score": 0.1,
+            "score": 0.278
+          }
+        ]
+      },
+      {
+        "span_text": "chronici epitome",
+        "label": "ouvrage",
+        "normalized": "chronici epitome",
+        "norm_method": "genitif_exact",
+        "el_results": []
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "S. Augustini",
+        "normalized": "Sanctus Augustinus",
+        "el_uri": "https://viaf.org/viaf/66806872",
+        "norm_method": "genitif_exact"
+      },
+      {
+        "label": "ouvrage",
+        "text": "chronici epitome",
+        "normalized": "chronici epitome",
+        "el_uri": "",
+        "norm_method": "genitif_exact"
+      },
+      {
+        "label": "material",
+        "text": "Cod. Membranac in quarto",
+        "normalized": "Cod. membranac.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec XIV",
+        "normalized": "Saec XIV",
+        "el_uri": ""
+      },
+      {
+        "label": "etat",
+        "text": "in fine mutilus",
+        "normalized": "mutile a la fin",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 509,
+    "source_file": "Catalogo_III_Riccardiana_421-520.json",
+    "raw": "509 Ciceronis Questiones Tusculanae. Demosthenis Philppica octava, et alia. Cod. chartac. in fol. Saec. XV initio mutilus.",
+    "traduction_fr": "«Questions Tusculanes» de Cicéron. «Huitième Philippique» de Démosthène, et autres œuvres",
+    "traduction_zh": "西塞罗《图斯库兰问题》。德摩斯梯尼《第八篇腓力比克》及其他",
+    "json_authors": [
+      "CICERO",
+      "DEMOSTHENES"
+    ],
+    "json_titles": [
+      "Tusculanae disputationes (cfr. POHLENZ (ed.), CICERONIS Tusculanae disputationes)",
+      "Philippica octava (trad. Leonardo Bruni; Demostenis oratio octava contra Philippum, c. 95r; cfr. HANKINS, Repertorium Brunianum, nr. 929)",
+      "Dicta quaedam ex Cicerone et Platone"
+    ],
+    "json_material": "cart.",
+    "json_date": "1 luglio-6 luglio 1441 sec. XVIII prima metà",
+    "json_date_norm": "XVIIIe s.  (1re moitié)  [1700–1749]",
+    "ms_century_range": [
+      1400,
+      1499
+    ],
+    "date_comparison": {
+      "date_from_text": "Saec. XV",
+      "date_from_text_norm": "XVe s.  [1400–1499]",
+      "date_from_json": "1 luglio-6 luglio 1441 sec. XVIII prima metà",
+      "date_from_json_norm": "XVIIIe s.  (1re moitié)  [1700–1749]",
+      "coherent": false
+    },
+    "el_results": [
+      {
+        "span_text": "Ciceronis",
+        "label": "auteur",
+        "normalized": "Cicero",
+        "norm_method": "genitif_exact",
+        "el_results": [
+          {
+            "source": "wikidata",
+            "label": "Marcus Tullius Cicero",
+            "uri": "https://www.wikidata.org/wiki/Q1541",
+            "qid": "Q1541",
+            "birth": 106,
+            "death": 42,
+            "viaf_uri": "https://viaf.org/viaf/370158790731438852347",
+            "str_sim": 0.444,
+            "time_score": 1.0,
+            "score": 0.778
+          },
+          {
+            "source": "wikidata",
+            "label": "Cicero",
+            "uri": "https://www.wikidata.org/wiki/Q578221",
+            "qid": "Q578221",
+            "birth": null,
+            "death": null,
+            "viaf_uri": "https://viaf.org/viaf/141910752",
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          },
+          {
+            "source": "wikidata",
+            "label": "Cicero",
+            "uri": "https://www.wikidata.org/wiki/Q37563125",
+            "qid": "Q37563125",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          }
+        ]
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "Ciceronis",
+        "normalized": "Cicero",
+        "el_uri": "https://www.wikidata.org/wiki/Q1541",
+        "norm_method": "genitif_exact"
+      },
+      {
+        "label": "auteur",
+        "text": "Demosthenis",
+        "normalized": "",
+        "el_uri": ""
+      },
+      {
+        "label": "ouvrage",
+        "text": "Questiones Tusculanae",
+        "normalized": "",
+        "el_uri": ""
+      },
+      {
+        "label": "ouvrage",
+        "text": "Philppica octava",
+        "normalized": "",
+        "el_uri": ""
+      },
+      {
+        "label": "material",
+        "text": "Cod. chartac. in fol.",
+        "normalized": "Cod. chart. in fol.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XV",
+        "normalized": "Saec. XV",
+        "el_uri": ""
+      },
+      {
+        "label": "etat",
+        "text": "initio mutilus",
+        "normalized": "mutile",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 1270,
+    "source_file": "Catalogo_IV_Riccardiana_1002-1700.json",
+    "raw": "1270 Trattati morali e rettorici; e volgarizzamento dell’Eneide di Virgilio. Cod. cart. in fol. Sec. XIV.",
+    "traduction_fr": "Traités moraux et rhétoriques ; et traduction en langue vulgaire de l'«Énéide» de Virgile",
+    "traduction_zh": "道德与修辞论著；以及维吉尔《埃涅阿斯纪》的方言译本",
+    "json_authors": [
+      "Brunetto Latini",
+      "Aristotile",
+      "Fra Guidotto",
+      "Frate Anastasio minorita"
+    ],
+    "json_titles": [
+      "PICCOLA DOTTRINA DEL PARLARE E DEL TACERE TRATTA DAL TESORO",
+      "SONETTO E MADRIGALE",
+      "L'ETICA",
+      "IL FIORE DI RETORICA",
+      "TRATTATO DEGLI ESORDÎ",
+      "TRATTATO DI FISOGNOMIA",
+      "COMPENDIO DELL' ENEIDE, VOLGARIZZATO DA Andrea Lancia"
+    ],
+    "json_material": "Cart.",
+    "json_date": "Sec. XIV-XV",
+    "json_date_norm": "XIVe s.  [1300–1399]",
+    "ms_century_range": [
+      1300,
+      1399
+    ],
+    "date_comparison": {
+      "date_from_text": "Sec. XIV.",
+      "date_from_text_norm": "XIVe s.  [1300–1399]",
+      "date_from_json": "Sec. XIV-XV",
+      "date_from_json_norm": "XIVe s.  [1300–1399]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "Trattati morali e rettorici",
+        "label": "ouvrage",
+        "normalized": "Trattati morali e rettorici",
+        "norm_method": "fallback",
+        "el_results": []
+      },
+      {
+        "span_text": "volgarizzamento dell’Eneide",
+        "label": "ouvrage",
+        "normalized": "volgarizzamento dell’Eneide",
+        "norm_method": "fallback",
+        "el_results": []
+      },
+      {
+        "span_text": "Virgilio",
+        "label": "auteur",
+        "normalized": "Vergilius",
+        "norm_method": "genitif_exact",
+        "el_results": [
+          {
+            "source": "wikidata",
+            "label": "Publius Vergilius Maro",
+            "uri": "https://www.wikidata.org/wiki/Q1398",
+            "qid": "Q1398",
+            "birth": 69,
+            "death": 18,
+            "viaf_uri": "https://viaf.org/viaf/8069158070687608780002",
+            "str_sim": 0.581,
+            "time_score": 1.0,
+            "score": 0.832
+          },
+          {
+            "source": "viaf",
+            "label": "Vergilius Maro, Grammaticus",
+            "uri": "https://viaf.org/viaf/13997909",
+            "birth": 600,
+            "death": 650,
+            "sources": [
+              "DNB",
+              "PERSEUS",
+              "BIBSYS",
+              "N6I",
+              "BAV",
+              "WKP",
+              "SUDOC",
+              "LC",
+              "CAOONL",
+              "RERO",
+              "J9U",
+              "GRATEVE",
+              "BNF",
+              "NTA",
+              "ISNI",
+              "NKC"
+            ],
+            "str_sim": 0.5,
+            "time_score": 1.0,
+            "score": 0.8
+          },
+          {
+            "source": "wikidata",
+            "label": "Vergilius",
+            "uri": "https://www.wikidata.org/wiki/Q53858352",
+            "qid": "Q53858352",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          }
+        ]
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "Virgilio",
+        "normalized": "Vergilius",
+        "el_uri": "https://www.wikidata.org/wiki/Q1398",
+        "norm_method": "genitif_exact"
+      },
+      {
+        "label": "ouvrage",
+        "text": "Trattati morali e rettorici",
+        "normalized": "Trattati morali e rettorici",
+        "el_uri": "",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "ouvrage",
+        "text": "volgarizzamento dell’Eneide",
+        "normalized": "volgarizzamento dell’Eneide",
+        "el_uri": "",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "material",
+        "text": "Cod. cart. in fol.",
+        "normalized": "Cod. chart. in fol.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Sec. XIV",
+        "normalized": "Sec. XIV",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 1071,
+    "source_file": "Catalogo_IV_Riccardiana_1002-1700.json",
+    "raw": "1071 Boccaccio, Ninfale ecc. Cod. cart. in fol. Sec. XV.",
+    "traduction_fr": "Boccaccio, «Ninfale» etc.",
+    "traduction_zh": "薄伽丘，《仙女传》等",
+    "json_authors": [
+      "Giovanni Boccaccio"
+    ],
+    "json_titles": [
+      "L'AMETO"
+    ],
+    "json_material": "Cart.",
+    "json_date": "1449, sec. XV a metà, sec. XIV",
+    "json_date_norm": "XVe s.  (milieu)  [1440–1459]",
+    "ms_century_range": [
+      1400,
+      1499
+    ],
+    "date_comparison": {
+      "date_from_text": "Sec. XV.",
+      "date_from_text_norm": "XVe s.  [1400–1499]",
+      "date_from_json": "1449, sec. XV a metà, sec. XIV",
+      "date_from_json_norm": "XVe s.  (milieu)  [1440–1459]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "Boccaccio",
+        "label": "auteur",
+        "normalized": "Boccaccio",
+        "norm_method": "nom_contains",
+        "el_results": [
+          {
+            "source": "wikidata",
+            "label": "Iohannes Boccacius",
+            "uri": "https://www.wikidata.org/wiki/Q1402",
+            "qid": "Q1402",
+            "birth": 1313,
+            "death": 1375,
+            "viaf_uri": "https://viaf.org/viaf/64002165",
+            "str_sim": 0.519,
+            "time_score": 1.0,
+            "score": 0.808
+          },
+          {
+            "source": "viaf",
+            "label": "Boccaccio, Giovanni, 1313-1375",
+            "uri": "https://viaf.org/viaf/64002165",
+            "birth": 1313,
+            "death": 1375,
+            "sources": [
+              "BNC",
+              "JPG",
+              "NKC",
+              "NLA",
+              "ICCU",
+              "LIH",
+              "PLWABN",
+              "CAOONL",
+              "RERO",
+              "B2Q",
+              "LC",
+              "ISNI",
+              "LNB",
+              "WKP",
+              "BNF",
+              "NII",
+              "DNB",
+              "NLR",
+              "BNCHL",
+              "W2Z",
+              "DBC",
+              "NDL",
+              "EGAXA",
+              "BAV",
+              "N6I",
+              "LNL",
+              "ARBABN",
+              "SELIBR",
+              "BIBSYS",
+              "SUDOC",
+              "PTBNP",
+              "DE633",
+              "NUKAT",
+              "NTA",
+              "J9U",
+              "NYNYRILM",
+              "SKMASNL",
+              "KRNLK",
+              "SZ",
+              "ERRR",
+              "GRATEVE",
+              "NSK"
+            ],
+            "str_sim": 0.462,
+            "time_score": 1.0,
+            "score": 0.785
+          },
+          {
+            "source": "wikidata",
+            "label": "Boccaccio",
+            "uri": "https://www.wikidata.org/wiki/Q37556862",
+            "qid": "Q37556862",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          }
+        ]
+      },
+      {
+        "span_text": "Ninfale",
+        "label": "ouvrage",
+        "normalized": "Ninfale",
+        "norm_method": "fallback",
+        "el_results": [
+          {
+            "source": "wikidata",
+            "label": "Ninfale fiesolano",
+            "uri": "https://www.wikidata.org/wiki/Q3877086",
+            "qid": "Q3877086",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 0.583,
+            "time_score": 0.0,
+            "score": 0.408
+          },
+          {
+            "source": "wikidata",
+            "label": "Comedia delle ninfe fiorentine",
+            "uri": "https://www.wikidata.org/wiki/Q3684237",
+            "qid": "Q3684237",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 0.27,
+            "time_score": 0.0,
+            "score": 0.189
+          }
+        ]
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "Boccaccio",
+        "normalized": "Boccaccio",
+        "el_uri": "https://www.wikidata.org/wiki/Q1402",
+        "norm_method": "nom_contains"
+      },
+      {
+        "label": "ouvrage",
+        "text": "Ninfale",
+        "normalized": "Ninfale",
+        "el_uri": "https://www.wikidata.org/wiki/Q3877086",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "material",
+        "text": "Cod. cart. in fol.",
+        "normalized": "Cod. chart. in fol.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Sec. XV",
+        "normalized": "Sec. XV",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 470,
+    "source_file": "Catalogo_III_Riccardiana_421-520.json",
+    "raw": "470 S. Bonaventurae Dialogus. Cod. chartac in 16. Saec. XV.",
+    "traduction_fr": "«Dialogue» de saint Bonaventure",
+    "traduction_zh": "圣文德的《对话录》",
+    "json_authors": [
+      "BONAVENTURA DE BALNEOREGIO",
+      "Ps. BONAVENTURA DE BALNEOREGIO"
+    ],
+    "json_titles": [
+      "Expositio decem praeceptorum",
+      "Soliloquium",
+      "Meditationes vitae Christi",
+      "Sententiae sanctorum Patrum"
+    ],
+    "json_material": "cart. Cartaceo",
+    "json_date": "Sec. XV ex. (1491-1500)",
+    "json_date_norm": "XVe s.  (fin)  [1491–1500]",
+    "ms_century_range": [
+      1400,
+      1499
+    ],
+    "date_comparison": {
+      "date_from_text": "Saec. XV.",
+      "date_from_text_norm": "XVe s.  [1400–1499]",
+      "date_from_json": "Sec. XV ex. (1491-1500)",
+      "date_from_json_norm": "XVe s.  (fin)  [1491–1500]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "S. Bonaventurae",
+        "label": "auteur",
+        "normalized": "S. Bonaventura",
+        "norm_method": "genitif_exact",
+        "el_results": [
+          {
+            "source": "viaf",
+            "label": "s. Bonaventura, card., c. 1217-1274",
+            "uri": "https://viaf.org/viaf/89657091",
+            "birth": 1221,
+            "death": 1274,
+            "sources": [
+              "PLWABN",
+              "N6I",
+              "ISNI",
+              "GRATEVE",
+              "SELIBR",
+              "BNC",
+              "NYNYRILM",
+              "PERSEUS",
+              "ICCU",
+              "J9U",
+              "BIBSYS",
+              "LC",
+              "NTA",
+              "RERO",
+              "BNE",
+              "CAOONL",
+              "BAV",
+              "NDL"
+            ],
+            "str_sim": 0.571,
+            "time_score": 1.0,
+            "score": 0.828
+          },
+          {
+            "source": "wikidata",
+            "label": "Q55018613",
+            "uri": "https://www.wikidata.org/wiki/Q55018613",
+            "qid": "Q55018613",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 0.0,
+            "time_score": 0.0,
+            "score": 0.0
+          },
+          {
+            "source": "wikidata",
+            "label": "Q138094978",
+            "uri": "https://www.wikidata.org/wiki/Q138094978",
+            "qid": "Q138094978",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 0.0,
+            "time_score": 0.0,
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "span_text": "Dialogus",
+        "label": "ouvrage",
+        "normalized": "Dialogus",
+        "norm_method": "genitif_exact",
+        "el_results": [
+          {
+            "source": "wikidata",
+            "label": "Dialogus",
+            "uri": "https://www.wikidata.org/wiki/Q135840544",
+            "qid": "Q135840544",
+            "birth": null,
+            "death": null,
+            "viaf_uri": "https://viaf.org/viaf/193680527",
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          },
+          {
+            "source": "wikidata",
+            "label": "Dialogus",
+            "uri": "https://www.wikidata.org/wiki/Q3026033",
+            "qid": "Q3026033",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          },
+          {
+            "source": "wikidata",
+            "label": "Dialogus Meliorum",
+            "uri": "https://www.wikidata.org/wiki/Q776323",
+            "qid": "Q776323",
+            "birth": null,
+            "death": null,
+            "viaf_uri": "https://viaf.org/viaf/201149029",
+            "str_sim": 0.64,
+            "time_score": 0.0,
+            "score": 0.448
+          }
+        ]
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "S. Bonaventurae",
+        "normalized": "S. Bonaventura",
+        "el_uri": "https://viaf.org/viaf/89657091",
+        "norm_method": "genitif_exact"
+      },
+      {
+        "label": "ouvrage",
+        "text": "Dialogus",
+        "normalized": "Dialogus",
+        "el_uri": "https://www.wikidata.org/wiki/Q135840544",
+        "norm_method": "genitif_exact"
+      },
+      {
+        "label": "material",
+        "text": "Cod. chartac in 16.",
+        "normalized": "Cod. chart.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XV",
+        "normalized": "Saec. XV",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 334,
+    "source_file": "Catalogo_II_Riccardiana_321-420.json",
+    "raw": "334 Iustiniani Leonardi, vita S. Nicolai. Cod membr. in 8 Saec. XV.",
+    "traduction_fr": "De Leonardo Giustiniani, «Vie de saint Nicolas»",
+    "traduction_zh": "莱昂纳多·朱斯蒂尼亚尼的《圣尼古拉传》",
+    "json_authors": [],
+    "json_titles": [
+      "Vita s. Nicolai Myrensis episcopi (trad. Leonardo Giustiniani; cfr. BHL 6128)",
+      "Oratio ad laudem s. Nicolai Myrensis episcopi"
+    ],
+    "json_material": "membr.",
+    "json_date": "Sec. XV ultimo quarto (1476-1500) sec. XIX",
+    "json_date_norm": "XVe s.  (dernier quart)  [1476–1500]",
+    "ms_century_range": [
+      1400,
+      1499
+    ],
+    "date_comparison": {
+      "date_from_text": "Saec. XV.",
+      "date_from_text_norm": "XVe s.  [1400–1499]",
+      "date_from_json": "Sec. XV ultimo quarto (1476-1500) sec. XIX",
+      "date_from_json_norm": "XVe s.  (dernier quart)  [1476–1500]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "Iustiniani Leonardi",
+        "label": "auteur",
+        "normalized": "Leonardus Iustinianus",
+        "norm_method": "genitif_exact",
+        "el_results": [
+          {
+            "source": "viaf",
+            "label": "Leonardus (Iustinianus), 1388-1446",
+            "uri": "https://viaf.org/viaf/89090417",
+            "birth": 1388,
+            "death": 1446,
+            "sources": [
+              "RERO",
+              "ICCU",
+              "LC",
+              "WKP",
+              "NUKAT",
+              "DNB",
+              "PLWABN",
+              "SUDOC",
+              "BNF",
+              "DE633",
+              "ISNI",
+              "BAV",
+              "NTA",
+              "NYNYRILM",
+              "J9U"
+            ],
+            "str_sim": 0.764,
+            "time_score": 1.0,
+            "score": 0.906
+          }
+        ]
+      },
+      {
+        "span_text": "vita S. Nicolai",
+        "label": "ouvrage",
+        "normalized": "vita S. Nicolai",
+        "norm_method": "fallback",
+        "el_results": []
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "Iustiniani Leonardi",
+        "normalized": "Leonardus Iustinianus",
+        "el_uri": "https://viaf.org/viaf/89090417",
+        "norm_method": "genitif_exact"
+      },
+      {
+        "label": "ouvrage",
+        "text": "vita S. Nicolai",
+        "normalized": "vita S. Nicolai",
+        "el_uri": "",
+        "norm_method": "fallback",
+        "contains_persons": [
+          "S. Nicolai"
+        ],
+        "label_detail": "ouvrage_with_pers"
+      },
+      {
+        "label": "material",
+        "text": "Cod membr. in 8",
+        "normalized": "Cod. membr.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XV",
+        "normalized": "Saec. XV",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 332,
+    "source_file": "Catalogo_II_Riccardiana_321-420.json",
+    "raw": "332 Conciones quadragesimales incerti Auctoris. Cod. membr. in 8. Saec. XIV initio et medio mutilus.",
+    "traduction_fr": "«Sermons du Carême» d'un auteur inconnu",
+    "traduction_zh": "《四旬期讲道集》，作者不详",
+    "json_authors": [],
+    "json_titles": [
+      "Sermones quadragesimales (In capite ieiunii-Dominica in oc-tava Paschae; 47 sermoni)",
+      "Sermones de Tempore (Feria III dominicae III Quadragesimae- Feria III dominicae in Passione Domini; 7 sermoni)"
+    ],
+    "json_material": "membr.",
+    "json_date": "Sec. XIV in. (1301-1310)",
+    "json_date_norm": "XIVe s.  (début)  [1301–1310]",
+    "ms_century_range": [
+      1300,
+      1399
+    ],
+    "date_comparison": {
+      "date_from_text": "Saec. XIV",
+      "date_from_text_norm": "XIVe s.  [1300–1399]",
+      "date_from_json": "Sec. XIV in. (1301-1310)",
+      "date_from_json_norm": "XIVe s.  (début)  [1301–1310]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "Conciones quadragesimales",
+        "label": "ouvrage",
+        "normalized": "Conciones quadragesimales",
+        "norm_method": "fallback",
+        "el_results": []
+      }
+    ],
+    "spans": [
+      {
+        "label": "ouvrage",
+        "text": "Conciones quadragesimales",
+        "normalized": "Conciones quadragesimales",
+        "el_uri": "",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "material",
+        "text": "Cod. membr. in 8.",
+        "normalized": "Cod. membr.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XIV",
+        "normalized": "Saec. XIV",
+        "el_uri": ""
+      },
+      {
+        "label": "etat",
+        "text": "initio et medio mutilus",
+        "normalized": "mutile",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 1350,
+    "source_file": "Catalogo_IV_Riccardiana_1002-1700.json",
+    "raw": "1350 Gradi di S. Girolamo. Cod. cartac. in fol. Sec. XIV sul fine, manc. in fine.",
+    "traduction_fr": "Degrés de «Saint Jérôme»",
+    "traduction_zh": "《圣哲罗姆的阶梯》",
+    "json_authors": [
+      "S. Girolamo"
+    ],
+    "json_titles": [
+      "LA SCALA DEI TRENTA GRADI"
+    ],
+    "json_material": "Cart.",
+    "json_date": "Sec. XIV",
+    "json_date_norm": "XIVe s.  [1300–1399]",
+    "ms_century_range": [
+      1300,
+      1399
+    ],
+    "date_comparison": {
+      "date_from_text": "Sec. XIV",
+      "date_from_text_norm": "XIVe s.  [1300–1399]",
+      "date_from_json": "Sec. XIV",
+      "date_from_json_norm": "XIVe s.  [1300–1399]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "Gradi di S. Girolamo",
+        "label": "ouvrage",
+        "normalized": "Gradi di S. Girolamo",
+        "norm_method": "fallback",
+        "el_results": []
+      },
+      {
+        "span_text": "S. Girolamo",
+        "label": "auteur",
+        "normalized": "S. Girolamo",
+        "norm_method": "fallback",
+        "el_results": [
+          {
+            "source": "viaf",
+            "label": "s Girolamo, 342/347-419",
+            "uri": "https://viaf.org/viaf/95147024",
+            "birth": 347,
+            "death": 420,
+            "sources": [
+              "NKC",
+              "NTA",
+              "CAOONL",
+              "NSK",
+              "WKP",
+              "N6I",
+              "JPG",
+              "PTBNP",
+              "PLWABN",
+              "BNE",
+              "ICCU",
+              "J9U",
+              "NLR",
+              "BIBSYS",
+              "NYNYRILM",
+              "ISNI",
+              "SELIBR",
+              "NUKAT",
+              "NII",
+              "SZ",
+              "GRATEVE",
+              "SIMACOB",
+              "SUDOC",
+              "DNB",
+              "B2Q",
+              "BNF",
+              "LC",
+              "LNB",
+              "NLA",
+              "NDL"
+            ],
+            "str_sim": 0.588,
+            "time_score": 1.0,
+            "score": 0.835
+          },
+          {
+            "source": "wikidata",
+            "label": "Trinité et Saints",
+            "uri": "https://www.wikidata.org/wiki/Q1528037",
+            "qid": "Q1528037",
+            "birth": null,
+            "death": null,
+            "viaf_uri": "https://viaf.org/viaf/309583868",
+            "str_sim": 0.143,
+            "time_score": 0.0,
+            "score": 0.1
+          },
+          {
+            "source": "wikidata",
+            "label": "Saint Jérôme pénitent.",
+            "uri": "https://www.wikidata.org/wiki/Q22083441",
+            "qid": "Q22083441",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 0.121,
+            "time_score": 0.0,
+            "score": 0.085
+          }
+        ]
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "S. Girolamo",
+        "normalized": "S. Girolamo",
+        "el_uri": "https://viaf.org/viaf/95147024",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "ouvrage",
+        "text": "Gradi di S. Girolamo",
+        "normalized": "Gradi di S. Girolamo",
+        "el_uri": "",
+        "norm_method": "fallback",
+        "contains_persons": [
+          "S. Girolamo"
+        ],
+        "label_detail": "ouvrage_with_pers"
+      },
+      {
+        "label": "date",
+        "text": "Sec. XIV",
+        "normalized": "Sec. XIV",
+        "el_uri": ""
+      },
+      {
+        "label": "etat",
+        "text": "manc. in fine",
+        "normalized": "manc. in fine",
+        "el_uri": ""
+      },
+      {
+        "label": "material",
+        "text": "Cod. cartac. in fol.",
+        "normalized": "Cod. chart. in fol.",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 1618,
+    "source_file": "Catalogo_IV_Riccardiana_1002-1700.json",
+    "raw": "1618 Boezio, volgarizzato da M. Alberto. Cod. cart. in quarto Sec. XV. mancante di una pagina in principio.",
+    "traduction_fr": "Boèce, traduit en vulgaire par M. Alberto",
+    "traduction_zh": "《波埃修斯》，由M·阿尔贝托译为白话文",
+    "json_authors": [
+      "Boezio|Alberto della Piagentina"
+    ],
+    "json_titles": [
+      "LA CONSOLAZIONE VOLGARIZZATA"
+    ],
+    "json_material": "Cart.",
+    "json_date": "Sec. XV",
+    "json_date_norm": "XVe s.  [1400–1499]",
+    "ms_century_range": [
+      1400,
+      1499
+    ],
+    "date_comparison": {
+      "date_from_text": "Sec. XV.",
+      "date_from_text_norm": "XVe s.  [1400–1499]",
+      "date_from_json": "Sec. XV",
+      "date_from_json_norm": "XVe s.  [1400–1499]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "Boezio, volgarizzato",
+        "label": "ouvrage",
+        "normalized": "Boezio, volgarizzato",
+        "norm_method": "fallback",
+        "el_results": []
+      },
+      {
+        "span_text": "Boezio",
+        "label": "auteur",
+        "normalized": "Boezio",
+        "norm_method": "fallback",
+        "el_results": [
+          {
+            "source": "wikidata",
+            "label": "Boetius Dacius",
+            "uri": "https://www.wikidata.org/wiki/Q428694",
+            "qid": "Q428694",
+            "birth": 1240,
+            "death": 1284,
+            "viaf_uri": "https://viaf.org/viaf/99591534",
+            "str_sim": 0.4,
+            "time_score": 1.0,
+            "score": 0.76
+          },
+          {
+            "source": "viaf",
+            "label": "Boezio, di Dacia, 13th cent",
+            "uri": "https://viaf.org/viaf/173201157",
+            "birth": 1200,
+            "death": 1284,
+            "sources": [
+              "DNB",
+              "LC",
+              "LIH",
+              "DBC",
+              "BAV",
+              "J9U",
+              "CAOONL",
+              "SUDOC",
+              "SELIBR",
+              "ISNI"
+            ],
+            "str_sim": 0.364,
+            "time_score": 1.0,
+            "score": 0.746
+          },
+          {
+            "source": "wikidata",
+            "label": "Boezio",
+            "uri": "https://www.wikidata.org/wiki/Q3641571",
+            "qid": "Q3641571",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          }
+        ]
+      },
+      {
+        "span_text": "M. Alberto",
+        "label": "auteur",
+        "normalized": "M. Alberto",
+        "norm_method": "fallback",
+        "el_results": [
+          {
+            "source": "viaf",
+            "label": "m. Alberto di Stade 1264",
+            "uri": "https://viaf.org/viaf/64804829",
+            "birth": 1060,
+            "death": 1264,
+            "sources": [
+              "BNF",
+              "DNB",
+              "SUDOC",
+              "SELIBR",
+              "PLWABN",
+              "NUKAT",
+              "WKP",
+              "NLR",
+              "NTA",
+              "BAV",
+              "RERO",
+              "NKC",
+              "ISNI",
+              "ERRR"
+            ],
+            "str_sim": 0.588,
+            "time_score": 1.0,
+            "score": 0.835
+          },
+          {
+            "source": "viaf",
+            "label": "M Alberto Malche",
+            "uri": "https://viaf.org/viaf/98934025",
+            "birth": null,
+            "death": null,
+            "sources": [
+              "PTBNP",
+              "ISNI"
+            ],
+            "str_sim": 0.692,
+            "time_score": 0.0,
+            "score": 0.484
+          },
+          {
+            "source": "viaf",
+            "label": "M. Albertone, 1953-",
+            "uri": "https://viaf.org/viaf/115964308",
+            "birth": 1953,
+            "death": null,
+            "sources": [
+              "BNF",
+              "DNB",
+              "ICCU",
+              "NUKAT",
+              "LC",
+              "NII",
+              "SUDOC",
+              "NTA",
+              "ISNI",
+              "BIBSYS",
+              "WKP",
+              "PLWABN",
+              "J9U",
+              "RERO",
+              "CAOONL",
+              "NLA",
+              "KRNLK"
+            ],
+            "str_sim": 0.69,
+            "time_score": 0.0,
+            "score": 0.483
+          }
+        ]
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "Boezio",
+        "normalized": "Boezio",
+        "el_uri": "https://www.wikidata.org/wiki/Q428694",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "auteur",
+        "text": "M. Alberto",
+        "normalized": "M. Alberto",
+        "el_uri": "https://viaf.org/viaf/64804829",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "ouvrage",
+        "text": "Boezio, volgarizzato",
+        "normalized": "Boezio, volgarizzato",
+        "el_uri": "",
+        "norm_method": "fallback",
+        "contains_persons": [
+          "Boezio"
+        ],
+        "label_detail": "ouvrage_with_pers"
+      },
+      {
+        "label": "material",
+        "text": "Cod. cart. in quarto",
+        "normalized": "Cod. chart. in quarto",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Sec. XV",
+        "normalized": "Sec. XV",
+        "el_uri": ""
+      },
+      {
+        "label": "etat",
+        "text": "mancante di una pagina in principio",
+        "normalized": "mancante di una pagina in principio",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 236,
+    "source_file": "Catalogo_I_Riccardiana_221-320.json",
+    "raw": "236 Petri Comestoris Historia Ecclesiastica. Cod.membr. in fol. Saec. XIII.",
+    "traduction_fr": "«Histoire Ecclésiastique» de Pierre le Mangeur",
+    "traduction_zh": "彼得·科梅斯托尔的《教会史》",
+    "json_authors": [
+      "PETRUS PICTAVIENSIS",
+      "PETRUS COMESTOR",
+      "STEGMÜLLER"
+    ],
+    "json_titles": [
+      "Compendium historiae in genealogia Christi",
+      "Historia scholastica",
+      "De locis sanctis Apostolorum"
+    ],
+    "json_material": "membr.",
+    "json_date": "Sec. XIII secondo quarto (1226-1250)",
+    "json_date_norm": "XIIIe s.  (2e quart)  [1226–1250]",
+    "ms_century_range": [
+      1200,
+      1299
+    ],
+    "date_comparison": {
+      "date_from_text": "Saec. XIII.",
+      "date_from_text_norm": "XIIIe s.  [1200–1299]",
+      "date_from_json": "Sec. XIII secondo quarto (1226-1250)",
+      "date_from_json_norm": "XIIIe s.  (2e quart)  [1226–1250]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "Petri Comestoris",
+        "label": "auteur",
+        "normalized": "Petrus Comestor",
+        "norm_method": "genitif_exact",
+        "el_results": [
+          {
+            "source": "wikidata",
+            "label": "Petrus Comestor",
+            "uri": "https://www.wikidata.org/wiki/Q785250",
+            "qid": "Q785250",
+            "birth": 1100,
+            "death": 1179,
+            "viaf_uri": "https://viaf.org/viaf/598158792866939040008",
+            "str_sim": 1.0,
+            "time_score": 1.0,
+            "score": 1.0
+          },
+          {
+            "source": "viaf",
+            "label": "Petrus Comestor, m. 1178/79",
+            "uri": "https://viaf.org/viaf/40175167",
+            "birth": 1100,
+            "death": 1179,
+            "sources": [
+              "WKP",
+              "ISNI",
+              "SUDOC",
+              "NKC",
+              "NTA",
+              "LC",
+              "DNB",
+              "NUKAT",
+              "PLWABN",
+              "J9U",
+              "BNF",
+              "PTBNP",
+              "BIBSYS",
+              "ICCU",
+              "RERO",
+              "CAOONL",
+              "BAV",
+              "SIMACOB",
+              "SELIBR",
+              "NYNYRILM",
+              "GRATEVE",
+              "NII"
+            ],
+            "str_sim": 0.714,
+            "time_score": 1.0,
+            "score": 0.886
+          },
+          {
+            "source": "viaf",
+            "label": "Petrus Comestor, 19e eeuw",
+            "uri": "https://viaf.org/viaf/305814391",
+            "birth": 1800,
+            "death": null,
+            "sources": [
+              "NTA"
+            ],
+            "str_sim": 0.75,
+            "time_score": 0.0,
+            "score": 0.525
+          }
+        ]
+      },
+      {
+        "span_text": "Historia Ecclesiastica",
+        "label": "ouvrage",
+        "normalized": "Historia Ecclesiastica",
+        "norm_method": "fallback",
+        "el_results": [
+          {
+            "source": "wikidata",
+            "label": "Historia ecclesiastica",
+            "uri": "https://www.wikidata.org/wiki/Q1235854",
+            "qid": "Q1235854",
+            "birth": null,
+            "death": null,
+            "viaf_uri": "https://viaf.org/viaf/1874159477822327990001",
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          },
+          {
+            "source": "wikidata",
+            "label": "Historia ecclesiastica",
+            "uri": "https://www.wikidata.org/wiki/Q3974412",
+            "qid": "Q3974412",
+            "birth": null,
+            "death": null,
+            "viaf_uri": "https://viaf.org/viaf/190804068",
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          },
+          {
+            "source": "wikidata",
+            "label": "Historia ecclesiastica",
+            "uri": "https://www.wikidata.org/wiki/Q18639594",
+            "qid": "Q18639594",
+            "birth": null,
+            "death": null,
+            "viaf_uri": "https://viaf.org/viaf/192794119",
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          }
+        ]
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "Petri Comestoris",
+        "normalized": "Petrus Comestor",
+        "el_uri": "https://www.wikidata.org/wiki/Q785250",
+        "norm_method": "genitif_exact"
+      },
+      {
+        "label": "ouvrage",
+        "text": "Historia Ecclesiastica",
+        "normalized": "Historia Ecclesiastica",
+        "el_uri": "https://www.wikidata.org/wiki/Q1235854",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "material",
+        "text": "Cod.membr. in fol.",
+        "normalized": "in fol.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XIII",
+        "normalized": "Saec. XIII",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 434,
+    "source_file": "Catalogo_III_Riccardiana_421-520.json",
+    "raw": "434 Evangelia. Accedunt Collationes abb. Isaaci et alia. Cod. membr. in octavo Saec. XIV.",
+    "traduction_fr": "«Évangiles». Avec en appendice les «Conférences» de l'abbé Isaac et d'autres textes",
+    "traduction_zh": "《福音书》。附修道院长伊萨克的《会议录》及其他文献",
+    "json_authors": [],
+    "json_titles": [],
+    "json_material": "cart.",
+    "json_date": "1843; cinquecentesca (nota di possesso); sec. XIX ex. (nota); sec. XX (segnatura attuale)",
+    "json_date_norm": "DIe s.  (fin)",
+    "ms_century_range": [
+      1300,
+      1399
+    ],
+    "date_comparison": {
+      "date_from_text": "Saec. XIV.",
+      "date_from_text_norm": "XIVe s.  [1300–1399]",
+      "date_from_json": "1843; cinquecentesca (nota di possesso); sec. XIX ex. (nota); sec. XX (segnatura attuale)",
+      "date_from_json_norm": "DIe s.  (fin)",
+      "coherent": false
+    },
+    "el_results": [
+      {
+        "span_text": "Isaaci",
+        "label": "auteur",
+        "normalized": "Isaaci",
+        "norm_method": "fallback",
+        "el_results": [
+          {
+            "source": "wikidata",
+            "label": "Isaacius Comnenus",
+            "uri": "https://www.wikidata.org/wiki/Q27424",
+            "qid": "Q27424",
+            "birth": 1155,
+            "death": 1196,
+            "viaf_uri": "https://viaf.org/viaf/32159999692630111221",
+            "str_sim": 0.522,
+            "time_score": 1.0,
+            "score": 0.809
+          },
+          {
+            "source": "wikidata",
+            "label": "Isaacius II Angelus",
+            "uri": "https://www.wikidata.org/wiki/Q37135",
+            "qid": "Q37135",
+            "birth": 1155,
+            "death": 1204,
+            "viaf_uri": "https://viaf.org/viaf/52484138",
+            "str_sim": 0.48,
+            "time_score": 1.0,
+            "score": 0.792
+          },
+          {
+            "source": "wikidata",
+            "label": "Isaacius I Comnenus",
+            "uri": "https://www.wikidata.org/wiki/Q41643",
+            "qid": "Q41643",
+            "birth": 1007,
+            "death": 1061,
+            "viaf_uri": "https://viaf.org/viaf/268736710",
+            "str_sim": 0.48,
+            "time_score": 1.0,
+            "score": 0.792
+          }
+        ]
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "Isaaci",
+        "normalized": "Isaaci",
+        "el_uri": "https://www.wikidata.org/wiki/Q27424",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "ouvrage",
+        "text": "Evangelia",
+        "normalized": "",
+        "el_uri": ""
+      },
+      {
+        "label": "ouvrage",
+        "text": "Collationes",
+        "normalized": "",
+        "el_uri": ""
+      },
+      {
+        "label": "material",
+        "text": "Cod. membr. in octavo",
+        "normalized": "Cod. membr. in octavo",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XIV",
+        "normalized": "Saec. XIV",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 1036,
+    "source_file": "Catalogo_IV_Riccardiana_1002-1700.json",
+    "raw": "1036 Dante la Divina commedia &c. Cod. cart. in fol. Secolo XIV sul fine, lacero nella prima carta.",
+    "traduction_fr": "Dante, «La Divine Comédie» etc.",
+    "traduction_zh": "但丁，《神曲》等",
+    "json_authors": [
+      "Dante Alighieri",
+      "BARTOLOMMEO CEFFONI"
+    ],
+    "json_titles": [
+      "LA COMMEDIA",
+      "EPISTOLA DI LENTULO, DELLE FATTEZZE DI CRISTO",
+      "LO CREDO DI DANTE IN RIMA",
+      "EPITOME E CHIOSE DELLA COMMEDIA",
+      "NOTE DI BARTOLOMMEO CEFFONI"
+    ],
+    "json_material": "Cart.",
+    "json_date": "Sec. XV",
+    "json_date_norm": "XVe s.  [1400–1499]",
+    "ms_century_range": [
+      1300,
+      1399
+    ],
+    "date_comparison": {
+      "date_from_text": "Secolo XIV",
+      "date_from_text_norm": "XIVe s.  [1300–1399]",
+      "date_from_json": "Sec. XV",
+      "date_from_json_norm": "XVe s.  [1400–1499]",
+      "coherent": false
+    },
+    "el_results": [
+      {
+        "span_text": "Dante",
+        "label": "auteur",
+        "normalized": "Dante",
+        "norm_method": "genitif_exact",
+        "el_results": [
+          {
+            "source": "wikidata",
+            "label": "Dantes Alagherius",
+            "uri": "https://www.wikidata.org/wiki/Q1067",
+            "qid": "Q1067",
+            "birth": 1265,
+            "death": 1321,
+            "viaf_uri": "https://viaf.org/viaf/97105654",
+            "str_sim": 0.455,
+            "time_score": 1.0,
+            "score": 0.782
+          },
+          {
+            "source": "viaf",
+            "label": "Dante Alighieri, 1265-1321",
+            "uri": "https://viaf.org/viaf/97105654",
+            "birth": 1265,
+            "death": 1321,
+            "sources": [
+              "ISNI",
+              "NKC",
+              "NUKAT",
+              "LC",
+              "EGAXA",
+              "DE633",
+              "BNCHL",
+              "W2Z",
+              "LNL",
+              "KRNLK",
+              "WKP",
+              "DNB",
+              "PLWABN",
+              "N6I",
+              "SUDOC",
+              "NTA",
+              "CAOONL",
+              "SELIBR",
+              "JPG",
+              "BAV",
+              "B2Q",
+              "ICCU",
+              "NII",
+              "PERSEUS",
+              "LNB",
+              "RERO",
+              "BNC",
+              "NLR",
+              "DBC",
+              "SIMACOB",
+              "VLACC",
+              "BNF",
+              "ARBABN",
+              "NDL",
+              "J9U",
+              "LIH",
+              "SKMASNL",
+              "NYNYRILM",
+              "BIBSYS",
+              "PTBNP",
+              "NSK",
+              "SZ",
+              "ERRR",
+              "NLA",
+              "GRATEVE",
+              "BNE",
+              "UIY"
+            ],
+            "str_sim": 0.323,
+            "time_score": 1.0,
+            "score": 0.729
+          },
+          {
+            "source": "wikidata",
+            "label": "Dante",
+            "uri": "https://www.wikidata.org/wiki/Q18182706",
+            "qid": "Q18182706",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          }
+        ]
+      },
+      {
+        "span_text": "la Divina commedia",
+        "label": "ouvrage",
+        "normalized": "la Divina commedia",
+        "norm_method": "fallback",
+        "el_results": [
+          {
+            "source": "wikidata",
+            "label": "La Divina Commedia",
+            "uri": "https://www.wikidata.org/wiki/Q60841612",
+            "qid": "Q60841612",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          },
+          {
+            "source": "wikidata",
+            "label": "La Divina Commedia",
+            "uri": "https://www.wikidata.org/wiki/Q119024095",
+            "qid": "Q119024095",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          },
+          {
+            "source": "wikidata",
+            "label": "La Divina Commedia",
+            "uri": "https://www.wikidata.org/wiki/Q1194513",
+            "qid": "Q1194513",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          }
+        ]
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "Dante",
+        "normalized": "Dante",
+        "el_uri": "https://www.wikidata.org/wiki/Q1067",
+        "norm_method": "genitif_exact"
+      },
+      {
+        "label": "ouvrage",
+        "text": "la Divina commedia",
+        "normalized": "la Divina commedia",
+        "el_uri": "https://www.wikidata.org/wiki/Q60841612",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "material",
+        "text": "Cod. cart. in fol.",
+        "normalized": "Cod. chart. in fol.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Secolo XIV",
+        "normalized": "Secolo XIV",
+        "el_uri": ""
+      },
+      {
+        "label": "etat",
+        "text": "lacero nella prima carta",
+        "normalized": "lacero nella prima carta",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 257,
+    "source_file": "Catalogo_I_Riccardiana_221-320.json",
+    "raw": "257 Synodus Dioecesan. Gasparis Pasquali Episcopi Rubensis. Cod. chartac. autogr. in fol. Saec. XVI et alia.",
+    "traduction_fr": "Synode diocésain de Gaspare Pasquali, évêque de Ruvo",
+    "traduction_zh": "鲁沃主教加斯帕雷·帕斯夸利的《教区主教会议》",
+    "json_authors": [],
+    "json_titles": [],
+    "json_material": "chart.",
+    "json_date": "Sec. XVII",
+    "json_date_norm": "XVIIe s.  [1600–1699]",
+    "ms_century_range": [
+      1500,
+      1599
+    ],
+    "date_comparison": {
+      "date_from_text": "Saec. XVI",
+      "date_from_text_norm": "XVIe s.  [1500–1599]",
+      "date_from_json": "Sec. XVII",
+      "date_from_json_norm": "XVIIe s.  [1600–1699]",
+      "coherent": false
+    },
+    "el_results": [
+      {
+        "span_text": "Synodus Dioecesan",
+        "label": "ouvrage",
+        "normalized": "Synodus Dioecesan",
+        "norm_method": "fallback",
+        "el_results": [
+          {
+            "source": "wikidata",
+            "label": "Synodus Dioecesani Nivariensis",
+            "uri": "https://www.wikidata.org/wiki/Q19795431",
+            "qid": "Q19795431",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 0.723,
+            "time_score": 0.0,
+            "score": 0.506
+          },
+          {
+            "source": "wikidata",
+            "label": "Synodus dioecesana Pauli Aemilii Sanctorii Archiepiscopi Vrbini",
+            "uri": "https://www.wikidata.org/wiki/Q130238813",
+            "qid": "Q130238813",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 0.425,
+            "time_score": 0.0,
+            "score": 0.297
+          },
+          {
+            "source": "wikidata",
+            "label": "Synodus dioecesana Vrbinatensis ab illustrissimo, & reuerendissimo D. D. Ascanio Maffeio Romano archiepiscopo celebrata die 8. Iunij 1648",
+            "uri": "https://www.wikidata.org/wiki/Q130239280",
+            "qid": "Q130239280",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 0.221,
+            "time_score": 0.0,
+            "score": 0.155
+          }
+        ]
+      },
+      {
+        "span_text": "Gasparis Pasquali",
+        "label": "auteur",
+        "normalized": "Gasparis Pasquali",
+        "norm_method": "fallback",
+        "el_results": []
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "Gasparis Pasquali",
+        "normalized": "Gasparis Pasquali",
+        "el_uri": "",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "ouvrage",
+        "text": "Synodus Dioecesan",
+        "normalized": "Synodus Dioecesan",
+        "el_uri": "https://www.wikidata.org/wiki/Q19795431",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "material",
+        "text": "Cod. chartac. autogr. in fol.",
+        "normalized": "Cod. chart.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XVI",
+        "normalized": "Saec. XVI",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 503,
+    "source_file": "Catalogo_III_Riccardiana_421-520.json",
+    "raw": "503 Ciceronis Epistolae ad familiares Cod partim membr. partim chartac. Saec. XV.",
+    "traduction_fr": "«Lettres aux familiers» de Cicéron",
+    "traduction_zh": "西塞罗《致友人书信集》",
+    "json_authors": [
+      "CICERO",
+      "Leonardo Bruni",
+      "Plutarchus",
+      "Ps. AESCHINES",
+      "Ps. DEMADES",
+      "Ps. DEMOSTHENES"
+    ],
+    "json_titles": [
+      "Epistulae ad familiares",
+      "l'ep. IV 23",
+      "Cicero novus (Vita Ciceronis)",
+      "Vita Demosthenis (trad. Leonardo Bruni)",
+      "Vita Aemilii Pauli (trad. Leonardo Bruni)",
+      "Vita Sertorii (trad. Leonardo Bruni)",
+      "Oratio ad Athenienses",
+      "Oratio in senatu Atheniensi",
+      "Oratio contra Demadem",
+      "Oratio ad Alexandrum",
+      "Epistulae ad Atticum (epp. VII, 22 e IX, 7C; cfr. SHACKLETON BAILEY (ed.), CICERONIS Epistulae ad Atticum)"
+    ],
+    "json_material": "misto",
+    "json_date": "Sec. XV prima metà (1401-1450)",
+    "json_date_norm": "XVe s.  (1re moitié)  [1401–1450]",
+    "ms_century_range": [
+      1400,
+      1499
+    ],
+    "date_comparison": {
+      "date_from_text": "Saec. XV.",
+      "date_from_text_norm": "XVe s.  [1400–1499]",
+      "date_from_json": "Sec. XV prima metà (1401-1450)",
+      "date_from_json_norm": "XVe s.  (1re moitié)  [1401–1450]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "Ciceronis",
+        "label": "auteur",
+        "normalized": "Cicero",
+        "norm_method": "genitif_exact",
+        "el_results": [
+          {
+            "source": "wikidata",
+            "label": "Marcus Tullius Cicero",
+            "uri": "https://www.wikidata.org/wiki/Q1541",
+            "qid": "Q1541",
+            "birth": 106,
+            "death": 42,
+            "viaf_uri": "https://viaf.org/viaf/370158790731438852347",
+            "str_sim": 0.444,
+            "time_score": 1.0,
+            "score": 0.778
+          },
+          {
+            "source": "wikidata",
+            "label": "Cicero",
+            "uri": "https://www.wikidata.org/wiki/Q578221",
+            "qid": "Q578221",
+            "birth": null,
+            "death": null,
+            "viaf_uri": "https://viaf.org/viaf/141910752",
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          },
+          {
+            "source": "wikidata",
+            "label": "Cicero",
+            "uri": "https://www.wikidata.org/wiki/Q37563125",
+            "qid": "Q37563125",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          }
+        ]
+      },
+      {
+        "span_text": "Epistolae ad familiares",
+        "label": "ouvrage",
+        "normalized": "Epistolae ad familiares",
+        "norm_method": "genitif_exact",
+        "el_results": [
+          {
+            "source": "wikidata",
+            "label": "Epistolae ad familiares",
+            "uri": "https://www.wikidata.org/wiki/Q62052490",
+            "qid": "Q62052490",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          },
+          {
+            "source": "wikidata",
+            "label": "Epistolae ad familiares",
+            "uri": "https://www.wikidata.org/wiki/Q62052491",
+            "qid": "Q62052491",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          }
+        ]
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "Ciceronis",
+        "normalized": "Cicero",
+        "el_uri": "https://www.wikidata.org/wiki/Q1541",
+        "norm_method": "genitif_exact"
+      },
+      {
+        "label": "ouvrage",
+        "text": "Epistolae ad familiares",
+        "normalized": "Epistolae ad familiares",
+        "el_uri": "https://www.wikidata.org/wiki/Q62052490",
+        "norm_method": "genitif_exact"
+      },
+      {
+        "label": "material",
+        "text": "Cod partim membr. partim chartac.",
+        "normalized": "Cod partim membr. partim chartac.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XV",
+        "normalized": "Saec. XV",
+        "el_uri": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,4343 @@
+{
+  "fold": 4,
+  "train_size": 676,
+  "val_size": 169,
+  "best_val_f1": 0.514513,
+  "final_f1": 0.514513,
+  "final_precision": 0.437137,
+  "final_recall": 0.625173,
+  "report_by_label": {
+    "auteur": {
+      "precision": 0.3640552995391705,
+      "recall": 0.5231788079470199,
+      "f1-score": 0.42934782608695654,
+      "support": 151
+    },
+    "date": {
+      "precision": 0.7897435897435897,
+      "recall": 0.9390243902439024,
+      "f1-score": 0.8579387186629527,
+      "support": 164
+    },
+    "etat": {
+      "precision": 0.18333333333333332,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.23655913978494622,
+      "support": 33
+    },
+    "material": {
+      "precision": 0.5096153846153846,
+      "recall": 0.6424242424242425,
+      "f1-score": 0.5683646112600536,
+      "support": 165
+    },
+    "ouvrage": {
+      "precision": 0.288135593220339,
+      "recall": 0.4857142857142857,
+      "f1-score": 0.3617021276595745,
+      "support": 210
+    },
+    "micro avg": {
+      "precision": 0.437137330754352,
+      "recall": 0.6251728907330567,
+      "f1-score": 0.5145133750711439,
+      "support": 723
+    },
+    "macro avg": {
+      "precision": 0.42697664009036346,
+      "recall": 0.5847350119325567,
+      "f1-score": 0.49078248469089675,
+      "support": 723
+    },
+    "weighted avg": {
+      "precision": 0.4635343180998244,
+      "recall": 0.6251728907330567,
+      "f1-score": 0.5298444410500379,
+      "support": 723
+    }
+  },
+  "details": [
+    {
+      "entry_id": 1303,
+      "raw": "1303 Passavanti Specchio di Penitenza. Epistole di S. Caterina da Siena. Laudi ec. Cod. cart. in fol. Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Specchio di Penitenza.",
+          "label": "auteur"
+        },
+        {
+          "text": "Epistole di S. Caterina da Siena.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "in fol. Sec. XV.",
+          "label": "auteur"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Specchio di Penitenza.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Epistole di S. Caterina da Siena.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Laudi ec. Cod. cart. in fol. Sec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1357,
+      "raw": "1357 Meditazioni sopra la vita di Gesù Cristo. Etica d’Aristotele volgarizzata, Libro della natura degli animali ec. Cod. cart. in fol. Sec. XIV sul fine.",
+      "gold_spans": [
+        {
+          "text": "sopra la vita di Gesù Cristo. Etica d’Aristotele volgarizzata, Libro",
+          "label": "ouvrage"
+        },
+        {
+          "text": "della natura",
+          "label": "ouvrage"
+        },
+        {
+          "text": "sul fine.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "sopra la vita di Gesù Cristo. Etica d’Aristotele volgarizzata, Libro",
+          "label": "ouvrage"
+        },
+        {
+          "text": "della natura degli animali ec. Cod. cart. in fol. Sec. XIV",
+          "label": "ouvrage"
+        },
+        {
+          "text": "sul fine.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1358,
+      "raw": "1358 Meditazioni sopra la vita di Gesù Cristo, e Vite di Santi. Cod. cart. in fol. Sec. XV manc. in princ. e in mezzo.",
+      "gold_spans": [
+        {
+          "text": "sopra la vita di Gesù Cristo, e Vite di Santi. Cod. cart. in fol. Sec. XV manc.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "e in",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "sopra la vita di Gesù Cristo, e Vite di Santi. Cod. cart. in fol. Sec. XV manc.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "e in",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 366,
+      "raw": "366 Ephraemi S. Sermones per Ambrosium Camaldulensem translati. Cod. char. in quarto Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "S. Sermones per Ambrosium Camaldulensem",
+          "label": "auteur"
+        },
+        {
+          "text": "quarto Saec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "S. Sermones per Ambrosium Camaldulensem",
+          "label": "auteur"
+        },
+        {
+          "text": "translati. Cod. char. in quarto Saec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1590,
+      "raw": "1590 Filostrato vita d’ Apollonio Tianeo tradita dal Gualandi. Cod. cart. in quarto Sec. XVI. autogr.",
+      "gold_spans": [
+        {
+          "text": "vita d’ Apollonio",
+          "label": "auteur"
+        },
+        {
+          "text": "Tianeo tradita dal Gualandi. Cod. cart. in quarto Sec.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "autogr.",
+          "label": "auteur"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "vita d’ Apollonio",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Tianeo tradita dal Gualandi. Cod. cart. in",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1338,
+      "raw": "1338 S. Agostino, Dell’amore di Cristo. Volgarizzato, Detti di Fra Egidio, Detti di Savj ec. Cod. cart. fol. Sec. XV sul princ.",
+      "gold_spans": [
+        {
+          "text": "Agostino, Dell’amore di Cristo. Volgarizzato,",
+          "label": "auteur"
+        },
+        {
+          "text": "Detti di Fra Egidio, Detti di",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Agostino, Dell’amore di Cristo. Volgarizzato,",
+          "label": "auteur"
+        },
+        {
+          "text": "Detti di Fra Egidio, Detti di",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1638,
+      "raw": "1638 Cicerone, Rettorica volgarizzata da Fra Guidotto da Bologna Cod. cart. in fol. Sec. XV. sul principio.",
+      "gold_spans": [
+        {
+          "text": "Rettorica volgarizzata da",
+          "label": "auteur"
+        },
+        {
+          "text": "Fra Guidotto da Bologna Cod. cart.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "fol. Sec. XV. sul principio.",
+          "label": "auteur"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Rettorica volgarizzata da",
+          "label": "auteur"
+        },
+        {
+          "text": "Fra Guidotto da",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Bologna Cod. cart.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "fol. Sec. XV. sul principio.",
+          "label": "auteur"
+        }
+      ]
+    },
+    {
+      "entry_id": 1122,
+      "raw": "1122 Bonaccorso, Piero di Ser. Esposizione del Cammino di Dante. Cod. cartac. in quarto Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Piero di Ser. Esposizione del Cammino di",
+          "label": "auteur"
+        },
+        {
+          "text": "cartac. in quarto Sec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Piero di Ser. Esposizione",
+          "label": "auteur"
+        },
+        {
+          "text": "del Cammino di Dante. Cod.",
+          "label": "auteur"
+        },
+        {
+          "text": "cartac. in quarto Sec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1637,
+      "raw": "1637 Vita e Passione di Nostro Sig. Gesù Cristo. Cod. cart. in quarto Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "e Passione di Nostro Sig. Gesù Cristo. Cod. cart. in quarto Sec.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "e Passione di Nostro Sig. Gesù Cristo. Cod. cart. in quarto Sec.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1483,
+      "raw": "1483 Discorsi morali sopra alcune Solennità dell’anno; e rime. Cod. cartac. in ottavo Sec. XVII.",
+      "gold_spans": [
+        {
+          "text": "morali sopra alcune Solennità dell’anno; e rime. Cod. cartac. in ottavo Sec. XVII.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "morali sopra alcune Solennità dell’anno; e rime. Cod. cartac. in ottavo Sec. XVII.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1056,
+      "raw": "1056 Boccaccio, Teseide. Cod. cart. in fol. Sec. XV in principio mutilo.",
+      "gold_spans": [
+        {
+          "text": "Teseide. Cod. cart. in",
+          "label": "auteur"
+        },
+        {
+          "text": "fol. Sec. XV in",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Teseide. Cod. cart. in",
+          "label": "auteur"
+        },
+        {
+          "text": "fol. Sec. XV in",
+          "label": "auteur"
+        }
+      ]
+    },
+    {
+      "entry_id": 1446,
+      "raw": "1446 Vita di Barlaam e Giosafat. Cod. cartac. in quarto Sec. XIV. mancante in principio.",
+      "gold_spans": [
+        {
+          "text": "di Barlaam e Giosafat. Cod. cartac. in quarto Sec. XIV.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "principio.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "di Barlaam e Giosafat. Cod. cartac. in quarto Sec. XIV.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "principio.",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 1125,
+      "raw": "1125 Petrarca Sonetti e Trionfi. Cod. cartac. in fol. Sec. XV. mancante in princ. e in fine.",
+      "gold_spans": [
+        {
+          "text": "Sonetti e",
+          "label": "auteur"
+        },
+        {
+          "text": "Trionfi. Cod. cartac. in fol. Sec. XV.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "princ. e in",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Sonetti e",
+          "label": "auteur"
+        },
+        {
+          "text": "Trionfi. Cod. cartac. in fol. Sec. XV.",
+          "label": "auteur"
+        },
+        {
+          "text": "princ. e in",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 1510,
+      "raw": "1510 Ballo della morte. Rappresentazione delle 10 Vergini. Cod. cart. in 8. Sec. XVI.",
+      "gold_spans": [
+        {
+          "text": "della morte. Rappresentazione delle 10",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Vergini. Cod. cart. in 8. Sec. XVI.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "della morte. Rappresentazione delle 10",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Vergini. Cod. cart. in 8. Sec. XVI.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1101,
+      "raw": "1101 Petrarca il Canzoniere. Cod. cartac. in fol. Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "il Canzoniere.",
+          "label": "auteur"
+        },
+        {
+          "text": "Cod. cartac. in fol. Sec.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "il Canzoniere.",
+          "label": "auteur"
+        },
+        {
+          "text": "Cod. cartac. in fol. Sec.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 498,
+      "raw": "498 Ciceronis, Orationes. Cod. membr. nitidis. in fol. Saec. XV in.",
+      "gold_spans": [
+        {
+          "text": "Orationes. Cod. membr.",
+          "label": "auteur"
+        },
+        {
+          "text": "nitidis. in fol.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "in.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Orationes. Cod. membr.",
+          "label": "auteur"
+        },
+        {
+          "text": "nitidis. in fol.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Saec.",
+          "label": "material"
+        },
+        {
+          "text": "in.",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 1593,
+      "raw": "1593 Lucrezio, Versione Poetica dei primi tre Libri. Cod. cart in quarto Sec. XVIII.",
+      "gold_spans": [
+        {
+          "text": "Versione Poetica dei primi",
+          "label": "auteur"
+        },
+        {
+          "text": "tre Libri. Cod. cart in quarto Sec. XVIII.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Versione Poetica dei primi",
+          "label": "auteur"
+        },
+        {
+          "text": "tre Libri. Cod. cart in quarto Sec. XVIII.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1236,
+      "raw": "1236 Grammatica Latina. Cod. chart. in octavo Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "Latina. Cod. chart. in",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XV.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Latina. Cod. chart. in",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XV.",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 1585,
+      "raw": "1585 Aristotile, Segreto de’Segreti, ed etica volgarizzata. Cod. cart. in fol. Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Segreto de’Segreti, ed",
+          "label": "auteur"
+        },
+        {
+          "text": "etica volgarizzata. Cod. cart. in fol. Sec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Segreto de’Segreti, ed",
+          "label": "auteur"
+        },
+        {
+          "text": "etica volgarizzata. Cod. cart. in fol. Sec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 257,
+      "raw": "257 Synodus Dioecesan. Gasparis Pasquali Episcopi Rubensis. Cod. chartac. autogr. in fol. Saec. XVI et alia.",
+      "gold_spans": [
+        {
+          "text": "Dioecesan. Gasparis Pasquali Episcopi Rubensis. Cod. chartac.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "autogr. in fol. Saec. XVI",
+          "label": "auteur"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Dioecesan. Gasparis Pasquali Episcopi Rubensis. Cod. chartac.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "autogr. in fol. Saec. XVI et alia.",
+          "label": "auteur"
+        }
+      ]
+    },
+    {
+      "entry_id": 1681,
+      "raw": "1681 S. Girolamo, Epistole volgarizzate. Cod. cart. in fol. Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Girolamo, Epistole volgarizzate. Cod. cart. in",
+          "label": "auteur"
+        },
+        {
+          "text": "fol. Sec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Girolamo, Epistole volgarizzate. Cod. cart. in",
+          "label": "auteur"
+        },
+        {
+          "text": "fol. Sec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1499,
+      "raw": "1499 Esortazione allo studio della morte. Cod cart. in 8. Sec. XVIII.",
+      "gold_spans": [
+        {
+          "text": "allo studio della morte. Cod cart. in 8.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XVIII.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "allo studio della morte. Cod cart. in 8.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XVIII.",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 1116,
+      "raw": "1116 Boccaccio Vita di Dante. Cod. cartac. in quarto Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Vita di Dante.",
+          "label": "auteur"
+        },
+        {
+          "text": "Cod. cartac. in quarto Sec.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Vita di Dante.",
+          "label": "auteur"
+        },
+        {
+          "text": "Cod. cartac. in quarto Sec.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1675,
+      "raw": "1675 Miracoli della Madonna. Cod. membr. in fol. Sec. XV. mancante in fine.",
+      "gold_spans": [
+        {
+          "text": "della Madonna. Cod. membr. in",
+          "label": "ouvrage"
+        },
+        {
+          "text": "fol. Sec. XV. mancante in fine.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "della Madonna. Cod. membr. in",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XV. mancante in",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 1572,
+      "raw": "1572 Virgilio, Eneide volgarizzata. Cod. cart. Sec XIV. manc. in mezzo.",
+      "gold_spans": [
+        {
+          "text": "Eneide volgarizzata. Cod. cart.",
+          "label": "auteur"
+        },
+        {
+          "text": "Sec XIV. manc. in mezzo.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Eneide volgarizzata. Cod. cart.",
+          "label": "auteur"
+        },
+        {
+          "text": "Sec XIV. manc. in mezzo.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 284,
+      "raw": "284 Breviarium Fratrum Minorum iuxta ordinem Romanae Curiae. Codex membran. in quarto Saec. XV nitidissime exaratus, et picturis adfabre confectis, et fere omnem paginam ornantibus mirifice decoratus, ita ut nil preciosius videri possit.",
+      "gold_spans": [
+        {
+          "text": "Fratrum Minorum iuxta ordinem Romanae Curiae. Codex membran. in quarto Saec. XV nitidissime exaratus, et",
+          "label": "ouvrage"
+        },
+        {
+          "text": "picturis adfabre confectis, et fere omnem",
+          "label": "material"
+        },
+        {
+          "text": "paginam ornantibus mirifice decoratus,",
+          "label": "date"
+        },
+        {
+          "text": "ita ut nil preciosius videri possit.",
+          "label": "date"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Fratrum Minorum iuxta ordinem Romanae Curiae. Codex",
+          "label": "ouvrage"
+        },
+        {
+          "text": "paginam ornantibus mirifice decoratus,",
+          "label": "date"
+        }
+      ]
+    },
+    {
+      "entry_id": 1661,
+      "raw": "1661 Leggende diverse &c. Cod. membr. in fol. Sec. XIV.",
+      "gold_spans": [
+        {
+          "text": "diverse &c. Cod.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "diverse &c. Cod.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1260,
+      "raw": "1260 Bernardo S. Sermoni volgarizzati. Cod. membr. in fol. Sec. XIV sul fine nitidissimo.",
+      "gold_spans": [
+        {
+          "text": "S. Sermoni volgarizzati.",
+          "label": "auteur"
+        },
+        {
+          "text": "Cod. membr. in fol. Sec. XIV",
+          "label": "ouvrage"
+        },
+        {
+          "text": "nitidissimo.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "S. Sermoni volgarizzati.",
+          "label": "auteur"
+        },
+        {
+          "text": "Cod. membr. in fol. Sec. XIV",
+          "label": "ouvrage"
+        },
+        {
+          "text": "nitidissimo.",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 1667,
+      "raw": "1667 Vita di S. Girolamo. Cod. membr. in fol. Sec. XIV.",
+      "gold_spans": [
+        {
+          "text": "di",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Girolamo. Cod. membr. in fol. Sec.",
+          "label": "auteur"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "di S. Girolamo. Cod. membr. in fol. Sec.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 407,
+      "raw": "407 Sermones Sacrii &c. Codex chartac. in fol. Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "Sacrii &c. Codex chartac. in",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Sacrii &c. Codex chartac. in fol. Saec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1444,
+      "raw": "1444 S. Girolamo Regola Latina e Volgare Regola di S. Agostino, e Giovanni Costantino [p. 33] politano. Cod. cartac. in quarto Sec XV. mancante in principio.",
+      "gold_spans": [
+        {
+          "text": "Girolamo Regola Latina e Volgare",
+          "label": "auteur"
+        },
+        {
+          "text": "Regola di S. Agostino, e Giovanni",
+          "label": "ouvrage"
+        },
+        {
+          "text": "politano. Cod. cartac. in quarto",
+          "label": "auteur"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Girolamo Regola Latina e Volgare",
+          "label": "auteur"
+        },
+        {
+          "text": "Regola di S. Agostino, e Giovanni",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Costantino [p. 33]",
+          "label": "ouvrage"
+        },
+        {
+          "text": "politano. Cod. cartac. in quarto",
+          "label": "auteur"
+        }
+      ]
+    },
+    {
+      "entry_id": 1643,
+      "raw": "1643 Vegezio, della Medicina delle Bestie, volgarizzato da Maestro Moise da Palermo. Cod. cart. in fol. Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "della Medicina delle Bestie,",
+          "label": "auteur"
+        },
+        {
+          "text": "Sec. XV.",
+          "label": "auteur"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "della Medicina delle Bestie,",
+          "label": "auteur"
+        },
+        {
+          "text": "volgarizzato da Maestro Moise da Palermo.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Cod. cart. in",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 474,
+      "raw": "474 Officium B. M. Virginis. Cod. membr. in 16 Saec XV.",
+      "gold_spans": [
+        {
+          "text": "B. M. Virginis. Cod. membr. in 16 Saec XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "B. M. Virginis. Cod. membr. in 16 Saec XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 435,
+      "raw": "435 Psalterium, Cantica, et lectiones Offiicii Mortuorum. Cod membr. in octavo Saec. XIII.",
+      "gold_spans": [
+        {
+          "text": "Cantica, et lectiones Offiicii Mortuorum. Cod membr. in octavo Saec. XIII.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Cantica, et lectiones Offiicii Mortuorum.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Cod membr. in octavo",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Saec. XIII.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1242,
+      "raw": "1242 Constitutiones Senensis Collegii Iurisconsultorum. Cod. chart. in 8. Saec. XVII.",
+      "gold_spans": [
+        {
+          "text": "Senensis Collegii Iurisconsultorum. Cod. chart. in 8. Saec. XVII.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Senensis Collegii Iurisconsultorum. Cod. chart. in 8. Saec. XVII.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1178,
+      "raw": "1178 Quaestiones in Avicennam. Cod. chart. fol. Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "in Avicennam. Cod. chart. fol. Saec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "in",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Avicennam. Cod. chart. fol. Saec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 463,
+      "raw": "463 Officium B. M. Virginis, et Mortuorum. Cod. membr. in octavo Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "B. M. Virginis, et Mortuorum. Cod. membr. in octavo Saec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "B. M. Virginis, et Mortuorum. Cod. membr. in octavo Saec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1253,
+      "raw": "1253 Vite de’ Santi Padri d’Egitto. Cod. cart. in fol. Sec. XV sul fine. Mane, in principio e in fine.",
+      "gold_spans": [
+        {
+          "text": "de’ Santi Padri d’Egitto. Cod. cart. in fol. Sec. XV sul fine. Mane, in",
+          "label": "ouvrage"
+        },
+        {
+          "text": "in fine.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "de’ Santi Padri d’Egitto. Cod. cart. in fol. Sec. XV sul fine. Mane, in",
+          "label": "auteur"
+        },
+        {
+          "text": "in fine.",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 345,
+      "raw": "345 S. Gregorii Nazianzeni Sermones, et Chrysostomi de reparatione lapsi. Cod. chart. in quarto Saec. XV donatus fratri Matthaeo de Viterbio a Nicolao de Niccolis.",
+      "gold_spans": [
+        {
+          "text": "Gregorii Nazianzeni Sermones, et Chrysostomi de reparatione",
+          "label": "auteur"
+        },
+        {
+          "text": "lapsi. Cod. chart. in",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Saec. XV donatus fratri",
+          "label": "auteur"
+        },
+        {
+          "text": "Matthaeo de Viterbio a Nicolao",
+          "label": "ouvrage"
+        },
+        {
+          "text": "de Niccolis.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Gregorii Nazianzeni Sermones, et Chrysostomi de reparatione lapsi. Cod. chart. in",
+          "label": "auteur"
+        }
+      ]
+    },
+    {
+      "entry_id": 1606,
+      "raw": "1606 Ovidio, Epistole volgarizzate dallo stesso Alberto della Piagentina. Cod. membr. in 4. Sec. XIV sul fine, mancante di una membrana verso il fine.",
+      "gold_spans": [
+        {
+          "text": "Epistole volgarizzate dallo stesso",
+          "label": "auteur"
+        },
+        {
+          "text": "Alberto della Piagentina.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XIV sul fine, mancante di una",
+          "label": "ouvrage"
+        },
+        {
+          "text": "il fine.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Epistole volgarizzate dallo stesso",
+          "label": "auteur"
+        },
+        {
+          "text": "Alberto della Piagentina. Cod. membr. in",
+          "label": "ouvrage"
+        },
+        {
+          "text": "il fine.",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 1149,
+      "raw": "1149 Boccaccio, Ninfale. Cod. cartac. in quarto Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Ninfale. Cod. cartac. in",
+          "label": "auteur"
+        },
+        {
+          "text": "quarto Sec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Ninfale. Cod. cartac. in",
+          "label": "auteur"
+        },
+        {
+          "text": "quarto Sec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1200,
+      "raw": "1200 Del Reggimento del Gov. di Rema. Plinii Secundi (Sexti Victoris) de Viris illustribus. et alia. Cod. chart. in quarto Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "Del Reggimento del Gov. di Rema. Plinii Secundi (Sexti Victoris) de Viris",
+          "label": "ouvrage"
+        },
+        {
+          "text": "illustribus. et alia. Cod. chart.",
+          "label": "auteur"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Del Reggimento del Gov. di Rema. Plinii Secundi (Sexti Victoris) de Viris",
+          "label": "ouvrage"
+        },
+        {
+          "text": "illustribus. et alia. Cod. chart.",
+          "label": "auteur"
+        }
+      ]
+    },
+    {
+      "entry_id": 412,
+      "raw": "412 Dialogus de Arcanis S. Scripturae senis, et alia. Cod. chartac. in quarto Saec XVII.",
+      "gold_spans": [
+        {
+          "text": "de Arcanis S. Scripturae senis, et alia. Cod. chartac. in quarto Saec XVII.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "de Arcanis",
+          "label": "ouvrage"
+        },
+        {
+          "text": "S. Scripturae senis, et alia. Cod. chartac. in quarto Saec XVII.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1381,
+      "raw": "1381 Susone Enrico, Orivolo della Sapienza, Cod. cart. in fol. Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Enrico, Orivolo della Sapienza, Cod.",
+          "label": "auteur"
+        },
+        {
+          "text": "cart. in fol. Sec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Enrico, Orivolo",
+          "label": "auteur"
+        },
+        {
+          "text": "della Sapienza, Cod.",
+          "label": "auteur"
+        },
+        {
+          "text": "cart. in fol. Sec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 386,
+      "raw": "386 De Grana Bernardi Tractatus super Arnaldum de Villanova. Codex chart. Saec. XVI in quarto.",
+      "gold_spans": [
+        {
+          "text": "super Arnaldum",
+          "label": "auteur"
+        },
+        {
+          "text": "de Villanova. Codex chart. Saec. XVI in quarto.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Grana Bernardi Tractatus super Arnaldum",
+          "label": "ouvrage"
+        },
+        {
+          "text": "de Villanova. Codex chart. Saec. XVI in quarto.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1045,
+      "raw": "1045 Dante l’Inferno, col Comento di Benvenuto da Imola. Cod. membr. in fol. Sec. XIV nitidissimo, ed emendatissimo",
+      "gold_spans": [
+        {
+          "text": "l’Inferno, col",
+          "label": "auteur"
+        },
+        {
+          "text": "Comento di Benvenuto da Imola. Cod.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XIV nitidissimo, ed emendatissimo",
+          "label": "auteur"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "l’Inferno, col Comento di Benvenuto da Imola. Cod.",
+          "label": "auteur"
+        },
+        {
+          "text": "membr. in fol. Sec. XIV nitidissimo, ed emendatissimo",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1234,
+      "raw": "1234 Tractatus Chymicus incerti Auctoris. Cod, chart. Saec. XIV.",
+      "gold_spans": [
+        {
+          "text": "Chymicus incerti Auctoris. Cod, chart.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Chymicus incerti Auctoris. Cod, chart. Saec. XIV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 516,
+      "raw": "516 Ciceronis de Senectute etc. Cod. membr. in fol. Saec. XIV initio et fine mutilus.",
+      "gold_spans": [
+        {
+          "text": "de Senectute",
+          "label": "auteur"
+        },
+        {
+          "text": "etc. Cod. membr. in",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XIV initio et fine mutilus.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "de Senectute",
+          "label": "auteur"
+        },
+        {
+          "text": "etc.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Cod. membr. in fol. Saec.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 406,
+      "raw": "406 Bardis de Roberti, et aliorum Sermones. Cod. chart. in fol Saec. XIV.",
+      "gold_spans": [
+        {
+          "text": "de Roberti, et aliorum Sermones. Cod.",
+          "label": "auteur"
+        },
+        {
+          "text": "Saec. XIV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "de Roberti, et aliorum Sermones. Cod. chart. in fol",
+          "label": "auteur"
+        },
+        {
+          "text": "Saec. XIV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1469,
+      "raw": "1469 Orazioni Sacre sopra le piaghe di Gesù Cristo. Cod. cartac. in ottavo Sec. XVIII.",
+      "gold_spans": [
+        {
+          "text": "Sacre sopra le piaghe di Gesù Cristo. Cod. cartac. in ottavo Sec.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Sacre sopra le piaghe di Gesù Cristo. Cod. cartac. in ottavo Sec.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1044,
+      "raw": "1044 Dante. Convito. Cod. cartac. in fol. Secolo XV.",
+      "gold_spans": [
+        {
+          "text": "Convito. Cod. cartac.",
+          "label": "auteur"
+        },
+        {
+          "text": "in fol. Secolo",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Convito. Cod. cartac.",
+          "label": "auteur"
+        },
+        {
+          "text": "in fol. Secolo",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1418,
+      "raw": "1418 S. Gregorio Omilie sopra i Vangeli di S. Matteo. Cod, cartac membr. in quarto Sec. XIV.",
+      "gold_spans": [
+        {
+          "text": "Gregorio Omilie sopra i",
+          "label": "auteur"
+        },
+        {
+          "text": "Vangeli di S. Matteo. Cod, cartac membr. in quarto Sec. XIV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Gregorio Omilie sopra i",
+          "label": "auteur"
+        },
+        {
+          "text": "Vangeli di S. Matteo. Cod, cartac membr. in quarto Sec. XIV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 274,
+      "raw": "274 Fiorii Andrea Historiarum ab adolescentia Jul. Caesar. Ad Nicolaum PP. V Libri XI Cod. chart. Saec. XV imperfectus sed autographus.",
+      "gold_spans": [
+        {
+          "text": "Andrea Historiarum ab adolescentia",
+          "label": "auteur"
+        },
+        {
+          "text": "Jul. Caesar. Ad Nicolaum PP. V Libri XI Cod. chart. Saec. XV imperfectus sed autographus.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Andrea Historiarum ab adolescentia",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Jul. Caesar. Ad Nicolaum PP. V Libri XI Cod. chart.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1534,
+      "raw": "1534 Villani Giovanni, Cronica. Cod. cart. in fol. Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Giovanni, Cronica. Cod. cart.",
+          "label": "auteur"
+        },
+        {
+          "text": "in fol. Sec.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Giovanni, Cronica. Cod. cart.",
+          "label": "auteur"
+        },
+        {
+          "text": "in fol. Sec.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1693,
+      "raw": "1693 Trattato de’ Sette peccati mortali. Fioretti di S. Francesco. Cod. cart. in quarto Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "de’ Sette peccati mortali. Fioretti di S. Francesco. Cod. cart. in quarto",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Sec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "de’ Sette peccati mortali. Fioretti",
+          "label": "ouvrage"
+        },
+        {
+          "text": "di S. Francesco. Cod. cart. in quarto",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Sec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1040,
+      "raw": "1040 Dante, le Rime. Cod. cartac. in fol. Secolo XV con un ritratto di Dante in pergamena dello stesso tempi.",
+      "gold_spans": [
+        {
+          "text": "le Rime. Cod.",
+          "label": "auteur"
+        },
+        {
+          "text": "cartac. in fol. Secolo",
+          "label": "ouvrage"
+        },
+        {
+          "text": "un ritratto di",
+          "label": "material"
+        },
+        {
+          "text": "dello stesso tempi.",
+          "label": "date"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "le Rime. Cod. cartac. in fol. Secolo",
+          "label": "auteur"
+        },
+        {
+          "text": "un ritratto di",
+          "label": "material"
+        },
+        {
+          "text": "dello stesso tempi.",
+          "label": "date"
+        }
+      ]
+    },
+    {
+      "entry_id": 512,
+      "raw": "512 Ciceronis Rhetoricorum ad Herennium etc. Cod. chartac. in fol. Saec. XIV mancus et imperfectus.",
+      "gold_spans": [
+        {
+          "text": "Ciceronis Rhetoricorum",
+          "label": "auteur"
+        },
+        {
+          "text": "ad Herennium etc. Cod. chartac. in fol.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "imperfectus.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Ciceronis Rhetoricorum ad Herennium etc. Cod. chartac. in fol. Saec. XIV",
+          "label": "auteur"
+        },
+        {
+          "text": "mancus",
+          "label": "material"
+        },
+        {
+          "text": "imperfectus.",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 1536,
+      "raw": "1536 Nardi Jacopo, Storie Fiorentine. Cod. cart. in fol. Sec. XVI Originale.",
+      "gold_spans": [
+        {
+          "text": "Jacopo, Storie Fiorentine. Cod. cart. in",
+          "label": "auteur"
+        },
+        {
+          "text": "fol. Sec. XVI Originale.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Jacopo, Storie",
+          "label": "auteur"
+        },
+        {
+          "text": "Fiorentine. Cod. cart. in",
+          "label": "auteur"
+        },
+        {
+          "text": "fol. Sec. XVI Originale.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1126,
+      "raw": "1126 Petrarca Trionfi. Dante Canzoni, e Rime diverse di antichi autori. Cod. cartac. in quarto Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Trionfi. Dante",
+          "label": "auteur"
+        },
+        {
+          "text": "Canzoni, e Rime diverse",
+          "label": "ouvrage"
+        },
+        {
+          "text": "di antichi",
+          "label": "auteur"
+        },
+        {
+          "text": "autori. Cod. cartac. in quarto Sec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Trionfi. Dante Canzoni, e Rime diverse",
+          "label": "auteur"
+        },
+        {
+          "text": "di antichi autori. Cod. cartac. in quarto Sec. XV.",
+          "label": "auteur"
+        }
+      ]
+    },
+    {
+      "entry_id": 1559,
+      "raw": "1559 Q. Curzio, volgarizzato. Cod. cart. in fol. Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Curzio, volgarizzato. Cod. cart. in",
+          "label": "auteur"
+        },
+        {
+          "text": "fol. Sec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Curzio, volgarizzato.",
+          "label": "auteur"
+        },
+        {
+          "text": "Cod. cart. in",
+          "label": "auteur"
+        },
+        {
+          "text": "fol. Sec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 431,
+      "raw": "431 D. Thomae Quaestiones super confessionem. Cod. chartac. in octavo Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "Thomae Quaestiones super confessionem. Cod.",
+          "label": "auteur"
+        },
+        {
+          "text": "chartac. in octavo Saec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Thomae Quaestiones super confessionem. Cod. chartac.",
+          "label": "auteur"
+        },
+        {
+          "text": "in octavo Saec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1106,
+      "raw": "1106 Frammenti di Dante, di Stazio, e del Petrarca ec. Cod. cartac. Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "di Dante,",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Stazio, e del",
+          "label": "auteur"
+        },
+        {
+          "text": "ec. Cod. cartac.",
+          "label": "auteur"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "di Dante, di Stazio, e del Petrarca ec. Cod. cartac. Sec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1612,
+      "raw": "1612 Platone, e Dione, Lettere volgarizzate da Lorenzo Giacomini Tebalducci. Cod. cart. in quarto Sec. XVI. autografo.",
+      "gold_spans": [
+        {
+          "text": "e Dione, Lettere",
+          "label": "auteur"
+        },
+        {
+          "text": "da Lorenzo Giacomini",
+          "label": "auteur"
+        },
+        {
+          "text": "Tebalducci. Cod. cart. in quarto",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XVI. autografo.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "e Dione, Lettere volgarizzate da Lorenzo Giacomini",
+          "label": "auteur"
+        },
+        {
+          "text": "Tebalducci. Cod. cart. in quarto",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1244,
+      "raw": "1244 Basilii Magni De Studiis juvenum Religiosorum. Cod. chart. in 8. Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "Magni De Studiis juvenum",
+          "label": "auteur"
+        },
+        {
+          "text": "Religiosorum. Cod. chart. in 8. Saec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Magni De Studiis juvenum",
+          "label": "auteur"
+        },
+        {
+          "text": "Religiosorum. Cod. chart. in 8. Saec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1550,
+      "raw": "1550 Lucano, Libro così intitolato, che tratta delle battaglie tra Cesare, e Pompeo. Cod. cart. in fol. Sec. XIV.",
+      "gold_spans": [
+        {
+          "text": "Libro così intitolato,",
+          "label": "auteur"
+        },
+        {
+          "text": "che tratta delle battaglie tra Cesare, e Pompeo. Cod. cart. in fol. Sec. XIV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Libro così intitolato,",
+          "label": "auteur"
+        },
+        {
+          "text": "che",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 292,
+      "raw": "292 Psalmi Poenitentiales, et plures Orationes tam latinae, quam Italicae. Cod. membr. in quarto Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "Poenitentiales, et plures Orationes tam latinae, quam Italicae. Cod. membr. in quarto Saec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Poenitentiales, et plures Orationes tam latinae, quam Italicae. Cod. membr. in quarto Saec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1689,
+      "raw": "1689 Passione di Cristo ec. come sopra. Cod. cart. in quarto Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "di Cristo ec. come",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "di Cristo ec. come",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1431,
+      "raw": "1431 Vendetta di Cristo. Vita della Madonna, ed altro. Cod. cartac. in quarto Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "di Cristo. Vita della Madonna,",
+          "label": "ouvrage"
+        },
+        {
+          "text": "ed altro. Cod. cartac.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "di Cristo. Vita della Madonna,",
+          "label": "ouvrage"
+        },
+        {
+          "text": "ed altro. Cod. cartac. in",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1046,
+      "raw": "1046 Dante la Divina commedia, con un breve Raccoglimento in terza rima del sunto di ciascuna Cantica, fatto da M. G. Boccaccio. Cod. memb. in fol. Secolo XIV. nitidissimo scritto per mano di Paolo di Duccio Tosi di Pisa, negli anni Domini 1029. Si avverta, che dee leggersi 1429 poiché in tal tempo appunto fioriva questo Calligrafo, di cui avvi un MSS nella Laurenziana con data certa. Scrivendo lasciò un C; e si vede dal Codice, che egli accortosi dell’ errore, tentò di correggerlo raschiando il primo X del XXIX. Aggiunte: 1046 Dante etc, compreso nella nota delle mancanze fatta dal Rigoli. Sostituito con lettere originali di Ludovico Antonio Muratori, voll. di cc. 233. Carteggio lettereario di Ludovico Antonio Muratori con Domenico Brichieri Colombi, 3 dicembre 1738, 31 ottobre 1749. Lettera n. 114, anzi 116; la lettera n. 115 è del nipote Gian Francesco Muratori; la n. 116 è una lettera 15 gennaio 1787, d’un F. Giacinto Frizzaria (?). Firmato E. R.",
+      "gold_spans": [
+        {
+          "text": "la Divina",
+          "label": "auteur"
+        },
+        {
+          "text": "di Paolo di Duccio Tosi di Pisa, negli",
+          "label": "auteur"
+        },
+        {
+          "text": "1029. Si avverta,",
+          "label": "material"
+        },
+        {
+          "text": "1429 poiché in tal",
+          "label": "date"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "la Divina",
+          "label": "auteur"
+        },
+        {
+          "text": "commedia, con un breve Raccoglimento in",
+          "label": "ouvrage"
+        },
+        {
+          "text": "1029. Si avverta,",
+          "label": "material"
+        },
+        {
+          "text": "1429 poiché in",
+          "label": "date"
+        }
+      ]
+    },
+    {
+      "entry_id": 1092,
+      "raw": "1092 Comento sopra i Trionfi del Petrarca. Cod. cart. in fol. Sec. XV in principio e in fine mutilo.",
+      "gold_spans": [
+        {
+          "text": "sopra i Trionfi del Petrarca. Cod. cart. in fol. Sec. XV",
+          "label": "ouvrage"
+        },
+        {
+          "text": "e in",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "sopra i Trionfi del Petrarca. Cod. cart. in fol. Sec. XV",
+          "label": "ouvrage"
+        },
+        {
+          "text": "e in",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 1028,
+      "raw": "1028 Dante la Divina commedia, col comento di Gio. Boccaccio Cod. cart. in fol. Sec. XV. Aggiunte: non è ve [sic]",
+      "gold_spans": [
+        {
+          "text": "la Divina",
+          "label": "auteur"
+        },
+        {
+          "text": "commedia, col comento di Gio. Boccaccio",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Sec. XV. Aggiunte: non è",
+          "label": "auteur"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "la Divina",
+          "label": "auteur"
+        },
+        {
+          "text": "commedia, col comento di Gio. Boccaccio",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Aggiunte: non è",
+          "label": "auteur"
+        }
+      ]
+    },
+    {
+      "entry_id": 466,
+      "raw": "466 Officium B. M. Virginis. Cod. membr. in octavo Saec. XV mutilus circa initium.",
+      "gold_spans": [
+        {
+          "text": "B. M. Virginis. Cod. membr. in octavo Saec. XV mutilus",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "B. M. Virginis. Cod. membr. in octavo Saec. XV mutilus",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1670,
+      "raw": "1670 S. Francesco, sua Vita, e Fioretti. Cod. cartac. e membr. alternativamente fol.Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Francesco, sua Vita, e",
+          "label": "auteur"
+        },
+        {
+          "text": "Cod. cartac. e membr. alternativamente fol.Sec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Francesco, sua Vita, e",
+          "label": "auteur"
+        },
+        {
+          "text": "Fioretti. Cod. cartac. e",
+          "label": "ouvrage"
+        },
+        {
+          "text": "membr. alternativamente fol.Sec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1310,
+      "raw": "1310 S. Gregorio. Parafrasi de’ Dialoghi di Fra Giov. Campoli di Messina. Cod. cartac. fol. Sec XV.",
+      "gold_spans": [
+        {
+          "text": "Gregorio. Parafrasi de’ Dialoghi di",
+          "label": "auteur"
+        },
+        {
+          "text": "Fra Giov. Campoli di Messina. Cod. cartac.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Sec XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Gregorio. Parafrasi de’ Dialoghi di",
+          "label": "auteur"
+        },
+        {
+          "text": "Fra Giov. Campoli di Messina. Cod. cartac. fol. Sec XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1121,
+      "raw": "1121 Leonardo Aretino Vita di Dante, e del Petrarca ec. Cod. cartac. in quarto Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Aretino Vita di",
+          "label": "auteur"
+        },
+        {
+          "text": "Dante, e del Petrarca ec. Cod. cartac. in quarto",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Aretino",
+          "label": "auteur"
+        },
+        {
+          "text": "Vita di",
+          "label": "auteur"
+        },
+        {
+          "text": "Dante, e del Petrarca ec. Cod. cartac. in quarto",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 302,
+      "raw": "302 Lactantii Firmiani, De Ira Dei, de Opificio Dei, De Phoenice, de resurrectione Christi S. Hieronymi liber Hebraicorum locorum &c. Cod. membr. in quarto Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "Lactantii Firmiani, De Ira Dei, de Opificio",
+          "label": "auteur"
+        },
+        {
+          "text": "Dei, De Phoenice, de resurrectione Christi S. Hieronymi liber Hebraicorum locorum &c. Cod. membr. in quarto Saec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Lactantii Firmiani, De Ira Dei, de Opificio",
+          "label": "auteur"
+        },
+        {
+          "text": "Dei, De Phoenice, de resurrectione Christi S. Hieronymi liber Hebraicorum",
+          "label": "ouvrage"
+        },
+        {
+          "text": "locorum &c. Cod. membr. in",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1097,
+      "raw": "1097 Petrarca il Canzoniere. Cod. cartac. in fol. Sec. XIV. sul fine, in principio mutilo.",
+      "gold_spans": [
+        {
+          "text": "il Canzoniere.",
+          "label": "auteur"
+        },
+        {
+          "text": "Cod. cartac. in fol. Sec.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "fine, in principio",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "il Canzoniere.",
+          "label": "auteur"
+        },
+        {
+          "text": "Cod. cartac. in fol. Sec.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "fine, in principio",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 1480,
+      "raw": "1480 Esposizioni del Vangelo ec. Cod. membr. in ottavo Sec. XIV. mancante in fine.",
+      "gold_spans": [
+        {
+          "text": "1480 Esposizioni del Vangelo ec. Cod. membr. in ottavo",
+          "label": "ouvrage"
+        },
+        {
+          "text": "fine.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "del Vangelo ec. Cod. membr. in ottavo",
+          "label": "ouvrage"
+        },
+        {
+          "text": "fine.",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 1151,
+      "raw": "1151 Boccaccio, Passione di Cristo. Cod. cartac. in quarto Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Passione di Cristo. Cod.",
+          "label": "auteur"
+        },
+        {
+          "text": "cartac. in quarto Sec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Passione di Cristo. Cod.",
+          "label": "auteur"
+        },
+        {
+          "text": "cartac. in quarto Sec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 383,
+      "raw": "383 Joh. Nesii Florent. Oraculum de novo Saeculo. Cod. membr in octavo Saec XV.",
+      "gold_spans": [
+        {
+          "text": "Nesii Florent. Oraculum de novo Saeculo. Cod.",
+          "label": "auteur"
+        },
+        {
+          "text": "membr in octavo Saec XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Nesii Florent.",
+          "label": "auteur"
+        },
+        {
+          "text": "Oraculum de novo Saeculo. Cod.",
+          "label": "auteur"
+        },
+        {
+          "text": "membr in octavo Saec",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XV.",
+          "label": "date"
+        }
+      ]
+    },
+    {
+      "entry_id": 1548,
+      "raw": "1548 Lucano volgarizzato. Cod. cart. in fol. Sec. XV. manc. in fondo.",
+      "gold_spans": [
+        {
+          "text": "volgarizzato. Cod.",
+          "label": "auteur"
+        },
+        {
+          "text": "cart. in fol. Sec.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "in fondo.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "volgarizzato. Cod. cart. in fol. Sec.",
+          "label": "auteur"
+        },
+        {
+          "text": "in fondo.",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 286,
+      "raw": "286 S. Ephraem, et Chrysostomi opera quaedam. Cod. chart. in quarto Saec. XV Aggiunte: mutilus in principio",
+      "gold_spans": [
+        {
+          "text": "Ephraem, et Chrysostomi opera quaedam. Cod.",
+          "label": "auteur"
+        },
+        {
+          "text": "in quarto Saec. XV",
+          "label": "auteur"
+        },
+        {
+          "text": "Aggiunte: mutilus in",
+          "label": "ouvrage"
+        },
+        {
+          "text": "principio",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Ephraem, et",
+          "label": "auteur"
+        },
+        {
+          "text": "Chrysostomi opera quaedam. Cod. chart. in quarto Saec. XV Aggiunte: mutilus in",
+          "label": "auteur"
+        },
+        {
+          "text": "principio",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 1628,
+      "raw": "1628 Fioretti della Bibbia. Cod. membr. in 4. Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "della Bibbia. Cod. membr. in 4. Sec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "della Bibbia. Cod. membr. in 4. Sec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 270,
+      "raw": "270 Compendium Theologiae moralis. Accedunt Carmina Sacra, Italice. Codex chart. in fol. Saec. XV",
+      "gold_spans": [
+        {
+          "text": "Compendium Theologiae moralis. Accedunt Carmina Sacra, Italice. Codex chart.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XV",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Compendium Theologiae moralis. Accedunt Carmina Sacra, Italice. Codex chart.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "in",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1477,
+      "raw": "1477 Cavalca Domenico, Trattato delle trenta stoltizie. S. Agostino, Scala. Cod. cartac. in ottavo Sec XV.",
+      "gold_spans": [
+        {
+          "text": "Domenico, Trattato delle trenta stoltizie.",
+          "label": "auteur"
+        },
+        {
+          "text": "S. Agostino, Scala. Cod. cartac. in ottavo Sec XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Domenico, Trattato delle trenta stoltizie.",
+          "label": "auteur"
+        },
+        {
+          "text": "S. Agostino, Scala. Cod. cartac. in ottavo Sec XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1354,
+      "raw": "1354 Vangeli volgari con figure ec. Cod. cart. in fol. Sec. XV sul principio, o XIV sul fine manc. in princ. e in mezzo.",
+      "gold_spans": [
+        {
+          "text": "volgari con figure ec. Cod. cart.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "sul principio,",
+          "label": "material"
+        },
+        {
+          "text": "fine manc. in princ. e in mezzo.",
+          "label": "date"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "volgari con",
+          "label": "auteur"
+        },
+        {
+          "text": "figure ec. Cod. cart.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "sul principio,",
+          "label": "material"
+        },
+        {
+          "text": "fine manc. in",
+          "label": "date"
+        }
+      ]
+    },
+    {
+      "entry_id": 1110,
+      "raw": "1110 Boccaccio, Fiammetta. Cod. cartac in fol Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Fiammetta. Cod. cartac in",
+          "label": "auteur"
+        },
+        {
+          "text": "fol Sec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Fiammetta. Cod. cartac in",
+          "label": "auteur"
+        },
+        {
+          "text": "fol Sec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1075,
+      "raw": "1075 Alighieri, Messer Piero, chiose sulla commedia di Dante suo padre. Cod. cart. in fol. Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Messer Piero, chiose sulla",
+          "label": "auteur"
+        },
+        {
+          "text": "commedia di Dante suo padre.",
+          "label": "auteur"
+        },
+        {
+          "text": "Cod. cart. in fol. Sec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Messer Piero, chiose sulla commedia di Dante suo padre.",
+          "label": "auteur"
+        },
+        {
+          "text": "Cod. cart. in fol. Sec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1241,
+      "raw": "1241 Tractatus de necessittudine potentium ac tenuiorum civium. Cod. memban. iti octavo Saec. XVI.",
+      "gold_spans": [
+        {
+          "text": "de necessittudine potentium ac tenuiorum civium. Cod. memban. iti octavo Saec. XVI.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "de necessittudine potentium ac tenuiorum civium. Cod. memban. iti octavo Saec. XVI.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 335,
+      "raw": "335 Sentenze et notabili de’ SS. Girolamo, Am brogio, Agostino, Gregorio. Cod. membran. ni ridissimas. in 8. Lat. Ital. Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "et notabili de’ SS. Girolamo, Am brogio, Agostino, Gregorio.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Cod. membran. ni ridissimas.",
+          "label": "auteur"
+        },
+        {
+          "text": "Saec. XV.",
+          "label": "auteur"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "et notabili de’",
+          "label": "ouvrage"
+        },
+        {
+          "text": "in 8. Lat. Ital. Saec. XV.",
+          "label": "auteur"
+        }
+      ]
+    },
+    {
+      "entry_id": 1352,
+      "raw": "1352 Isaac (Volgarizzamento della collazione dell’ Ab.) Cod. cartac. in fol. Sec. XV sul princ. alquanto danneggiato.",
+      "gold_spans": [
+        {
+          "text": "(Volgarizzamento",
+          "label": "auteur"
+        }
+      ],
+      "pred_spans": []
+    },
+    {
+      "entry_id": 346,
+      "raw": "346 Pii Secundi, Orationes nonnullae et alia. Cod. chart. in quarto Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "Secundi, Orationes nonnullae et alia.",
+          "label": "auteur"
+        },
+        {
+          "text": "Cod. chart. in quarto Saec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Cod. chart. in quarto Saec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 368,
+      "raw": "368 Collationes et Sermones Sacri varii. Cod. chart in octavo Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "et Sermones Sacri varii. Cod. chart in octavo Saec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "et Sermones Sacri varii. Cod. chart in octavo Saec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1328,
+      "raw": "1328 S. Bernardo, Specchio della Mondizia del cuore. Volgarizzato ec. Credesi da Pier del Nero Opera del Cavalca. Cod. cartac. fol. Sec XV.",
+      "gold_spans": [
+        {
+          "text": "Bernardo, Specchio della Mondizia",
+          "label": "auteur"
+        },
+        {
+          "text": "del cuore. Volgarizzato ec. Credesi da Pier del",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Bernardo, Specchio della Mondizia",
+          "label": "auteur"
+        },
+        {
+          "text": "del cuore. Volgarizzato ec. Credesi da Pier del",
+          "label": "ouvrage"
+        },
+        {
+          "text": "cartac.",
+          "label": "auteur"
+        }
+      ]
+    },
+    {
+      "entry_id": 289,
+      "raw": "289 Manzaneni de Quinones, Relatio super vitam S. Ignatii de Loiola. Cod. chart. in fol. Saec. XVII.",
+      "gold_spans": [
+        {
+          "text": "de Quinones, Relatio super vitam S. Ignatii",
+          "label": "auteur"
+        },
+        {
+          "text": "de Loiola. Cod. chart. in fol. Saec. XVII.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "de Quinones, Relatio super vitam S. Ignatii",
+          "label": "auteur"
+        },
+        {
+          "text": "de Loiola. Cod. chart. in fol. Saec. XVII.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1030,
+      "raw": "1030 Leonardo Aretino, Vita di Dante e del Petrarca. Giannozzo Manetti Lettera, Statuto di Pistoia, e più altre cose. Cod. cart. in fol Sec. XV e seguenti, miscellaneo. Aggiunte: 1030 bis Frammento della Divina Commedia, Cod. membr. in 4 sec. XIVcc. 4. (Purgatorio XIX, 37- XX, 54; XXII, 94-XXIV, 152 e XXVII, 13-XXVIII, 33). Firmato E. R.",
+      "gold_spans": [
+        {
+          "text": "Aretino, Vita di Dante",
+          "label": "auteur"
+        },
+        {
+          "text": "e del Petrarca. Giannozzo Manetti Lettera, Statuto di Pistoia,",
+          "label": "ouvrage"
+        },
+        {
+          "text": "e più altre cose. Cod.",
+          "label": "auteur"
+        },
+        {
+          "text": "in 4",
+          "label": "material"
+        },
+        {
+          "text": "4. (Purgatorio XIX,",
+          "label": "date"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Aretino, Vita di Dante",
+          "label": "auteur"
+        },
+        {
+          "text": "e del Petrarca. Giannozzo Manetti Lettera, Statuto di Pistoia,",
+          "label": "ouvrage"
+        },
+        {
+          "text": "e più altre cose. Cod.",
+          "label": "auteur"
+        },
+        {
+          "text": "cart. in fol",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Sec. XV e seguenti, miscellaneo. Aggiunte: 1030",
+          "label": "ouvrage"
+        },
+        {
+          "text": "in 4",
+          "label": "material"
+        },
+        {
+          "text": "4. (Purgatorio XIX,",
+          "label": "date"
+        }
+      ]
+    },
+    {
+      "entry_id": 481,
+      "raw": "481 Orationes quaedam, et preces sacrae. Cod. chartac. in 16 Saec. XVIII.",
+      "gold_spans": [
+        {
+          "text": "quaedam, et preces sacrae. Cod. chartac. in 16 Saec.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XVIII.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "quaedam, et preces sacrae. Cod. chartac. in 16 Saec.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1513,
+      "raw": "1513 Vita di Cesare, e sue avventure, e battaglie. Cod. cart. fol. Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "di Cesare, e sue avventure,",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "di Cesare, e sue avventure, e battaglie. Cod. cart. fol. Sec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 432,
+      "raw": "432 Officium B. M. Virginis. Cod. membr. in octavo Saec. XVI cum picturis.",
+      "gold_spans": [
+        {
+          "text": "B. M. Virginis. Cod. membr. in octavo Saec. XVI cum",
+          "label": "ouvrage"
+        },
+        {
+          "text": "picturis.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "B. M. Virginis. Cod. membr. in octavo Saec. XVI cum",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 511,
+      "raw": "511 Ciceronis Quaestiones Tusculanae. Cod. chartac. in fol. Saec XV.",
+      "gold_spans": [
+        {
+          "text": "Quaestiones Tusculanae.",
+          "label": "auteur"
+        },
+        {
+          "text": "Cod. chartac. in fol. Saec XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Quaestiones Tusculanae.",
+          "label": "auteur"
+        },
+        {
+          "text": "Cod.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "chartac. in fol. Saec XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1350,
+      "raw": "1350 Gradi di S. Girolamo. Cod. cartac. in fol. Sec. XIV sul fine, manc. in fine.",
+      "gold_spans": [
+        {
+          "text": "di S. Girolamo. Cod. cartac. in fol. Sec. XIV",
+          "label": "ouvrage"
+        },
+        {
+          "text": "sul fine, manc. in fine.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "di S. Girolamo. Cod. cartac. in fol. Sec. XIV",
+          "label": "ouvrage"
+        },
+        {
+          "text": "manc. in fine.",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 255,
+      "raw": "255 Expositiones in Sacram Scripturam. Codex chart in fol. Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "Expositiones in Sacram Scripturam. Codex chart in fol. Saec.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XV.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Expositiones in Sacram Scripturam. Codex chart in fol. Saec.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XV.",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 1108,
+      "raw": "1108 Petrarca, e Dante Rime, e vita di Dante XV nitidissimo, con miniature, ha una membrana tagliata in fondo, ma di poco danno.",
+      "gold_spans": [
+        {
+          "text": "e Dante Rime,",
+          "label": "auteur"
+        },
+        {
+          "text": "vita di",
+          "label": "auteur"
+        },
+        {
+          "text": "Dante XV nitidissimo,",
+          "label": "ouvrage"
+        },
+        {
+          "text": "poco danno.",
+          "label": "etat"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "e Dante Rime,",
+          "label": "auteur"
+        },
+        {
+          "text": "vita di Dante XV nitidissimo,",
+          "label": "auteur"
+        },
+        {
+          "text": "miniature, ha",
+          "label": "ouvrage"
+        },
+        {
+          "text": "una membrana tagliata",
+          "label": "auteur"
+        }
+      ]
+    },
+    {
+      "entry_id": 418,
+      "raw": "418 Prudentii Psychomachia. Virghi Bucolica. Physiologus, Versus de natura animalium. Cod. chartac. in quarto Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "Psychomachia. Virghi Bucolica.",
+          "label": "auteur"
+        },
+        {
+          "text": "Physiologus, Versus de natura",
+          "label": "ouvrage"
+        },
+        {
+          "text": "animalium. Cod.",
+          "label": "auteur"
+        },
+        {
+          "text": "chartac. in quarto Saec.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Psychomachia. Virghi Bucolica. Physiologus, Versus de natura",
+          "label": "auteur"
+        },
+        {
+          "text": "animalium. Cod. chartac. in quarto Saec.",
+          "label": "auteur"
+        },
+        {
+          "text": "XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1188,
+      "raw": "1188 Ermini, Studii varii, Opuscoli, e Lettere scritte al medesimo. Lettera di Leon. Dati. Cod. cart. in fol. Sec. XVII",
+      "gold_spans": [
+        {
+          "text": "Studii varii, Opuscoli,",
+          "label": "auteur"
+        },
+        {
+          "text": "e Lettere scritte al medesimo. Lettera di Leon. Dati. Cod. cart. in fol. Sec. XVII",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Studii varii, Opuscoli,",
+          "label": "auteur"
+        },
+        {
+          "text": "e Lettere scritte al medesimo.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Lettera di Leon. Dati. Cod.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "cart. in fol. Sec. XVII",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1315,
+      "raw": "1315 Cavalca Specchio di Croce. Volgarizzamento dei Dialoghi di S. Gregorio, del medesimo ec. Cod. cart. fol. Sec. XIV.",
+      "gold_spans": [
+        {
+          "text": "Specchio di",
+          "label": "auteur"
+        },
+        {
+          "text": "Croce. Volgarizzamento dei Dialoghi di S.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Gregorio, del medesimo ec. Cod. cart. fol.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XIV.",
+          "label": "auteur"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Specchio di Croce. Volgarizzamento dei Dialoghi di S.",
+          "label": "auteur"
+        },
+        {
+          "text": "Gregorio, del medesimo ec. Cod. cart. fol. Sec. XIV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1461,
+      "raw": "1461 Capranica Mons. (ossia Card. di Fermo ) Arte del ben morire. Cod. cartac. in 16. Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Mons. (ossia Card. di Fermo )",
+          "label": "auteur"
+        },
+        {
+          "text": "XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Mons. (ossia Card. di Fermo )",
+          "label": "auteur"
+        },
+        {
+          "text": "XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 396,
+      "raw": "396 Beltrami de Gallante, Manipulus Florum, seu Chronicum ab ortu Mediolani usque ad annum 1371 Cod. chart. in quarto Saec XIV XV.",
+      "gold_spans": [
+        {
+          "text": "de Gallante, Manipulus Florum, seu Chronicum ab",
+          "label": "auteur"
+        },
+        {
+          "text": "ortu Mediolani usque ad annum 1371 Cod. chart. in quarto Saec XIV XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "de Gallante, Manipulus Florum, seu Chronicum ab",
+          "label": "auteur"
+        },
+        {
+          "text": "ortu Mediolani usque ad annum",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 502,
+      "raw": "502 Ciceronis Epistolae ad familiares. Cod. chart. in fol. Saec XV.",
+      "gold_spans": [
+        {
+          "text": "Epistolae ad",
+          "label": "auteur"
+        },
+        {
+          "text": "familiares. Cod. chart. in fol.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Epistolae ad",
+          "label": "auteur"
+        },
+        {
+          "text": "familiares. Cod. chart. in fol.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Saec",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 489,
+      "raw": "489 P. Ovidii Nasonis Heroid. epitsolae. De tristibus, Fastis ec. Cod. membr. Saec. XIV in fol. Aggiunte illeggibili",
+      "gold_spans": [
+        {
+          "text": "Ovidii Nasonis Heroid. epitsolae. De tristibus, Fastis",
+          "label": "auteur"
+        },
+        {
+          "text": "ec. Cod. membr. Saec. XIV in fol. Aggiunte",
+          "label": "ouvrage"
+        },
+        {
+          "text": "illeggibili",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Ovidii Nasonis",
+          "label": "auteur"
+        },
+        {
+          "text": "Heroid. epitsolae. De tristibus, Fastis ec. Cod. membr.",
+          "label": "auteur"
+        },
+        {
+          "text": "Saec. XIV in fol. Aggiunte",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1160,
+      "raw": "1160 Aretino, Leonardo prima guerra Punica, e quarto Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Leonardo prima guerra Punica,",
+          "label": "auteur"
+        },
+        {
+          "text": "e quarto Sec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Leonardo prima guerra",
+          "label": "auteur"
+        }
+      ]
+    },
+    {
+      "entry_id": 316,
+      "raw": "316 S. Hieronymi de gradibus Sacrorum Ordinum &c. S. Pauli et Senecae epistolae &c. Cod. membr. in quarto Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "S. Hieronymi de gradibus Sacrorum",
+          "label": "auteur"
+        },
+        {
+          "text": "Ordinum &c. S. Pauli et Senecae epistolae &c.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "quarto Saec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "S. Hieronymi de gradibus Sacrorum Ordinum &c. S. Pauli et Senecae epistolae &c.",
+          "label": "auteur"
+        },
+        {
+          "text": "quarto Saec. XV.",
+          "label": "auteur"
+        }
+      ]
+    },
+    {
+      "entry_id": 391,
+      "raw": "391 Capitoli della Compagnia d’Orsammichele. Seneca de Beneficiis &c. Cod. membr. in quarto Saec. XIV initio ac fine mutilus.",
+      "gold_spans": [
+        {
+          "text": "della Compagnia d’Orsammichele. Seneca de Beneficiis &c. Cod. membr. in quarto Saec. XIV",
+          "label": "ouvrage"
+        },
+        {
+          "text": "initio ac",
+          "label": "auteur"
+        },
+        {
+          "text": "fine mutilus.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "della Compagnia d’Orsammichele. Seneca de Beneficiis &c. Cod. membr. in quarto Saec. XIV",
+          "label": "ouvrage"
+        },
+        {
+          "text": "initio ac fine mutilus.",
+          "label": "auteur"
+        }
+      ]
+    },
+    {
+      "entry_id": 1591,
+      "raw": "1591 Seneca, della Divina Provvidenza. Della Nobiltà. Geta e Birria, Poema, e Novella. Cod. cartac. in quarto Sec. XV. con figure.",
+      "gold_spans": [
+        {
+          "text": "della Divina Provvidenza.",
+          "label": "auteur"
+        },
+        {
+          "text": "Della Nobiltà. Geta e Birria, Poema, e",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Novella. Cod. cartac. in quarto Sec.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XV. con figure.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "della Divina Provvidenza.",
+          "label": "auteur"
+        },
+        {
+          "text": "Della Nobiltà. Geta e Birria, Poema, e",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Novella. Cod. cartac. in quarto Sec.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XV. con figure.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1680,
+      "raw": "1680 Leggenda di S. Giovanni Batista. Sermoni di S. Agostino volgarizzati. Sposizione de’ 10. Comandamenti ec. Cod. membran. in fol. Sec. XIV. sul fine.",
+      "gold_spans": [
+        {
+          "text": "di S.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Batista. Sermoni di S. Agostino volgarizzati.",
+          "label": "auteur"
+        },
+        {
+          "text": "Sposizione de’",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Comandamenti ec. Cod. membran.",
+          "label": "auteur"
+        },
+        {
+          "text": "in fol. Sec. XIV.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "sul fine.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "di S. Giovanni Batista. Sermoni di S. Agostino volgarizzati.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Sposizione de’ 10. Comandamenti ec. Cod. membran. in fol. Sec. XIV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1267,
+      "raw": "1267 Caterina S. da Siena, Dialogo. Cod. Cart.in fol, Sec. XV sull’ultimo.",
+      "gold_spans": [
+        {
+          "text": "S. da Siena, Dialogo. Cod. Cart.in fol, Sec.",
+          "label": "auteur"
+        },
+        {
+          "text": "XV sull’ultimo.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "S. da Siena, Dialogo. Cod. Cart.in fol, Sec.",
+          "label": "auteur"
+        },
+        {
+          "text": "XV sull’ultimo.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1385,
+      "raw": "1385 Vincenzio S. Predica ec. Cod. cart. in fol. Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "S. Predica ec. Cod. cart.",
+          "label": "auteur"
+        },
+        {
+          "text": "in fol.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "S. Predica ec. Cod. cart.",
+          "label": "auteur"
+        },
+        {
+          "text": "in fol.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1278,
+      "raw": "1278 Fioretti di S. Francesco. Laudi Spirituali. Vita di S. Onofrio e di S. Alessio. Cod. cart. fol. Sec. XV mutilo in principio.",
+      "gold_spans": [
+        {
+          "text": "di S. Francesco. Laudi Spirituali. Vita di S.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Onofrio e di S. Alessio.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Cod. cart. fol. Sec. XV mutilo in principio.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "di S. Francesco. Laudi Spirituali. Vita di S.",
+          "label": "auteur"
+        },
+        {
+          "text": "Onofrio e di S. Alessio.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Cod. cart. fol. Sec. XV mutilo in principio.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1580,
+      "raw": "1580 Ovidio, Epistole. La pulce del medesimo, Capitolo amoroso in quarta rima. Cod. cart. in fol. Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Epistole. La pulce del",
+          "label": "auteur"
+        },
+        {
+          "text": "medesimo, Capitolo amoroso in",
+          "label": "ouvrage"
+        },
+        {
+          "text": "quarta rima. Cod.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Epistole. La pulce del",
+          "label": "auteur"
+        },
+        {
+          "text": "medesimo, Capitolo amoroso in",
+          "label": "ouvrage"
+        },
+        {
+          "text": "quarta rima. Cod. cart. in fol. Sec.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1405,
+      "raw": "1405 Sermoni di S. Agostino volgari. Trattato delle Stoltizie. Cod. cartac. in quarto Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "di S.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "volgari. Trattato delle Stoltizie.",
+          "label": "auteur"
+        },
+        {
+          "text": "Cod. cartac. in",
+          "label": "ouvrage"
+        },
+        {
+          "text": "quarto Sec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "di S. Agostino volgari. Trattato delle Stoltizie. Cod. cartac. in",
+          "label": "ouvrage"
+        },
+        {
+          "text": "quarto Sec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 279,
+      "raw": "279 Chronicae Generalium Monasteriorum Ordinis Fratrum Minorum. Codex chart. in fol. Saec. XV. Aggiunte: in medio mutilus",
+      "gold_spans": [
+        {
+          "text": "Generalium Monasteriorum Ordinis Fratrum Minorum. Codex chart. in fol. Saec. XV. Aggiunte: in medio mutilus",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Generalium Monasteriorum Ordinis Fratrum Minorum. Codex chart. in fol. Saec. XV. Aggiunte: in medio mutilus",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 438,
+      "raw": "438 Juvencii Historia Evangelica versibus hexametris expressa. Cod. membr. in octavo Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "Historia Evangelica versibus",
+          "label": "auteur"
+        },
+        {
+          "text": "hexametris expressa. Cod. membr. in octavo Saec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Historia Evangelica versibus hexametris expressa. Cod. membr. in octavo Saec. XV.",
+          "label": "auteur"
+        }
+      ]
+    },
+    {
+      "entry_id": 238,
+      "raw": "238 Lactantii Fìrmiani Divinarum Inistutionum. Cod. chart. in fol. Saec. XVI in.",
+      "gold_spans": [
+        {
+          "text": "Fìrmiani Divinarum Inistutionum. Cod. chart. in fol.",
+          "label": "auteur"
+        },
+        {
+          "text": "Saec. XVI in.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Fìrmiani Divinarum Inistutionum. Cod. chart. in fol. Saec. XVI in.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1115,
+      "raw": "1115 Dante la Divina Commedia. Cod. cartac. in quarto Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "la Divina",
+          "label": "auteur"
+        },
+        {
+          "text": "Commedia. Cod. cartac. in quarto Sec.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "la Divina",
+          "label": "auteur"
+        },
+        {
+          "text": "Commedia. Cod. cartac. in quarto Sec.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 427,
+      "raw": "427 Vita scolastica Versibus Elegiacis. Accedit Chartula ad Reinaldum versibus leoninis Cod. chartac. in octavo Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "scolastica Versibus Elegiacis. Accedit Chartula ad Reinaldum versibus leoninis Cod.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "scolastica Versibus Elegiacis. Accedit Chartula ad Reinaldum versibus leoninis Cod.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "octavo Saec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1180,
+      "raw": "1180 1181 Iosephi Averani, Dissertationes, et Orationes Panegyricae et Interpretation.es Iuris. Cod. chartac. in fol. Vol. II. Saec. XVIII autographus.",
+      "gold_spans": [
+        {
+          "text": "Dissertationes, et Orationes Panegyricae et Interpretation.es",
+          "label": "auteur"
+        },
+        {
+          "text": "Iuris. Cod. chartac. in fol. Vol. II. Saec. XVIII autographus.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Dissertationes, et Orationes Panegyricae et Interpretation.es",
+          "label": "auteur"
+        },
+        {
+          "text": "Iuris. Cod. chartac. in fol. Vol. II. Saec. XVIII autographus.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 269,
+      "raw": "269 Petri Lombardi, Liber sententiarum. Codex chart. Saec. XIV ex.",
+      "gold_spans": [
+        {
+          "text": "Lombardi, Liber sententiarum. Codex",
+          "label": "auteur"
+        },
+        {
+          "text": "chart. Saec. XIV ex.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Lombardi, Liber sententiarum. Codex",
+          "label": "auteur"
+        },
+        {
+          "text": "chart. Saec. XIV ex.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1416,
+      "raw": "1416 S. Agostino Sermoni. Confessionale di S. Antonino. Cod. cartac. in quarto Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Agostino Sermoni. Confessionale di",
+          "label": "auteur"
+        },
+        {
+          "text": "S. Antonino. Cod.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "cartac. in quarto Sec.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Agostino Sermoni. Confessionale di",
+          "label": "auteur"
+        },
+        {
+          "text": "S. Antonino. Cod.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "cartac. in quarto Sec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1665,
+      "raw": "1665 da S. Concordio Bartolommeo, Ammaestramenti. Cod. membr. in fol. Sec. XV sul principio",
+      "gold_spans": [
+        {
+          "text": "Concordio Bartolommeo, Ammaestramenti. Cod. membr. in fol. Sec. XV",
+          "label": "auteur"
+        },
+        {
+          "text": "sul principio",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Concordio Bartolommeo, Ammaestramenti. Cod. membr. in fol. Sec. XV",
+          "label": "auteur"
+        },
+        {
+          "text": "sul principio",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1282,
+      "raw": "1282 Trattato delle Virtù Cardinali, estratto da Valerio Massimo e da altri Filosofi. Raccolta di Sentenze morali di Autore Anonimo. De regimine Regum, Trattato volgare cavato da Aristotile ec. Cod. cart. fol. Sec. XIV sul fine.",
+      "gold_spans": [
+        {
+          "text": "delle Virtù Cardinali, estratto da Valerio Massimo e da altri",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Sentenze morali di",
+          "label": "auteur"
+        },
+        {
+          "text": "Trattato volgare cavato da Aristotile ec. Cod.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "delle Virtù Cardinali, estratto da Valerio Massimo e da altri",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1035,
+      "raw": "1035 Dante la Divina commedia, con le Canzoni del medesimo. Cod. membr. in fol. Sec. XIV",
+      "gold_spans": [
+        {
+          "text": "la Divina",
+          "label": "auteur"
+        },
+        {
+          "text": "commedia, con le Canzoni del medesimo.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "la Divina",
+          "label": "auteur"
+        },
+        {
+          "text": "commedia, con le Canzoni del medesimo.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 256,
+      "raw": "256 Concilium Aquisgranense. Divi Augustini, et aliorum oposcula. Varia. Cod. membran. in fol. Saec. XII mancus et imperfectus, sed plurimi faciendus.",
+      "gold_spans": [
+        {
+          "text": "Concilium Aquisgranense. Divi Augustini, et aliorum oposcula.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Varia. Cod. membran. in",
+          "label": "auteur"
+        }
+      ],
+      "pred_spans": []
+    },
+    {
+      "entry_id": 1143,
+      "raw": "1143 Dante e Petrarca, Rime diverse. Cod. cartac. in quarto. Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "e Petrarca,",
+          "label": "auteur"
+        },
+        {
+          "text": "diverse. Cod. cartac.",
+          "label": "auteur"
+        },
+        {
+          "text": "in quarto. Sec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "e Petrarca, Rime diverse. Cod. cartac.",
+          "label": "auteur"
+        },
+        {
+          "text": "in quarto. Sec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 374,
+      "raw": "374 Hieronymi S. Psalterium breviatum. Codex membr. in octavo Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "S. Psalterium breviatum. Codex membr.",
+          "label": "auteur"
+        },
+        {
+          "text": "in octavo Saec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "S. Psalterium breviatum. Codex membr.",
+          "label": "auteur"
+        },
+        {
+          "text": "in octavo Saec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1549,
+      "raw": "1549 Lucano. Libro così intitolato, che tratta delle battaglie tra Cesare e Pompeo. Codice cart. in fol. Sec. XV. danneggiato.",
+      "gold_spans": [
+        {
+          "text": "Libro così intitolato,",
+          "label": "auteur"
+        },
+        {
+          "text": "che tratta delle battaglie tra Cesare e Pompeo. Codice cart. in fol. Sec. XV. danneggiato.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Libro così intitolato,",
+          "label": "auteur"
+        }
+      ]
+    },
+    {
+      "entry_id": 1184,
+      "raw": "1184 1185 1l86 Miscellanea di Opuscoli divesi Manoscritti, di varj tempi. Cod. cart, in fol. Vol. III. Aggiunte: 1184 bis Gerardo D’Anversa. Abbreviario figuralis historiae. Memb. Sec. XIV.",
+      "gold_spans": [
+        {
+          "text": "Manoscritti, di varj tempi. Cod. cart, in fol. Vol. III. Aggiunte: 1184 bis Gerardo",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Manoscritti, di varj tempi. Cod.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "cart, in fol. Vol. III. Aggiunte:",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 224,
+      "raw": "224 Lectionarium secundum anni circulum. Cod. membr. in fol max Saec. XI.",
+      "gold_spans": [
+        {
+          "text": "Lectionarium secundum anni circulum. Cod. membr. in fol",
+          "label": "ouvrage"
+        },
+        {
+          "text": "max Saec. XI.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Lectionarium secundum anni circulum. Cod. membr. in fol",
+          "label": "ouvrage"
+        },
+        {
+          "text": "max",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 1036,
+      "raw": "1036 Dante la Divina commedia &c. Cod. cart. in fol. Secolo XIV sul fine, lacero nella prima carta.",
+      "gold_spans": [
+        {
+          "text": "la Divina",
+          "label": "auteur"
+        },
+        {
+          "text": "commedia &c. Cod. cart. in",
+          "label": "ouvrage"
+        },
+        {
+          "text": "sul fine, lacero nella prima carta.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "la Divina",
+          "label": "auteur"
+        },
+        {
+          "text": "commedia &c. Cod. cart. in",
+          "label": "ouvrage"
+        },
+        {
+          "text": "lacero nella",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 1255,
+      "raw": "1255 Agostino S. della città di Dio volgarizzata. Cod. cart. in fol. Sec. XV nitidissimo.",
+      "gold_spans": [
+        {
+          "text": "S. della città di",
+          "label": "auteur"
+        },
+        {
+          "text": "Dio volgarizzata. Cod. cart. in fol. Sec. XV",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "S. della città di Dio volgarizzata. Cod. cart. in fol. Sec. XV",
+          "label": "auteur"
+        }
+      ]
+    },
+    {
+      "entry_id": 1265,
+      "raw": "1265 Vita di S. Girolamo. Epistola ad Eustochia. Fioretti sopra il confortar le vergini ec. Cod. cart. in fol. Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "di S. Girolamo. Epistola ad Eustochia. Fioretti sopra",
+          "label": "ouvrage"
+        },
+        {
+          "text": "il confortar le vergini ec. Cod.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "cart. in fol. Sec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "di S. Girolamo. Epistola ad Eustochia. Fioretti sopra",
+          "label": "ouvrage"
+        },
+        {
+          "text": "il confortar le vergini ec. Cod.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "cart. in fol.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1542,
+      "raw": "1542 Ovidio, Epistole volgarizzate da M. Alberto della Piagentina. Cod. cart. fol. Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Epistole volgarizzate da M.",
+          "label": "auteur"
+        },
+        {
+          "text": "Alberto della Piagentina. Cod. cart. fol.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XV.",
+          "label": "auteur"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Epistole volgarizzate da M.",
+          "label": "auteur"
+        },
+        {
+          "text": "Alberto della Piagentina. Cod. cart. fol. Sec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1473,
+      "raw": "1473 Vite di quattro Sante, Maria Maddalena, Agata, Lucia e Caterina. Laudi spirituali. Cod. cartac in ottavo Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "di quattro Sante, Maria Maddalena, Agata, Lucia",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "di quattro Sante, Maria Maddalena, Agata, Lucia e Caterina. Laudi spirituali. Cod. cartac in ottavo Sec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1699,
+      "raw": "1699 S. Gio. Grisostomo, della Compunzione ec. Cod. cart. in quarto Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Gio. Grisostomo, della Compunzione ec. Cod. cart. in quarto",
+          "label": "auteur"
+        },
+        {
+          "text": "Sec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Gio. Grisostomo, della Compunzione ec. Cod. cart. in quarto",
+          "label": "auteur"
+        },
+        {
+          "text": "Sec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1432,
+      "raw": "1432 Da Osimo Fra Niccolo, Quadriga Spirituale. Cod. cartac. in quarto Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Osimo Fra Niccolo, Quadriga Spirituale. Cod. cartac.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "in quarto Sec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Osimo Fra Niccolo, Quadriga Spirituale. Cod. cartac.",
+          "label": "auteur"
+        },
+        {
+          "text": "in quarto Sec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 245,
+      "raw": "245 Vitae Patrum, et Liber de Paradiso, e Graeco in Latinum translat. per Ambrosium Camaldulensem. Pervenutus Codex, et picturis in primis paginis ornatus, Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "Vitae Patrum, et Liber de",
+          "label": "ouvrage"
+        },
+        {
+          "text": "e Graeco in Latinum translat. per",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Saec. XV.",
+          "label": "auteur"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Vitae Patrum, et Liber de Paradiso, e Graeco in Latinum translat. per",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 253,
+      "raw": "253 Adalperii Pisauriensis Compendium Theologiae. Cod. membr. in fol. Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "Pisauriensis Compendium Theologiae. Cod. membr. in fol.",
+          "label": "auteur"
+        },
+        {
+          "text": "Saec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Pisauriensis Compendium Theologiae. Cod. membr. in fol.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Saec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 441,
+      "raw": "441 Minorum Fratrum Regula et Vita. Cod. chartac. in octavo Saec. XVI.",
+      "gold_spans": [
+        {
+          "text": "Fratrum Regula et Vita. Cod. chartac. in octavo",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Fratrum Regula et Vita. Cod. chartac. in octavo",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1175,
+      "raw": "1175 Vergerli P. Paulli, de ingenuis moribus, et liberalibus adolescent; studiis. Cod. membran. in quarto Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "P. Paulli, de ingenuis moribus, et liberalibus",
+          "label": "auteur"
+        },
+        {
+          "text": "adolescent; studiis. Cod. membran. in quarto Saec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "P. Paulli, de ingenuis moribus, et liberalibus",
+          "label": "auteur"
+        },
+        {
+          "text": "adolescent; studiis. Cod. membran. in quarto Saec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1086,
+      "raw": "1086 Boccaccio, Filostrato ec. Cod. cartac. ia fol. Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Filostrato ec. Cod. cartac.",
+          "label": "auteur"
+        },
+        {
+          "text": "ia fol. Sec.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Filostrato ec. Cod. cartac.",
+          "label": "auteur"
+        },
+        {
+          "text": "ia fol. Sec.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1517,
+      "raw": "1517 1518 T. Livio, la prima, e terza Deca Volgarizzate. Cod. cart.in fol. Sec. XV. vol. 2.",
+      "gold_spans": [
+        {
+          "text": "Volgarizzate. Cod. cart.in fol. Sec. XV. vol. 2.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "la prima, e terza Deca",
+          "label": "auteur"
+        },
+        {
+          "text": "Volgarizzate. Cod. cart.in fol. Sec. XV. vol. 2.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 333,
+      "raw": "333 Vitae S. Ioannis Gualberti Abbatis, S. Bernardi et aliorum. Cod. membr. in. 8. Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "S. Ioannis Gualberti Abbatis, S. Bernardi et aliorum. Cod. membr. in. 8. Saec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "S. Ioannis Gualberti Abbatis, S. Bernardi et aliorum. Cod. membr. in. 8. Saec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1623,
+      "raw": "1623 S. Gregorio, Dialogo volgarizzato. Cod. cart. in 4. Sec. XV. mancante in fondo, e guasto in principio.",
+      "gold_spans": [
+        {
+          "text": "Gregorio, Dialogo volgarizzato. Cod. cart.",
+          "label": "auteur"
+        },
+        {
+          "text": "in 4. Sec. XV. mancante in",
+          "label": "ouvrage"
+        },
+        {
+          "text": "guasto in",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Gregorio, Dialogo volgarizzato. Cod. cart.",
+          "label": "auteur"
+        },
+        {
+          "text": "in 4. Sec. XV. mancante in",
+          "label": "ouvrage"
+        },
+        {
+          "text": "guasto in",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 1264,
+      "raw": "1264 Bernardino S. Prediche. Cod. cart. in fol. Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "S. Prediche. Cod. cart.",
+          "label": "auteur"
+        },
+        {
+          "text": "in fol. Sec.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "S. Prediche. Cod. cart. in fol. Sec.",
+          "label": "auteur"
+        }
+      ]
+    },
+    {
+      "entry_id": 1692,
+      "raw": "1692 Storia di Santa Domitilla. Cod. cart. in quarto Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "di Santa Domitilla. Cod. cart. in quarto Sec.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "di Santa Domitilla. Cod. cart. in quarto Sec.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 282,
+      "raw": "282 Missale Romanum. Cod. membr. in quarto Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "Romanum. Cod. membr. in quarto",
+          "label": "ouvrage"
+        },
+        {
+          "text": "Saec. XV.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Romanum. Cod. membr. in quarto",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1164,
+      "raw": "1164 Geber, Tractatus de Alchimia. Cod. chartac. in fol. Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "Tractatus de Alchimia.",
+          "label": "auteur"
+        },
+        {
+          "text": "Cod. chartac. in fol. Saec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Tractatus de Alchimia.",
+          "label": "auteur"
+        },
+        {
+          "text": "Cod. chartac. in fol. Saec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1403,
+      "raw": "1403 Meditazioni sulla vita di Gesù Cristo. Cod. cartac. in quarto Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "sulla vita di Gesù Cristo. Cod. cartac. in quarto",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "sulla vita di Gesù Cristo. Cod. cartac. in quarto",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1299,
+      "raw": "1299 da Cascia Fra Simone, Volgarizzamento ed Esposizione dei Vangeli, Cod. cartac. fol. Sec. XV sul princ.",
+      "gold_spans": [
+        {
+          "text": "Cascia Fra Simone, Volgarizzamento ed Esposizione",
+          "label": "auteur"
+        },
+        {
+          "text": "dei Vangeli, Cod. cartac. fol. Sec. XV sul princ.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Fra Simone, Volgarizzamento ed Esposizione dei Vangeli, Cod. cartac. fol. Sec. XV sul princ.",
+          "label": "auteur"
+        }
+      ]
+    },
+    {
+      "entry_id": 389,
+      "raw": "389 Aegidii Romani Liber de Regimine Principis. Cod. chart. in octavo Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "Romani Liber de Regimine",
+          "label": "auteur"
+        },
+        {
+          "text": "Principis. Cod. chart. in octavo Saec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Romani Liber de Regimine Principis. Cod. chart. in octavo Saec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 382,
+      "raw": "382 Hieronymi Dialogus. Cod. chart. in octavo Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "Dialogus. Cod. chart.",
+          "label": "auteur"
+        },
+        {
+          "text": "in octavo Saec.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XV.",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Dialogus. Cod. chart.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "in octavo Saec.",
+          "label": "auteur"
+        },
+        {
+          "text": "XV.",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 1105,
+      "raw": "1105 Acciaioli Donato, Lettera ai Signori di Firenze, autografa. Volgarizzamento d’alcune orazioni di Cicerone, di Cesare, e di Catilina ai suoi Cavalieri. Cronica antica di Fiorenza di Bindaccio de’ Cerchi. Cod. cartac. in fol. Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Donato, Lettera ai Signori di Firenze,",
+          "label": "auteur"
+        },
+        {
+          "text": "autografa. Volgarizzamento d’alcune orazioni di Cicerone, di Cesare,",
+          "label": "ouvrage"
+        },
+        {
+          "text": "in fol. Sec.",
+          "label": "auteur"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Donato, Lettera ai Signori di Firenze,",
+          "label": "auteur"
+        },
+        {
+          "text": "autografa. Volgarizzamento d’alcune orazioni di Cicerone, di Cesare,",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1012,
+      "raw": "1012 Dante Divina commedia. Cod. membran. Secolo XIV. danneggiato nelle prime membrane",
+      "gold_spans": [
+        {
+          "text": "Divina commedia.",
+          "label": "auteur"
+        },
+        {
+          "text": "Cod. membran. Secolo XIV. danneggiato",
+          "label": "ouvrage"
+        },
+        {
+          "text": "membrane",
+          "label": "material"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Divina commedia. Cod. membran. Secolo XIV. danneggiato",
+          "label": "auteur"
+        },
+        {
+          "text": "membrane",
+          "label": "material"
+        }
+      ]
+    },
+    {
+      "entry_id": 1682,
+      "raw": "1682 Sermoni sacri diversi. Cod. cart. in fol Sec. XIV. mancante in principio e fine.",
+      "gold_spans": [
+        {
+          "text": "sacri diversi. Cod. cart. in",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XIV. mancante",
+          "label": "material"
+        },
+        {
+          "text": "e fine.",
+          "label": "date"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "sacri diversi. Cod. cart. in",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XIV. mancante",
+          "label": "material"
+        },
+        {
+          "text": "e fine.",
+          "label": "date"
+        }
+      ]
+    },
+    {
+      "entry_id": 410,
+      "raw": "410 Gennadii, Isidori, Hildephonsi, de viris Illustribus. Chronicae Isidori, et Ven. Bedae Benvenuti de Imola Series Imperatorum Cod. Membr. in quarto Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "Gennadii, Isidori, Hildephonsi, de",
+          "label": "auteur"
+        },
+        {
+          "text": "viris Illustribus. Chronicae Isidori,",
+          "label": "auteur"
+        },
+        {
+          "text": "et Ven. Bedae Benvenuti",
+          "label": "auteur"
+        },
+        {
+          "text": "de Imola Series Imperatorum Cod. Membr.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Gennadii, Isidori, Hildephonsi, de",
+          "label": "auteur"
+        },
+        {
+          "text": "in quarto",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 497,
+      "raw": "497 Ciceronis M. Tullii Orationes. Cod, membr. nitilissimus Saec. XV.",
+      "gold_spans": [
+        {
+          "text": "M. Tullii Orationes. Cod, membr. nitilissimus Saec.",
+          "label": "auteur"
+        },
+        {
+          "text": "XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "M. Tullii Orationes. Cod, membr. nitilissimus Saec.",
+          "label": "auteur"
+        },
+        {
+          "text": "XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 467,
+      "raw": "467 Officium B. M. Virginis. Cod. membr. in octavo Saec. XV mutilus",
+      "gold_spans": [
+        {
+          "text": "B. M. Virginis. Cod. membr. in octavo Saec. XV mutilus",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "B. M. Virginis. Cod. membr. in octavo Saec. XV mutilus",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1168,
+      "raw": "1168 Asinis (Marci de) et alior. Consultationes. Cod. chartac. in fol. Saec. XVI.",
+      "gold_spans": [
+        {
+          "text": "(Marci de) et alior. Consultationes. Cod. chartac.",
+          "label": "auteur"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "(Marci de) et alior. Consultationes. Cod. chartac. in fol. Saec. XVI.",
+          "label": "auteur"
+        }
+      ]
+    },
+    {
+      "entry_id": 1484,
+      "raw": "1484 Ricciardo Frate, da Cortona, giardinetto di devozione. Cod. cartac. in ottavo Sec. XV.",
+      "gold_spans": [
+        {
+          "text": "Frate, da Cortona, giardinetto di devozione. Cod. cartac. in",
+          "label": "auteur"
+        },
+        {
+          "text": "ottavo Sec. XV.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "Frate, da Cortona, giardinetto di devozione. Cod. cartac. in",
+          "label": "auteur"
+        },
+        {
+          "text": "ottavo Sec. XV.",
+          "label": "ouvrage"
+        }
+      ]
+    },
+    {
+      "entry_id": 1346,
+      "raw": "1346 Cascia (Fra Simone da) Colloquio Spirituale. Meditazioni Spirituali ec. Cod. cart. in fol. Sec. XV ine. Manc. in fine.",
+      "gold_spans": [
+        {
+          "text": "(Fra Simone da) Colloquio Spirituale. Meditazioni Spirituali",
+          "label": "auteur"
+        },
+        {
+          "text": "ec. Cod. cart. in fol. Sec.",
+          "label": "ouvrage"
+        },
+        {
+          "text": "XV ine. Manc. in fine.",
+          "label": "ouvrage"
+        }
+      ],
+      "pred_spans": [
+        {
+          "text": "(Fra Simone da)",
+          "label": "auteur"
+        },
+        {
+          "text": "Colloquio Spirituale. Meditazioni Spirituali",
+          "label": "auteur"
+        },
+        {
+          "text": "ec. Cod. cart. in fol. Sec. XV ine. Manc. in fine.",
+          "label": "ouvrage"
+        }
+      ]
+    }
+  ]
+}

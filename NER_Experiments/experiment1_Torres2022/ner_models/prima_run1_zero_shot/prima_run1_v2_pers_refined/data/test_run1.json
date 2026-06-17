@@ -1,0 +1,1248 @@
+[
+  {
+    "entry_id": 1298,
+    "source_file": "Catalogo_IV_Riccardiana_1002-1700.json",
+    "raw": "1298 da Cascia Fra Simone, volgarizzamento ed Esposizione dei Vangeli. Cod. cart. fol. Sec. XV sul princ.",
+    "traduction_fr": "Fra Simone da Cascia, vulgarisation et «Exposition des Évangiles»",
+    "traduction_zh": "卡西亚的西蒙修士，福音书的方言化译本与《福音书注释》",
+    "json_authors": [
+      "Simone da Cascia | Frate Giuda"
+    ],
+    "json_titles": [
+      "ESPOSIZIONE DEI VANGELI"
+    ],
+    "json_material": "Cart.",
+    "json_date": "Sec. XV (1410)",
+    "json_date_norm": "XVe s.  [1400–1499]",
+    "ms_century_range": [
+      1400,
+      1499
+    ],
+    "date_comparison": {
+      "date_from_text": "Sec. XV",
+      "date_from_text_norm": "XVe s.  [1400–1499]",
+      "date_from_json": "Sec. XV (1410)",
+      "date_from_json_norm": "XVe s.  [1400–1499]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "da Cascia Fra Simone",
+        "label": "auteur",
+        "normalized": "da Cascia Fra Simone",
+        "norm_method": "fallback",
+        "el_results": []
+      },
+      {
+        "span_text": "Esposizione dei Vangeli",
+        "label": "ouvrage",
+        "normalized": "Esposizione dei Vangeli",
+        "norm_method": "fallback",
+        "el_results": []
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "da Cascia Fra Simone",
+        "normalized": "da Cascia Fra Simone",
+        "el_uri": "",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "ouvrage",
+        "text": "Esposizione dei Vangeli",
+        "normalized": "Esposizione dei Vangeli",
+        "el_uri": "",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "material",
+        "text": "Cod. cart. fol.",
+        "normalized": "Cod. chart.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Sec. XV",
+        "normalized": "Sec. XV",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 276,
+    "source_file": "Catalogo_I_Riccardiana_221-320.json",
+    "raw": "276 Hieronymi translatio de Tractatu Origenis in Epithalamicis. Cod. membr. Saec. XII in fol. in fine mutilus, sed eleganter scriptus, ac bene servatus.",
+    "traduction_fr": "Traduction par Jérôme du «Traité d'Origène sur les Épithalames»",
+    "traduction_zh": "耶柔米翻译的《奥利振关于雅歌的论述》",
+    "json_authors": [
+      "HIERONYMUS",
+      "ORIGENES",
+      "GUILLELMUS DE SANCTO THEODORICO",
+      "GREGORIUS I PAPA",
+      "BRUNO SIGNINUS"
+    ],
+    "json_titles": [
+      "Praefatio in Origenis homiliae Cantici Canticorum",
+      "In Canticum Canticorum homiliae II",
+      "Super Origenis expositionem in Canticum Canticorum",
+      "Commentarius in Cantica Canticorum e scriptis sancti Ambrosii",
+      "Homiliae in Canticum Canticorum",
+      "Expositio de muliere forti",
+      "Expositio in Cantica Canticorum",
+      "Epistula ad Petrum Portuensem episcopum",
+      "Epistula ad Paschalem summum pontificem",
+      "Epistula ad B. praepositum et cunctos fratres Sancti Georgii",
+      "Epistula ad episcopos et cardinales Sanctae Romanae Ecclesiae (cfr. PL 165, coll. 1139-1140; CALMA, II.4, p. 510 nr. 16)"
+    ],
+    "json_material": "membr.",
+    "json_date": "Sec. XII primo quarto (1101-1125) sec. XIX ex. (legatura di restauro); settecentesca (precedente legatura); 1947 (restauro)",
+    "json_date_norm": "XIIe s.  (1er quart)  [1101–1125]",
+    "ms_century_range": [
+      1100,
+      1199
+    ],
+    "date_comparison": {
+      "date_from_text": "Saec. XII",
+      "date_from_text_norm": "XIIe s.  [1100–1199]",
+      "date_from_json": "Sec. XII primo quarto (1101-1125) sec. XIX ex. (legatura di restauro); settecentesca (precedente legatura); 1947 (restauro)",
+      "date_from_json_norm": "XIIe s.  (1er quart)  [1101–1125]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "translatio de Tractatu",
+        "label": "ouvrage",
+        "normalized": "translatio de Tractatu",
+        "norm_method": "fallback",
+        "el_results": []
+      },
+      {
+        "span_text": "in Epithalamicis",
+        "label": "ouvrage",
+        "normalized": "in Epithalamicis",
+        "norm_method": "fallback",
+        "el_results": []
+      },
+      {
+        "span_text": "Origenis",
+        "label": "auteur",
+        "normalized": "Origenis",
+        "norm_method": "fallback",
+        "el_results": [
+          {
+            "source": "viaf",
+            "label": "Origenis, environ 185-environ 254",
+            "uri": "https://viaf.org/viaf/95155322",
+            "birth": 185,
+            "death": 254,
+            "sources": [
+              "EGAXA",
+              "NDL",
+              "WKP",
+              "NKC",
+              "N6I",
+              "NYNYRILM",
+              "PLWABN",
+              "NII",
+              "CAOONL",
+              "BNF",
+              "RERO",
+              "SIMACOB",
+              "BIBSYS",
+              "ISNI",
+              "NSK",
+              "BNCHL",
+              "DBC",
+              "J9U",
+              "NLA",
+              "SELIBR",
+              "SUDOC",
+              "NLR",
+              "NTA",
+              "LC",
+              "B2Q",
+              "NUKAT",
+              "KRNLK"
+            ],
+            "str_sim": 0.39,
+            "time_score": 1.0,
+            "score": 0.756
+          },
+          {
+            "source": "viaf",
+            "label": "Origenis Auditor Ambrosius, 3. Jh",
+            "uri": "https://viaf.org/viaf/47101193",
+            "birth": 200,
+            "death": 251,
+            "sources": [
+              "DNB",
+              "WKP"
+            ],
+            "str_sim": 0.39,
+            "time_score": 1.0,
+            "score": 0.756
+          },
+          {
+            "source": "viaf",
+            "label": "Origenis, aproximadament 183-aproximadament 253",
+            "uri": "https://viaf.org/viaf/8190168049010538410008",
+            "birth": 183,
+            "death": 253,
+            "sources": [
+              "BNC"
+            ],
+            "str_sim": 0.291,
+            "time_score": 1.0,
+            "score": 0.716
+          }
+        ]
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "Hieronymi",
+        "normalized": "",
+        "el_uri": ""
+      },
+      {
+        "label": "auteur",
+        "text": "Origenis",
+        "normalized": "Origenis",
+        "el_uri": "https://viaf.org/viaf/95155322",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "ouvrage",
+        "text": "translatio de Tractatu",
+        "normalized": "translatio de Tractatu",
+        "el_uri": "",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "ouvrage",
+        "text": "in Epithalamicis",
+        "normalized": "in Epithalamicis",
+        "el_uri": "",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "material",
+        "text": "Cod. membr.",
+        "normalized": "Cod. membr.",
+        "el_uri": ""
+      },
+      {
+        "label": "material",
+        "text": "in fol.",
+        "normalized": "in fol.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XII",
+        "normalized": "Saec. XII",
+        "el_uri": ""
+      },
+      {
+        "label": "etat",
+        "text": "in fine mutilus",
+        "normalized": "mutile a la fin",
+        "el_uri": ""
+      },
+      {
+        "label": "etat",
+        "text": "bene servatus",
+        "normalized": "bien conserve",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 297,
+    "source_file": "Catalogo_I_Riccardiana_221-320.json",
+    "raw": "297 Martyrologium. Cod. membran. in quarto Saec. XIII.",
+    "traduction_fr": "«Martyrologe»",
+    "traduction_zh": "《殉道者名录》",
+    "json_authors": [],
+    "json_titles": [
+      "Martirologio (Martirologium per anni circulum, c. 1r; dal 1 gennaio al 31 dicembre)",
+      "Sacramentario"
+    ],
+    "json_material": "membr.",
+    "json_date": "Sec. XIII seconda metà (1251-1300) XII secolo",
+    "json_date_norm": "XIIIe s.  (2e moitié)  [1251–1300]",
+    "ms_century_range": [
+      1200,
+      1299
+    ],
+    "date_comparison": {
+      "date_from_text": "Saec. XIII.",
+      "date_from_text_norm": "XIIIe s.  [1200–1299]",
+      "date_from_json": "Sec. XIII seconda metà (1251-1300) XII secolo",
+      "date_from_json_norm": "XIIIe s.  (2e moitié)  [1251–1300]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "Martyrologium",
+        "label": "ouvrage",
+        "normalized": "Martyrologium",
+        "norm_method": "fallback",
+        "el_results": [
+          {
+            "source": "wikidata",
+            "label": "martyrologium",
+            "uri": "https://www.wikidata.org/wiki/Q431193",
+            "qid": "Q431193",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          },
+          {
+            "source": "wikidata",
+            "label": "Martyrologium",
+            "uri": "https://www.wikidata.org/wiki/Q136335601",
+            "qid": "Q136335601",
+            "birth": null,
+            "death": null,
+            "viaf_uri": "https://viaf.org/viaf/185094808",
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          },
+          {
+            "source": "wikidata",
+            "label": "Martyrologium",
+            "uri": "https://www.wikidata.org/wiki/Q134175498",
+            "qid": "Q134175498",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          }
+        ]
+      }
+    ],
+    "spans": [
+      {
+        "label": "ouvrage",
+        "text": "Martyrologium",
+        "normalized": "Martyrologium",
+        "el_uri": "https://www.wikidata.org/wiki/Q431193",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "material",
+        "text": "Cod. membran. in quarto",
+        "normalized": "Cod. membran. in quarto",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XIII.",
+        "normalized": "Saec. XIII.",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 333,
+    "source_file": "Catalogo_II_Riccardiana_321-420.json",
+    "raw": "333 Vitae S. Ioannis Gualberti Abbatis, S. Bernardi et aliorum. Cod. membr. in. 8. Saec. XV.",
+    "traduction_fr": "«Vies» de saint Jean Gualbert abbé, de saint Bernard et d'autres",
+    "traduction_zh": "《圣若望·瓜尔贝托院长、圣伯纳德及其他人传记》",
+    "json_authors": [
+      "ATTO PISTORIENSIS",
+      "PETRUS DAMIANI",
+      "GUILLELMUS DE SANCTO THEODORICO",
+      "ARNOLDUS BONAE VALLIS ABBAS",
+      "GAUFRIDUS AUTISSIODORENSIS"
+    ],
+    "json_titles": [
+      "Vita sancti Iohannis Gualberti abbatis Vallisumbrosae",
+      "Vita beati Romualdi",
+      "Vita prima sancti Bernardi Claraevallis abbatis [liber primus]",
+      "Liber secundus vitae Bernardi",
+      "Vita prima sancti Bernardi Clarevallensis abbatis [libri III-V] (recensio posterior: cfr. BHL 1219, 1220 e 1221; CALMA, IV.1, p. 95 nr. 18)"
+    ],
+    "json_material": "membr.",
+    "json_date": "Sec. XV prima metà (1401-1450)",
+    "json_date_norm": "XVe s.  (1re moitié)  [1401–1450]",
+    "ms_century_range": [
+      1400,
+      1499
+    ],
+    "date_comparison": {
+      "date_from_text": "Saec. XV.",
+      "date_from_text_norm": "XVe s.  [1400–1499]",
+      "date_from_json": "Sec. XV prima metà (1401-1450)",
+      "date_from_json_norm": "XVe s.  (1re moitié)  [1401–1450]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "Vitae S. Ioannis Gualberti Abbatis, S. Bernardi et aliorum",
+        "label": "ouvrage",
+        "normalized": "Vitae S. Ioannis Gualberti Abbatis, S. Bernardi et aliorum",
+        "norm_method": "genitif_exact",
+        "el_results": []
+      }
+    ],
+    "spans": [
+      {
+        "label": "ouvrage",
+        "text": "Vitae S. Ioannis Gualberti Abbatis, S. Bernardi et aliorum",
+        "normalized": "Vitae S. Ioannis Gualberti Abbatis, S. Bernardi et aliorum",
+        "el_uri": "",
+        "norm_method": "genitif_exact",
+        "contains_persons": [
+          "Ioannis Gualberti",
+          "Bernardi"
+        ],
+        "label_detail": "ouvrage_with_pers"
+      },
+      {
+        "label": "material",
+        "text": "Cod. membr. in. 8.",
+        "normalized": "Cod. membr.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XV",
+        "normalized": "Saec. XV",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 338,
+    "source_file": "Catalogo_II_Riccardiana_321-420.json",
+    "raw": "338 Leonis Urbevetani chronicon et alia. Cod. membr. Saec XIV.",
+    "traduction_fr": "Chronique et autres œuvres de Léon d'Orvieto",
+    "traduction_zh": "奥尔维耶托的莱昂的《编年史》及其他作品",
+    "json_authors": [],
+    "json_titles": [],
+    "json_material": "",
+    "json_date": "trecentesco, fl. 1353-1383",
+    "json_date_norm": "[1353–1383]",
+    "ms_century_range": [
+      1300,
+      1399
+    ],
+    "date_comparison": {
+      "date_from_text": "Saec XIV.",
+      "date_from_text_norm": "XIVe s.  [1300–1399]",
+      "date_from_json": "trecentesco, fl. 1353-1383",
+      "date_from_json_norm": "[1353–1383]",
+      "coherent": null
+    },
+    "el_results": [
+      {
+        "span_text": "Leonis Urbevetani",
+        "label": "auteur",
+        "normalized": "Leo Urbevetanus",
+        "norm_method": "genitif_exact",
+        "el_results": [
+          {
+            "source": "viaf",
+            "label": "Leo Urbevetanus -1314",
+            "uri": "https://viaf.org/viaf/69287302",
+            "birth": null,
+            "death": 1314,
+            "sources": [
+              "DNB"
+            ],
+            "str_sim": 0.833,
+            "time_score": 1.0,
+            "score": 0.933
+          },
+          {
+            "source": "viaf",
+            "label": "Leo Urbevetanus m. 1314",
+            "uri": "https://viaf.org/viaf/1235145857131622922663",
+            "birth": null,
+            "death": 1314,
+            "sources": [
+              "BNE"
+            ],
+            "str_sim": 0.789,
+            "time_score": 1.0,
+            "score": 0.916
+          },
+          {
+            "source": "wikidata",
+            "label": "Leo Oddonis Masconensis Urbevetanus",
+            "uri": "https://www.wikidata.org/wiki/Q132887676",
+            "qid": "Q132887676",
+            "birth": null,
+            "death": 1314,
+            "viaf_uri": "https://viaf.org/viaf/69287302",
+            "str_sim": 0.6,
+            "time_score": 1.0,
+            "score": 0.84
+          }
+        ]
+      },
+      {
+        "span_text": "chronicon et alia",
+        "label": "ouvrage",
+        "normalized": "chronicon et alia",
+        "norm_method": "fallback",
+        "el_results": []
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "Leonis Urbevetani",
+        "normalized": "Leo Urbevetanus",
+        "el_uri": "https://viaf.org/viaf/69287302",
+        "norm_method": "genitif_exact"
+      },
+      {
+        "label": "ouvrage",
+        "text": "chronicon et alia",
+        "normalized": "chronicon et alia",
+        "el_uri": "",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "material",
+        "text": "Cod. membr.",
+        "normalized": "Cod. membr.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec XIV",
+        "normalized": "Saec XIV",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 351,
+    "source_file": "Catalogo_II_Riccardiana_321-420.json",
+    "raw": "351 Basilii, Sancti, oratio ad juvenes de huma nioribus studii, et Marsilii Ficini de quatuor Sectis philosophorum. Cod. chart. in quarto Saec. XV.",
+    "traduction_fr": "De saint Basile, discours aux jeunes sur les études des lettres humaines, et de Marsile Ficin, «Des quatre sectes des philosophes»",
+    "traduction_zh": "圣巴西勒《致青年论人文学习的演讲》，以及马尔西利奥·费奇诺《论哲学家的四个派别》",
+    "json_authors": [
+      "LEONARDO BRUNI",
+      "BASILIUS CAESARENSIS",
+      "MARSILIO FICINO"
+    ],
+    "json_titles": [
+      "Isagogicon moralis disciplinae",
+      "Oratio ad adolescentes (trad. Leonardo Bruni)",
+      "De quattuor sectis philosophorum",
+      "De divino furore",
+      "De voluptate",
+      "De virtutibus moralibus (cfr. KRISTELLER, Supplementum ficinianum, I, p. CXXXIX nr. XXVII; II, pp. 1-6)"
+    ],
+    "json_material": "cart.",
+    "json_date": "Sec. XV ultimo quarto (1476-1500)",
+    "json_date_norm": "XVe s.  (dernier quart)  [1476–1500]",
+    "ms_century_range": [
+      1400,
+      1499
+    ],
+    "date_comparison": {
+      "date_from_text": "Saec. XV.",
+      "date_from_text_norm": "XVe s.  [1400–1499]",
+      "date_from_json": "Sec. XV ultimo quarto (1476-1500)",
+      "date_from_json_norm": "XVe s.  (dernier quart)  [1476–1500]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "Basilii",
+        "label": "auteur",
+        "normalized": "Basilii",
+        "norm_method": "fallback",
+        "el_results": [
+          {
+            "source": "wikidata",
+            "label": "Basilii",
+            "uri": "https://www.wikidata.org/wiki/Q92300777",
+            "qid": "Q92300777",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          },
+          {
+            "source": "wikidata",
+            "label": "Basilii",
+            "uri": "https://www.wikidata.org/wiki/Q129876847",
+            "qid": "Q129876847",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 1.0,
+            "time_score": 0.0,
+            "score": 0.7
+          },
+          {
+            "source": "viaf",
+            "label": "Basiliĭ, I. T",
+            "uri": "https://viaf.org/viaf/21420533",
+            "birth": null,
+            "death": null,
+            "sources": [
+              "LC",
+              "ISNI"
+            ],
+            "str_sim": 0.7,
+            "time_score": 0.0,
+            "score": 0.49
+          }
+        ]
+      },
+      {
+        "span_text": "oratio ad juvenes",
+        "label": "ouvrage",
+        "normalized": "oratio ad juvenes",
+        "norm_method": "fallback",
+        "el_results": []
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "Basilii",
+        "normalized": "Basilii",
+        "el_uri": "https://www.wikidata.org/wiki/Q92300777",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "auteur",
+        "text": "Marsilii Ficini",
+        "normalized": "",
+        "el_uri": ""
+      },
+      {
+        "label": "ouvrage",
+        "text": "oratio ad juvenes",
+        "normalized": "oratio ad juvenes",
+        "el_uri": "",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "material",
+        "text": "Cod. chart. in quarto",
+        "normalized": "Cod. chart. in quarto",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XV",
+        "normalized": "Saec. XV",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 1512,
+    "source_file": "Catalogo_IV_Riccardiana_1002-1700.json",
+    "raw": "1512 Meditazioni sacre. Cod. membran. in 16. Sec. XV.",
+    "traduction_fr": "«Méditations sacrées»",
+    "traduction_zh": "《神圣沉思录》",
+    "json_authors": [],
+    "json_titles": [
+      "MEDITAZIONI SPIRITUALI"
+    ],
+    "json_material": "Membranaceo",
+    "json_date": "Sec. XV",
+    "json_date_norm": "XVe s.  [1400–1499]",
+    "ms_century_range": [
+      1400,
+      1499
+    ],
+    "date_comparison": {
+      "date_from_text": "Sec. XV.",
+      "date_from_text_norm": "XVe s.  [1400–1499]",
+      "date_from_json": "Sec. XV",
+      "date_from_json_norm": "XVe s.  [1400–1499]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "Meditazioni sacre",
+        "label": "ouvrage",
+        "normalized": "Meditazioni sacre",
+        "norm_method": "fallback",
+        "el_results": []
+      }
+    ],
+    "spans": [
+      {
+        "label": "ouvrage",
+        "text": "Meditazioni sacre",
+        "normalized": "Meditazioni sacre",
+        "el_uri": "",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "material",
+        "text": "Cod. membran. in 16.",
+        "normalized": "Cod. membr.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Sec. XV",
+        "normalized": "Sec. XV",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 235,
+    "source_file": "Catalogo_I_Riccardiana_221-320.json",
+    "raw": "235 Origenes, super vetus Testamentum. Cod. membr. in fol. Saec. XV in fine mutilus.",
+    "traduction_fr": "Origène, «Sur l'Ancien Testament»",
+    "traduction_zh": "奥利金，《旧约注释》",
+    "json_authors": [
+      "ORIGENES"
+    ],
+    "json_titles": [
+      "In Genesim homiliae (16 omelie: trad. Rufinus Aquileiensis; Tractatus Origenis presbiteri super Genesim, c. 41vB; cfr. CPG 1411)",
+      "In Exodum homiliae (13 omelie: trad. Rufinus Aquileiensis; In Omelias Origenis super Exodum, c. 1rB; cfr. CPG 1414)",
+      "In Leviticum homiliae (16 omelie: trad. Rufinus Aquileiensis; Tractatus Origenis in Levitico, c. 78rA; cfr. CPG 1416)",
+      "In Numeros homiliae (28 omelie: trad. Rufinus Aquileiensis; Tractatus in Omelias Origenis super Numerum, c. 136rA; cfr. CPG 1418)",
+      "In Iesu Nave homiliae (26 omelie: trad. Rufinus Aquileiensis; Tractatus in Omelias Origenis super Iesu Nave, c. 214rA; cfr. CPG 1420)",
+      "In librum Iudicum homiliae (9 omelie: trad. Rufinus Aquileiensis; Tractatus sancti Ieronimi presbiteri in Omelias Origenis super Iudicum, c. 252vA; cfr. CPG 1421)",
+      "In Regum libros homiliae (trad. Rufinus Aquileiensis; Tractatus sancti Ieronimi presbiteri super Omeliam Origenis in primo libro Regum, c. 267rB; cfr. CPG 1423)",
+      "In Canticum Canticorum homiliae (2 omelie: trad. Hieronymus; Tractatus sancti Ieronimi presbiteri de Greco in Latinum transductum in Omelias Origenis super Cantica Canticorum, c. 273rA; cfr. CPG 1432)",
+      "In Isaiam homiliae (9 omelie: trad. Hieronymus; Tractatus sancti Ieronimi prespiteri (sic) de Greco in Latinum transductum in Omelias Origenis super Esayam prophetam, c. 281rA; cfr. CPG 1437)",
+      "In Ieremiam homiliae (14 omelie: trad. Hieronymus; Tractatus sancti Ieronimi presbiteri de Greco in Latinum transductum in Omelias Origenis super Hieremiam prophetam, c. 294rA; cfr. CPG 1438)",
+      "In Ezechielem homiliae (2 omelie: trad. Hieronymus; Tractatus sancti Ieronimi presbiteri de Greco in Latinum transductum in Omelias Origenis super Eçechielem, c. 326rA; cfr. CPG 1441)"
+    ],
+    "json_material": "membr.",
+    "json_date": "Sec. XV prima metà (1401-1450)",
+    "json_date_norm": "XVe s.  (1re moitié)  [1401–1450]",
+    "ms_century_range": [
+      1400,
+      1499
+    ],
+    "date_comparison": {
+      "date_from_text": "Saec. XV",
+      "date_from_text_norm": "XVe s.  [1400–1499]",
+      "date_from_json": "Sec. XV prima metà (1401-1450)",
+      "date_from_json_norm": "XVe s.  (1re moitié)  [1401–1450]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "Origenes",
+        "label": "auteur",
+        "normalized": "Origenes",
+        "norm_method": "nom_contains",
+        "el_results": [
+          {
+            "source": "wikidata",
+            "label": "Origenes",
+            "uri": "https://www.wikidata.org/wiki/Q170472",
+            "qid": "Q170472",
+            "birth": 185,
+            "death": 254,
+            "viaf_uri": "https://viaf.org/viaf/6694159478148427990004",
+            "str_sim": 1.0,
+            "time_score": 1.0,
+            "score": 1.0
+          },
+          {
+            "source": "wikidata",
+            "label": "Origenes",
+            "uri": "https://www.wikidata.org/wiki/Q928551",
+            "qid": "Q928551",
+            "birth": 200,
+            "death": 300,
+            "viaf_uri": "https://viaf.org/viaf/18026056",
+            "str_sim": 1.0,
+            "time_score": 1.0,
+            "score": 1.0
+          },
+          {
+            "source": "viaf",
+            "label": "Origenes, ca. 185-ca. 254",
+            "uri": "https://viaf.org/viaf/95155322",
+            "birth": 185,
+            "death": 254,
+            "sources": [
+              "EGAXA",
+              "NDL",
+              "WKP",
+              "NKC",
+              "N6I",
+              "NYNYRILM",
+              "PLWABN",
+              "NII",
+              "CAOONL",
+              "BNF",
+              "RERO",
+              "SIMACOB",
+              "BIBSYS",
+              "ISNI",
+              "NSK",
+              "BNCHL",
+              "DBC",
+              "J9U",
+              "NLA",
+              "SELIBR",
+              "SUDOC",
+              "NLR",
+              "NTA",
+              "LC",
+              "B2Q",
+              "NUKAT",
+              "KRNLK"
+            ],
+            "str_sim": 0.485,
+            "time_score": 1.0,
+            "score": 0.794
+          }
+        ]
+      },
+      {
+        "span_text": "super vetus Testamentum",
+        "label": "ouvrage",
+        "normalized": "super vetus Testamentum",
+        "norm_method": "fallback",
+        "el_results": []
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "Origenes",
+        "normalized": "Origenes",
+        "el_uri": "https://www.wikidata.org/wiki/Q170472",
+        "norm_method": "nom_contains"
+      },
+      {
+        "label": "ouvrage",
+        "text": "super vetus Testamentum",
+        "normalized": "super vetus Testamentum",
+        "el_uri": "",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "material",
+        "text": "Cod. membr. in fol.",
+        "normalized": "Cod. membr. in fol.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XV",
+        "normalized": "Saec. XV",
+        "el_uri": ""
+      },
+      {
+        "label": "etat",
+        "text": "in fine mutilus",
+        "normalized": "mutile a la fin",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 286,
+    "source_file": "Catalogo_I_Riccardiana_221-320.json",
+    "raw": "286 S. Ephraem, et Chrysostomi opera quaedam. Cod. chart. in quarto Saec. XV Aggiunte: mutilus in principio",
+    "traduction_fr": "Quelques œuvres de saint Éphrem et de Chrysostome",
+    "traduction_zh": "圣厄弗冷与屈梭多模的若干《作品》",
+    "json_authors": [
+      "EPHRAEM SYRUS",
+      "IOHANNES CHRYSOSTOMUS"
+    ],
+    "json_titles": [
+      "Sermones de diversis (20 sermoni; trad. Ambrogio Traversari; cfr. CALMA, I.2, p. 205 nr. 8; Sermones beati Ephrem per fratrem Ambrosium de Greco in Latinum conversi, Venetiis, per Christophorum de Pensiis, 1501)",
+      "De compunctione cordis libri II (trad. Ambrogio Traversari; Iohannis Chrisostoni (sic) de compunctione animae liber, c. 109r; Ioannis Crisostomi a Steleuchium de compunctione, c. 125r; cfr. CPG 4308-4309; PG 47, coll. 393-422)",
+      "Ad Theodorum lapsum (volg.; Idem [Iohannes Chrysostomus] ad Theodorum, c. 135v; cfr. CPG 4305; PG 47, coll. 277-316 per originale greco e versione latina)"
+    ],
+    "json_material": "cart.",
+    "json_date": "Sec. XV seconda metà (1451-1500)",
+    "json_date_norm": "XVe s.  (2e moitié)  [1451–1500]",
+    "ms_century_range": [
+      1400,
+      1499
+    ],
+    "date_comparison": {
+      "date_from_text": "Saec. XV",
+      "date_from_text_norm": "XVe s.  [1400–1499]",
+      "date_from_json": "Sec. XV seconda metà (1451-1500)",
+      "date_from_json_norm": "XVe s.  (2e moitié)  [1451–1500]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "S. Ephraem",
+        "label": "auteur",
+        "normalized": "S. Ephraem",
+        "norm_method": "fallback",
+        "el_results": [
+          {
+            "source": "viaf",
+            "label": "s. Ephraem Syrus, 303-373",
+            "uri": "https://viaf.org/viaf/100177778",
+            "birth": 303,
+            "death": 373,
+            "sources": [
+              "NDL",
+              "RERO",
+              "ICCU",
+              "ISNI",
+              "NYNYRILM",
+              "PERSEUS",
+              "NII",
+              "NLA",
+              "BIBSYS",
+              "N6I",
+              "BNF",
+              "WKP",
+              "SRP",
+              "NTA",
+              "J9U",
+              "CAOONL",
+              "PLWABN",
+              "SUDOC",
+              "BNCHL",
+              "BAV",
+              "LC"
+            ],
+            "str_sim": 0.571,
+            "time_score": 1.0,
+            "score": 0.828
+          },
+          {
+            "source": "wikidata",
+            "label": "BnF. Département des Manuscrits. Latin 2632",
+            "uri": "https://www.wikidata.org/wiki/Q124861767",
+            "qid": "Q124861767",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 0.151,
+            "time_score": 0.0,
+            "score": 0.106
+          }
+        ]
+      },
+      {
+        "span_text": "Chrysostomi",
+        "label": "auteur",
+        "normalized": "Chrysostomi",
+        "norm_method": "fallback",
+        "el_results": [
+          {
+            "source": "viaf",
+            "label": "Chrysostomi, Ioannis, Santo, 347-407",
+            "uri": "https://viaf.org/viaf/305214868",
+            "birth": 344,
+            "death": 407,
+            "sources": [
+              "BNCHL",
+              "ICCU",
+              "PTBNP",
+              "NII",
+              "ISNI",
+              "BNF",
+              "SIMACOB",
+              "SZ",
+              "RERO",
+              "SUDOC",
+              "LIH",
+              "KRNLK",
+              "NTA",
+              "ERRR",
+              "NSK",
+              "NUKAT",
+              "NDL",
+              "LC",
+              "DE633",
+              "B2Q",
+              "JPG",
+              "DNB",
+              "BAV",
+              "SKMASNL",
+              "ARBABN",
+              "PLWABN",
+              "WKP",
+              "SELIBR",
+              "BIBSYS",
+              "NKC",
+              "LNB",
+              "N6I",
+              "J9U",
+              "NLA",
+              "EGAXA",
+              "CAOONL",
+              "BNC",
+              "GRATEVE",
+              "UIY"
+            ],
+            "str_sim": 0.468,
+            "time_score": 1.0,
+            "score": 0.787
+          },
+          {
+            "source": "wikidata",
+            "label": "Chrysostomia",
+            "uri": "https://www.wikidata.org/wiki/Q140087",
+            "qid": "Q140087",
+            "birth": null,
+            "death": null,
+            "viaf_uri": "https://viaf.org/viaf/143154441",
+            "str_sim": 0.957,
+            "time_score": 0.0,
+            "score": 0.67
+          },
+          {
+            "source": "wikidata",
+            "label": "Chrysostomides",
+            "uri": "https://www.wikidata.org/wiki/Q91059250",
+            "qid": "Q91059250",
+            "birth": null,
+            "death": null,
+            "viaf_uri": null,
+            "str_sim": 0.88,
+            "time_score": 0.0,
+            "score": 0.616
+          }
+        ]
+      },
+      {
+        "span_text": "opera quaedam",
+        "label": "ouvrage",
+        "normalized": "opera quaedam",
+        "norm_method": "fallback",
+        "el_results": []
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "S. Ephraem",
+        "normalized": "S. Ephraem",
+        "el_uri": "https://viaf.org/viaf/100177778",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "auteur",
+        "text": "Chrysostomi",
+        "normalized": "Chrysostomi",
+        "el_uri": "https://viaf.org/viaf/305214868",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "ouvrage",
+        "text": "opera quaedam",
+        "normalized": "opera quaedam",
+        "el_uri": "",
+        "norm_method": "fallback"
+      },
+      {
+        "label": "material",
+        "text": "Cod. chart. in quarto",
+        "normalized": "Cod. chart. in quarto",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XV",
+        "normalized": "Saec. XV",
+        "el_uri": ""
+      },
+      {
+        "label": "etat",
+        "text": "mutilus in principio",
+        "normalized": "mutile",
+        "el_uri": ""
+      }
+    ]
+  },
+  {
+    "entry_id": 1232,
+    "source_file": "Catalogo_IV_Riccardiana_1002-1700.json",
+    "raw": "1232 Boccaccii Eclogae ad Donatum Apenninigenam. Cod. mem. in 8. Saec. XIV. Aggiunte: 1232 bis Antoninus, Lettera autografa a Tommaso Spinelli. In cornice.",
+    "traduction_fr": "«Églogues» de Boccace à Donato Apenninigena",
+    "traduction_zh": "薄伽丘致多纳托·亚平宁根的《牧歌》",
+    "json_authors": [
+      "Giovanni Boccaccio"
+    ],
+    "json_titles": [
+      "EGLOGHE"
+    ],
+    "json_material": "Membr.",
+    "json_date": "Sec. XIV ex.",
+    "json_date_norm": "XIVe s.  (fin)  [1390–1399]",
+    "ms_century_range": [
+      1300,
+      1399
+    ],
+    "date_comparison": {
+      "date_from_text": "Saec. XIV.",
+      "date_from_text_norm": "XIVe s.  [1300–1399]",
+      "date_from_json": "Sec. XIV ex.",
+      "date_from_json_norm": "XIVe s.  (fin)  [1390–1399]",
+      "coherent": true
+    },
+    "el_results": [
+      {
+        "span_text": "Boccaccii",
+        "label": "auteur",
+        "normalized": "Boccaccius",
+        "norm_method": "genitif_exact",
+        "el_results": [
+          {
+            "source": "viaf",
+            "label": "Boccaccius de Certaldo, Johannes, 1313-1375",
+            "uri": "https://viaf.org/viaf/64002165",
+            "birth": 1313,
+            "death": 1375,
+            "sources": [
+              "BNC",
+              "JPG",
+              "NKC",
+              "NLA",
+              "ICCU",
+              "LIH",
+              "PLWABN",
+              "CAOONL",
+              "RERO",
+              "B2Q",
+              "LC",
+              "ISNI",
+              "LNB",
+              "WKP",
+              "BNF",
+              "NII",
+              "DNB",
+              "NLR",
+              "BNCHL",
+              "W2Z",
+              "DBC",
+              "NDL",
+              "EGAXA",
+              "BAV",
+              "N6I",
+              "LNL",
+              "ARBABN",
+              "SELIBR",
+              "BIBSYS",
+              "SUDOC",
+              "PTBNP",
+              "DE633",
+              "NUKAT",
+              "NTA",
+              "J9U",
+              "NYNYRILM",
+              "SKMASNL",
+              "KRNLK",
+              "SZ",
+              "ERRR",
+              "GRATEVE",
+              "NSK"
+            ],
+            "str_sim": 0.377,
+            "time_score": 1.0,
+            "score": 0.751
+          },
+          {
+            "source": "viaf",
+            "label": "Boccaccius",
+            "uri": "https://viaf.org/viaf/35393156",
+            "birth": 1420,
+            "death": 1480,
+            "sources": [
+              "BNF",
+              "WKP",
+              "PLWABN",
+              "LC",
+              "SUDOC",
+              "ISNI",
+              "DNB"
+            ],
+            "str_sim": 1.0,
+            "time_score": 0.1,
+            "score": 0.46
+          },
+          {
+            "source": "viaf",
+            "label": "Boccaccius, Petrus, 1910-2006",
+            "uri": "https://viaf.org/viaf/251708966",
+            "birth": 1910,
+            "death": 2006,
+            "sources": [
+              "LC",
+              "NTA",
+              "SUDOC",
+              "NUKAT",
+              "WKP",
+              "BAV",
+              "PLWABN",
+              "ISNI",
+              "DNB",
+              "J9U"
+            ],
+            "str_sim": 0.513,
+            "time_score": 0.1,
+            "score": 0.265
+          }
+        ]
+      },
+      {
+        "span_text": "Eclogae ad Donatum Apenninigenam",
+        "label": "ouvrage",
+        "normalized": "Eclogae ad Donatum Apenninigenam",
+        "norm_method": "fallback",
+        "el_results": []
+      }
+    ],
+    "spans": [
+      {
+        "label": "auteur",
+        "text": "Boccaccii",
+        "normalized": "Boccaccius",
+        "el_uri": "https://viaf.org/viaf/64002165",
+        "norm_method": "genitif_exact"
+      },
+      {
+        "label": "ouvrage",
+        "text": "Eclogae ad Donatum Apenninigenam",
+        "normalized": "Eclogae ad Donatum Apenninigenam",
+        "el_uri": "",
+        "norm_method": "fallback",
+        "contains_persons": [
+          "Donatum Apenninigenam"
+        ],
+        "label_detail": "ouvrage_with_pers"
+      },
+      {
+        "label": "material",
+        "text": "Cod. mem. in 8.",
+        "normalized": "Cod. membr.",
+        "el_uri": ""
+      },
+      {
+        "label": "date",
+        "text": "Saec. XIV",
+        "normalized": "Saec. XIV",
+        "el_uri": ""
+      }
+    ]
+  }
+]
