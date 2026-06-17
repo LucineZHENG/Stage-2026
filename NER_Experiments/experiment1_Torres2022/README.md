@@ -117,3 +117,11 @@ Modèle : **3 systèmes**, regroupés en deux notebooks de comparaison.
 **Tendance générale**
 
 La progression Run 1 → Run 2 → Run 3 ne se mesure pas à une hausse monotone du F1 (les jeux de test étant de tailles différentes, les chiffres ne sont pas directement comparables), mais à trois avancées successives : confirmer que le transfert direct est insuffisant (Run 1) → identifier les hyperparamètres optimaux (Run 2) → obtenir une évaluation fiable sur données complètes (Run 3).
+
+---
+
+## V. Note sur les fichiers modèles
+
+Les poids des modèles entraînés (fichiers `*.pt` et `*.safetensors`) ne sont pas inclus dans ce dépôt en raison de leur taille (>1 GB par fichier). Ils sont exclus via `.gitignore`.
+
+Les poids sont conservés localement et sur Google Drive. Si vous souhaitez reproduire les expériences, veuillez exécuter les notebooks correspondants avec vos propres données.
